@@ -1,0 +1,20 @@
+<?php
+use yii\helpers\Html;
+use yii\bootstrap\ActiveForm;
+
+#include("/var/www/mall/frontend/web/set_mall_num.php");
+#include("/var/www/mall/frontend/web/expire_data.php");
+
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/frontend/views/site/login.php $
+ * $Id: login.php 3954 2018-07-04 06:08:28Z mori $
+ *
+ * @var $this yii\web\View
+ * @var $form yii\bootstrap\ActiveForm
+ * @var $model \frontend\models\LoginForm
+ */
+
+$title = "ガイダンス";
+$this->params['breadcrumbs'][] = $title;
+$this->params['body_id']       = 'Guidance';
+?>

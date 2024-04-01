@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHhom配信スケジュール</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-dark mb-2" style="background-color:#103354;">
+       <a class="navbar-brand" href="https://ec.homoeopathy.ac/">CHhomオンラインショップ</a><a class="navbar-brand" href="https://tv.toyouke.com/">とようけTV</a>
+	</nav>
+  <div class="jumbotron text-center" class="jumbotron jumbotron-extend">
+      <h4 class="display-8">CHhomオンライン講演会</h4>
+<h2 class="display-5">配信スケジュール</h2>
+    <p class="text-right">配信時間　10:00～26:00<br>
+    ライブ　開始時間～26:00</p>
+
+<hr class="my-4">
+    <p class="text-center">はじめてレメディーやサポートチンクチャーをおとりになられる
+方は 、ホメオパシー療法を<br>正確にご理解いただくためにまず<b><a href="https://www.youtube.com/embed/JDPk2NObTY8"><span style="background:pink; color:red;">「由井寅子のホメオパシー療法入門」</b></a>をご視聴ください。<br>セルフケアで対処が難しい場合は<b>JPHMA認定ホメオパスの健康相談</b>をお勧めします。</br></p>	  
+  </div>
+　　<table  frame="void" rules="none" align="center" width="1000" border="2" cellspacing="2" cellpadding="3">
+	
+  <tbody>
+    <tr bgcolor=#ffcccc>
+      <th class="text-center" scope="col">&nbsp;配 信 日&nbsp;</th>
+      <th class="text-center" scope="col">★ライブ配信★　講演会タイトル</th>
+      <th class="text-center" scope="col">&nbsp; 講　師 &nbsp;</th>
+      <th class="text-center" scope="col">&nbsp; 収 録 日 &nbsp;</th>
+    </tr>
+	<tr>
+      <td class="text-center"><b>&nbsp;9/30<small>（木）</small></b></td>
+      <td><b><a href="https://ec.homoeopathy.ac/product/2622">&nbsp;★ライブ配信★ 非常時に備える災害キットのレメディーを学ぶ3回講座③</a></b></td>
+      <td class="text-center">&nbsp;小林智美&nbsp;</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+    <tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;10/2<small>（土）</small></b></td>
+		<td><b><a href="https://ec.homoeopathy.ac/product/2646">&nbsp;★ライブ配信★<div>&nbsp;&nbsp;&nbsp;ZENホメオパシー、自然な生き方でがんを乗り越える《プレコングレス企画》<div></a></b></td>
+      <td class="text-center">&nbsp;由井寅子&nbsp;<div>&nbsp;酒向猛 他&nbsp;</div></td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+			
+	<tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;10/9<small>（土）</small></b></td>
+		<td><b><a href="https://ec.homoeopathy.ac/product/2588"><font color="deeppink">&nbsp;★ライブ配信★&nbsp;第22回JPHMAコングレス【1日目】</a></b></td>
+      <td class="text-center">&nbsp;由井寅子 他&nbsp;</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+    <tr>
+      <td class="text-center"><font color="red"><b>&nbsp;10/10<small>（日）</small></b></td>
+		<td><b><a href="https://ec.homoeopathy.ac/product/2589"><font color="deeppink">&nbsp;★ライブ配信★&nbsp;第22回JPHMAコングレス【2日目】</a></b></td>
+      <td class="text-center">&nbsp;由井寅子 他&nbsp;</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+
+</table>
+<table  frame="void" rules="none" align="center" width="1000" border="2" cellspacing="2" cellpadding="3">
+	
+  <tbody>
+    <tr>
+    <tr bgcolor=#ffcccc>
+      <th class="text-center" scope="col">&nbsp;　配 信 日　&nbsp;</th>
+      <th class="text-center" scope="col">《再配信》　講演会タイトル</th>
+      <th class="text-center" scope="col">&nbsp; 講　師 &nbsp;</th>
+      <th class="text-center" scope="col">&nbsp; 収 録 日 &nbsp;</th>
+    </tr>
+      <td class="text-center" style="color: deeppink"><b>9/30<small>（木）</small><br>&nbsp;<small>まで</small></br></b></td>
+	<td><b><a href="https://ec.homoeopathy.ac/product/2673">&nbsp;★9/30(木)26時まで配信中★&nbsp;　とらこ先生秋のお彼岸《特別講演》</a></b></td>
+      <td class="text-center">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center" >2021/9/23</td>
+    </tr>
+　　<tr>
+      <td class="text-center" style="color: deeppink"><b>9/30<small>（木）</small><br>&nbsp;<small>まで</small></br></b></td>
+      <td><b><a href="https://ec.homoeopathy.ac/product/2677">&nbsp;★9/30(木)26時まで配信中★&nbsp;　あなたを幸せにする植物療法・フィトセラピー</a></b></td>
+      <td class="text-center">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center">2021/9/18</td>
+    </tr>
+	<tr>
+      <td class="text-center" style="color: deeppink"><b>9/30<small>（木）</small><br>&nbsp;<small>まで</small></br></b></td>
+		<td><b><a href="https://ec.homoeopathy.ac/product/2629">&nbsp;★9/30(木)26時まで配信中★&nbsp;　第1回アニマルコングレス《プレコングレス企画》</a></b></td>
+      <td class="text-center small">&nbsp;つかさ雷太 他&nbsp;</td>
+      <td class="text-center">2021/8/28</td>
+    </tr>
+	<tr>
+      <td class="text-center" style="color: deeppink"><b>9/30<small>（木）</small><br>&nbsp;<small>まで</small></br></b></td>
+		<td><b><a href="https://ec.homoeopathy.ac/product/2584">&nbsp;★9/30(木)26時まで配信中★&nbsp;　納涼講演 　夏、とらこ先生。</a></b></td>
+      <td class="text-center">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center" >2021/8/14</td>
+    </tr>
+	<tr>
+      <td class="text-center" style="color: deeppink"><b>9/30<small>（木）</small><br>&nbsp;<small>まで</small></br></b></td>
+      <td><b><a href="https://ec.homoeopathy.ac/product/2605">&nbsp;★9/30(木)26時まで配信中★&nbsp; 【緊急発表】 事実を知って共に乗り超えよう</a></b></td>
+      <td class="text-center">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center">2021/7/24</td>
+    </tr>
+　　<tr>
+      <td class="text-center"><font color="red"><b>&nbsp;9/26<small>（日）</small></b></td>
+      <td><b><a href="https://ec.homoeopathy.ac/product/2669">&nbsp;母なる愛のマザーチンクチャーを感じるライブ講座　≪アンコール特別編≫</a></b></td>
+      <td class="text-center">&nbsp;高宮義和　他&nbsp;</td>
+      <td class="text-center">2021/8/19</td>
+    </tr>
+   <tr>
+      <td class="text-center"><b>&nbsp;9/27<small>（月）</small></b></td>
+      <td><b><a href="https://ec.homoeopathy.ac/product/2670">&nbsp;基礎から学ぶ　初めてのジェモセラピー（新芽&つぼみ療法）</a></b></td>
+      <td class="text-center">&nbsp;片上敦子&nbsp;</td>
+      <td class="text-center">2021/8/7</td>
+    </tr>
+   <tr>
+      <td class="text-center"><b>&nbsp;9/28<small>（火）</small></b></td>
+      <td><b><a href="https://ec.homoeopathy.ac/product/2671">&nbsp;非常時に備える災害キットのレメディーを学ぶ3回講座①</a></b></td>
+      <td class="text-center">&nbsp;高宮義和&nbsp;</td>
+      <td class="text-center">2021/9/2</td>
+    </tr>
+   <tr>
+      <td class="text-center"><b>&nbsp;9/29<small>（水）</small></b></td>
+      <td><b><a href="https://ec.homoeopathy.ac/product/2672">&nbsp;非常時に備える災害キットのレメディーを学ぶ3回講座②</a></b></td>
+      <td class="text-center">&nbsp;都築明美&nbsp;</td>
+      <td class="text-center">2021/9/9</td>
+    </tr>
+
+</table>
+       <br/>
+       <br>
+       <hr>
+       <div class="row">
+         <div class="text-center col-lg-6 offset-lg-3">
+            <p>Copyright &copy; 2021 &middot; All Rights Reserved &middot; <a href="https://www.homoeopathy.ac/" ><strong>CHhom</strong></a></p>
+         </div>
+       </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

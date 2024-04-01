@@ -1,0 +1,299 @@
+<?php
+use yii\helpers\Html;
+
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/frontend/views/site/guide.php $
+ * $Id: guide.php 4243 2020-03-20 05:47:12Z mori $
+ *
+ * @var $this \yii\web\View
+ */
+
+$title = "お買い物ガイド";
+$this->params['breadcrumbs'][] = $title;
+$this->params['body_id']       = 'Guide';
+$this->title = implode(' | ',array_merge(array_reverse($this->params['breadcrumbs']),[Yii::$app->name]));
+
+?>
+<div class="site-guide">
+
+    <h1 class="mainTitle"><?= Html::encode($title) ?></h1>
+
+    <p class="mainLead">楽しく簡単にお買い物いただけますように、主な手順をご案内します</p>
+
+    <h2>お買い物の流れ</h2>
+    <ol>
+        <li><?= Html::a('パスワードの設定方法',['guide','#'=>'passwd']) ?><br>
+            <?= Html::a('（スマートフォンの場合はこちら）',['howtologin_sp','#'=>'passwd'], ['target'=>'_blank']) ?> </li>
+        <li><?= Html::a('ログイン方法',['guide','#'=>'login']) ?><br>
+            <?= Html::a('（スマートフォンの場合はこちら）',['howtologin_sp'], ['target'=>'_blank']) ?> </li>
+        <li><?= Html::a('商品の選び方（一般商品）',['guide','#'=>'select']) ?><br>
+            <?= Html::a('（スマートフォンの場合はこちら）',['howtoselect_sp'], ['target'=>'_blank']) ?> </li>
+        <li><?= Html::a('商品の選び方（レメディー単品）',['guide','#'=>'remedy']) ?></li>
+        <li><?= Html::a('商品の選び方（レメディーABCから検索）',['guide','#'=>'abc']) ?> </li>
+        <li><?= Html::a('商品の選び方（キット補充）',['guide','#'=>'kit']) ?></li>
+        <li><?= Html::a('お買い物の確定方法',['guide','#'=>'buy']) ?><br>
+            <?= Html::a('ポイントの使用方法',['guide','#'=>'point']) ?><br>
+            <?= Html::a('お届け先の変更方法',['guide','#'=>'add']) ?><br>
+            <?= Html::a('お届け日時の変更方法',['guide','#'=>'time']) ?></li>
+    </ol>
+    <p></p>
+    
+    <h2>送料について</h2>
+    <p> 
+	<strong><?= Html::a('２店舗一括発送カート', ['legal']) ?>（ホメオパシージャパン株式会社、豊受オーガニクスショップの商品）</strong><br>
+	<strong><?= Html::a('豊受自然農カート', ['legal']) ?>（日本豊受自然農株式会社の商品）</strong><br>
+        <strong><?= Html::a('トミーローズカート', ['/trose/index']) ?>（TOMMY ROSEの商品）</strong><br>
+    </p>
+
+    <p></p>
+
+    <h2>お支払い方法</h2>
+    <p> 
+	<strong>代引き</strong><br>
+        商品到着時、配達員に現金にて代金をお支払いください。<br>
+    </p>
+
+    <p>
+ 	<strong>口座振替</strong><br>
+ 	ご注文いただいた代金を、月末締めで集計し、翌月26日にご登録の銀行口座から自動引き落としいたします。<br>
+       	※会員の方で口座を登録された方のみご利用できます。登録方法については、<?= Html::a('口座振替のご登録方法',['howtodebit'], ['target'=>'_blank']) ?>をご覧ください。<br>
+        お申込みは、ログインした状態で、<?= Html::a('口座振替のお申込み',['/profile/debit/index'], ['target'=>'_blank']) ?>からお申込みください。<br>
+        <font color=#990066">※お申し込みできる銀行口座は、個人の口座に限られています。法人や団体の口座はお申し込みできませんので、ご了承願います。</font><br>
+        自動引落しができなかった場合、豊受モールのご利用を制限させていただくことがありますので、ご注意ください。<br>
+    </p>
+        
+    <!--         
+        WEBから簡単に登録できます。< ?= Html::a('こちら',['/profile/debit/index']) ?>から登録してください。<br>
+    </p>     
+    <p>
+        <strong>代行発送（着払い・代引き）</strong><br>
+	 送り先の住所・宛名は複数登録可能で、その中から送り先を選択できます。<br>
+	 	    ※お酒は会員ご本人以外は代引発送できません
+    </p> 
+	
+    <h2 id="debit">
+        <small>口座振替について</small>
+    </h2>
+    <ul>
+        <li>会員の方で、口座を登録された方のみご利用できます</li>
+        <li>スタンダード／スペシャル会員は口座振替でお買い物できる金額の上限を月10万円（消費税・送料含む）とさせていただきます。スペシャルプラス会員以上はこの制限はありません</li>
+	 	
+        <li>口座を登録するには、ログイン後 < ?= Html::a('マイページ＞口座振替',['/profile/debit/index']) ?> へお進みください</li>
+        <li>あらかじめ、当モールにてお客様の生年月日の登録が必要です</li>
+        <li>< ?= Html::tag('span','登録',['class'=>'btn btn-xs btn-warning disabled']) ?> をクリック後、ご本人のアドレスへ登録手順を記したメールが送信されますので、案内に沿ってログインします。ただしログイン後１５分以内に手続きを完了させる必要がありますので、必ず、<ins>ログイン前に口座番号や通帳などを手元にご用意ください。</ins></li>
+	 	
+        <li>登録いただくと、毎回のお支払い方法が口座振替に初期設定されます</li>
+	 	
+        <li>毎月のご注文を月末に合算して請求額を算出し、翌月26日付で引き落としが手配されます</li>
+        <li>引き落とし時、明細に回収者名「FFL)トヨウケモール」が表示されます</li>
+	 	
+        <li>もし翌月26日に引き落としできなかった場合、翌々月26日に引き落とされます</li>
+        <li>それでも引き落としできなかった場合、さらに翌月26日に引き落とされます</li>
+        <li>前もって引き落としできないことが明らかな場合、当モールへご連絡ください。所定の銀行口座へお振り込みをお願いします</li>
+        <li>自動引き落としできなかった場合、豊受モールのご利用を制限させていただくことがあります</li>
+	 	
+        <li>ご注文時、「購入方法の指定」にて口座振替をご利用いただくと、ギフト発送が選択できるようになります</li>
+        <li>トミーローズの商品は口座振替をご利用いただけません</li>
+	 	
+        <li>当モール提携企業の代理店は、提携企業の直営店でお買い物の際に口座振替をご指定いただくことも可能です</li>
+	 	
+        <li>口座登録にはヤマトシステム開発株式会社が提供するサービスを利用しています</li>
+        <li>現在、ヤマトシステム開発株式会社が提供するサービス以外の登録手続きは用意しておりません</li>
+        <li>複数の銀行口座を同時に登録することはできません</li>
+        <li>口座を変更する際は< ?= Html::a('マイページ＞口座振替',['/profile/debit/index']) ?>から<? =Html::tag('span','口座変更',['class'=>'btn btn-xs btn-default disabled']) ?>をクリックしてください</li>
+    </ul>    
+    <p></p>
+-->
+    <h2>操作時のご注意</h2>
+    <ul>
+        <li>商品のご注文はカートに入れてから５時間以内にお願い致します。</li>
+        <li>表示価格は税別の価格です。別途消費税がかかります。</li>
+        <li>注文内容の追加・変更・キャンセルはできませんので、注文時には内容をよくご確認の上、ご注文下さい。万一、代引き発送の受け取り拒否などの場合にはキャンセル料を申し受けることがあります。</li>
+        <li>欠品の場合は商品の入荷後に一括して発送となります。 </li>
+        <li>当サイトを快適にご利用いただくためには、下記ブラウザを推奨いたします。<font color=#990066"> ※IE（インターネットエクスプローラー）には対応しておりませんので、ご注意下さい。</font></li>
+          <ul>
+            <li>Chrome <?=Html::a('https://www.google.co.jp/chrome','https://www.google.co.jp/chrome') ?> </li>
+            <li>Firefox <?= Html::a('https://www.mozilla.jp','https://www.mozilla.jp') ?> </li>
+          </ul>
+    </ul>
+
+    <p></p>
+    
+    <h2>お買い物の流れ</h2>
+    
+
+    <h3 id="passwd">１.パスワードの設定方法<?= Html::a('（スマートフォンの場合はこちら）',['howtologin_sp','#'=>'passwd'], ['target'=>'_blank']) ?> </h3>
+    <p>初めてログインされる場合や、パスワードを忘れた方は、パスワード設定する必要があります。【ログイン】をクリックして、ログイン画面に進みます。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_login_01.jpg', ['width' => 950, 'height' => 492]) ?></p>
+    <p>【パスワードを初期化】ボタンをクリックしてください。パスワード設定画面に進みます。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_login_03.jpg') ?></p>
+    <p>ご登録されている、メールアドレスを入力し、【送信】ボタンをクリックしてください。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_login_04.jpg') ?></p>
+    <p>入力されたメールアドレスに、メールが送信されます。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_login_05.jpg') ?></p>
+    <p>送信されたメールの、本文中のurlをクリックして下さい。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_login_06.jpg') ?></p>
+    <p>ご登録されているメールアドレスとパスワードを入力し、【保存】ボタンをクリックして下さい。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_login_07.jpg') ?></p>
+    <p>パスワードが設定されました。【ログイン】ボタンをクリックして、ログインして下さい。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_login_08.jpg') ?></p>
+    
+    <h3 id="login">２.ログイン方法<?= Html::a('（スマートフォンの場合はこちら）',['howtologin_sp'], ['target'=>'_blank']) ?> </h3>
+  
+    <p>【ログイン】をクリックすると、ログイン画面に進みます。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_login_01.jpg', ['width' => 950, 'height' => 492]) ?></p>
+    <p>ご登録されている、メールアドレスとパスワードを入力し、【ログイン】ボタンをクリックしてください。<br><br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_login_02.jpg') ?></p>
+    
+    
+    <h3 id="select">３.商品の選び方（一般商品）</h3>
+    <strong>カテゴリー</strong><br>
+    <ul>
+                <li>自然食品・・・・・・・・・・野菜、加工食品など</li>
+                <li>自然化粧品・・・・・・・・・スキンケア、ヘアケア用品など</li>
+                <li>レメディー・ハーブ酒・・・・レメディー、MT、FE </li>
+                <li>雑貨　衣類・・・・・・・・・衣類（トミーローズ商品）、その他商品 </li>
+    </ul><br>
+    <p>歯磨き粉を購入する場合を例にしてみましょう。自然化粧品をクリックします。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_01.jpg', ['width' => 809, 'height' => 492]) ?></p>
+    <p>左側のカテゴリー一覧から選びます。歯磨き粉なので、トゥースペイストをクリックします。
+    <p align="center"><?= Html::img('@web/img/how_to_buy_02.jpg', ['width' => 650, 'height' => 492]) ?></p>
+    <p>選んだカテゴリーの商品が一覧で表示されます。<br></p> 
+    <p align="center"><?= Html::img('@web/img/how_to_buy_03.jpg', ['width' => 650, 'height' => 492]) ?></p>
+    <ul>
+                <li>【カートに入れる】ボタン・・・お買い物かご（カート）に入れます</li>
+                <li>【もっと見る】ボタン・・・・・商品の詳細が確認できます</li>
+    </ul>
+    <p>【カートに入れる】ボタンをクリックすると、お買い物かご（カート）に入ります。<br><br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_04.jpg', ['width' => 650, 'height' => 400]) ?></p>
+
+    <p>右上の【カート】　または、左の【カートを見る】をクリックすると、ご注文の確認の画面に進みます。<br><br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_05.jpg', ['width' => 650, 'height' => 400]) ?></p>
+    <p>お買い物を続けたい場合は、【お買い物を続ける】ボタンをクリックしますと、豊受モールトップページに移動します。<br>
+       ご注文の確定は、<?= Html::a('お買い物の確定方法',['guide','#'=>'buy']) ?>をご覧下さい。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_06.jpg', ['width' => 950, 'height' => 400]) ?></p>
+    <p><br></p>    
+
+    <h3 id="remedy">４.商品の選び方（レメディー単品）</h3>
+    <p>【レメディー・ハーブ酒】をクリックします。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_01.jpg', ['width' => 871, 'height' => 552]) ?></p>
+    <p><br></p>
+    <p>左側の【単品レメディー】をクリックします。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_02.jpg', ['width' => 1148, 'height' => 519]) ?></p>
+    <p><br></p>
+    <p>例として、Aconを検索してみましょう。レメディー名に「acon」と入力すると、選択肢が表示されますので選び、容器とポーテンシーを選択し、【検索】ボタンをクリックします。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_04.jpg', ['width' => 1148, 'height' => 438]) ?></p>
+    <p><br></p>
+    <p>LMポーテンシーを検索することもできます。（LMポーテンシーは、ログインした場合のみ表示されます。） </p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_05.jpg') ?></p>
+    <p><br></p>
+    <p>【カートに入れる】ボタンをクリックすると、カートに入ります。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_06.jpg') ?></p>
+    <p><br></p>
+    <p>【カートを見る】をクリックすると、カートに進みます。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_07.jpg') ?></p>
+    <p><br></p>
+    <p>お買い物を続けたい場合は、【お買い物を続ける】ボタンをクリックして下さい。<br>
+       ご注文の確定は、<?= Html::a('お買い物の確定方法',['guide','#'=>'buy']) ?>をご覧下さい。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_08.jpg', ['width' => 1148, 'height' => 392]) ?></p>
+    <p><br></p>    
+    
+    <h3 id="abc">５.商品の選び方（レメディーABCから検索）</h3>
+    <p>【レメディー・ハーブ酒】をクリックします。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_01.jpg') ?></p>
+    <p><br></p>
+    <p>レメディー検索の下のアルファベットＡ～Ｚをクリックします。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_2_01.jpg') ?></p>
+    <p><br></p>
+    <p>例として、Aconを検索してみましょう。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_2_02.jpg') ?></p>
+    <p><br></p>
+    <p>ポーテンシーを選択します。<br>
+       200Cのタブを選ぶと、200Cの商品が表示されます。<br>
+       容器（小瓶、大瓶、アルポ(5ml)のどれか）を選んでから、<br>【カートに入れる】ボタンをクリックします。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_2_03.jpg') ?></p>
+    <p><br></p>
+    <p>LMポーテンシーを検索することもできます。<br>（LMポーテンシーは、ログインした場合のみ表示されます。） </p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_2_04.jpg') ?></p>
+    <p><br></p>
+    
+    
+    <h3 id="kit">６.商品の選び方（キット補充）</h3>
+    <p>【レメディー・ハーブ酒】をクリックします。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_remedy_01.jpg') ?></p>
+    <p>左側のカテゴリー一覧から選びます。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_kit_02.jpg') ?></p>
+    <p>選んだカテゴリーの商品が一覧で表示されます。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_kit_03.jpg') ?></p>
+    <ul>
+                <li>【カートに入れる】ボタン・・・お買い物かご（カート）に入れます
+                <li>【もっと見る】ボタン・・・・・レメディーの詳細が確認できます</li>
+    </ul>
+    <p>【カートに入れる】ボタンをクリックすると、カートに入ります。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_kit_06.jpg') ?></p>    
+    <p>左の【カートを見る】をクリックすると、ご注文の確認の画面に進みます。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_kit_07.jpg') ?></p>
+    <p>お買い物を続けたい場合は、【お買い物を続ける】ボタンをクリックして下さい。<br>
+    <p>ご注文の確定は、<?= Html::a('お買い物の確定方法',['guide','#'=>'buy']) ?>をご覧下さい。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_06.jpg', ['width' => 950, 'height' => 400]) ?></p>
+
+    <h3 id="buy">７.お買い物の確定方法</h3>
+    <p>ご注文の商品、お支払い金額、お届け先、お届け日時等をよくご確認の上、【注文を確定する】ボタンをクリックしてください。</p>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_06.jpg', ['width' => 950, 'height' => 400]) ?></p>
+    <p>数量の変更方法は、<?= Html::a('こちら',['howtochange_qty'], ['target'=>'_blank']) ?>をご覧ください。
+    お買い物を続けたい場合は、【お買い物を続ける】ボタンをクリックして下さい。<br><br></p>
+
+    
+    <h3 id="point">ポイントの使用方法</h3>
+
+    <p>ポイント値引きの【変更】ボタンをクリックします。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_point_01.jpg', ['width' => 1000, 'height' => 400]) ?></p>
+    <p>ポイント値引きの入力画面が開きます。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_point_02.jpg') ?></p>
+    <p>100ポイント使用してみます。100と入力して、【更新】ボタンをクリックします。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_point_03.jpg') ?></p>
+    <p>ポイント値引きが設定されました。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_point_04.jpg', ['width' => 1000, 'height' => 400]) ?><br><br></p>
+ 
+    
+    <h3 id="add">お届け先の変更方法</h3>
+    <p>お届け先を変更したい場合は、お届け先の【変更】ボタンをクリックして下さい。。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_07.jpg', ['width' => 1100, 'height' => 480]) ?></p>
+
+    <p>登録されたお届け先より、お届け先を選び、【決定】ボタンをクリックして下さい。<br>
+       お届け先は、あらかじめ、マイページより登録をしておいて下さい。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_08.jpg') ?></p>
+    <p>お届け先が変更されました。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_09.jpg', ['width' => 1100, 'height' => 480]) ?><br><br></p>
+
+    <h3 id="time">お届け日時の指定方法</h3>
+    <p>お届け日時を指定したい場合は、お届け日時の【変更】ボタンをクリックして下さい。指定がない場合は、最短日時でお届けされます。</p> 
+    <p align="center"><?= Html::img('@web/img/how_to_buy_10.jpg', ['width' => 1250, 'height' => 700]) ?></p>
+    <p>配達日時の指定画面に進みます。希望日と、時間帯の右端にある▼をクリックします。<br>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_11.jpg') ?></p> 
+    <p>希望日と時間帯を選択して下さい。希望日を【指定なし】、時間帯だけを指定すると、最短日での時間帯指定となります。<br>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_12.jpg') ?></p> 
+    <p>【更新】ボタンをクリックして下さい。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_13.jpg') ?></p> 
+    <p>配達日時が変更されました。<br></p>
+    <p align="center"><?= Html::img('@web/img/how_to_buy_14.jpg', ['width' => 1250, 'height' => 700]) ?><br><br></p>
+
+    <h3>注文の確定</h3>
+    <p>【注文を確定する】ボタンをクリックすると、お買い物が確定し、完了します。<br>
+        ご注文の商品、お支払い金額、お届け先、お届け日時等をご確認の上、【注文を確定する】ボタンをクリックしてください。<br></p> 
+          
+    <p>ご注文した商品の会社によって複数のカートに分かれる場合があります<br>
+                【２店舗一括発送カート】 以下の会社の商品<br>
+                ホメオパシージャパン株式会社<br>
+                豊受オーガニクスショップ<br>
+                【 豊受自然農カート】 豊受自然農の商品<br>
+                【トミーローズカート】 トミーローズの商品<br>
+                <br>
+                複数のカートに分かれた場合はそれぞれのカートで【注文を確定する】ボタンをクリックしてください。<br></p> 
+    <p align="center"><?= Html::img('@web/img/how_to_buy_15.jpg', ['width' => 1100, 'height' => 350]) ?></p>
+    <p>ご注文を確定すると、注文確認メールが送信されますので、ご確認下さい。<br></p> 
+    <p>ご注文内容は、マイページでご確認いただけます。【マイページご購入の履歴　注文番号******】をクリックして下さい。</p> 
+    <p align="center"><?= Html::img('@web/img/how_to_buy_16.jpg') ?></p> 
+    <p>マイページ　ご購入の履歴　が表示されます。<br></p> 
+    <p align="center"><?= Html::img('@web/img/how_to_buy_17.jpg', ['width' => 1100, 'height' => 350]) ?></p>
+</div>

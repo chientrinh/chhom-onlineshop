@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHhom配信スケジュール</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-dark mb-2" style="background-color:#103354;">
+       <a class="navbar-brand" href="https://www.homoeopathy.ac/"><img src="image/chhom.png" width="88" height="31" class="rounded"/></a><a class="navbar-brand" href="https://ec.homoeopathy.ac/"><img src="image/onlineshop.png" width="88" height="31" class="rounded"/></a><a class="navbar-brand" href="https://tv.toyouke.com/"><img src="image/toyoukeTV.png" width="88" height="31" class="rounded"/></a>
+	</nav>
+  <div class="jumbotron text-center" class="jumbotron jumbotron-extend">
+      <h4 class="display-8">CHhomオンライン講演会</h4>
+      <h2 class="display-5">配信スケジュール</h2>
+	  <h5 class="display-8 text-center"style="background:purple; color:white;">オンライン視聴・会場参加チケットのお申込みは配信スケジュールのタイトルリンクから！</br></h5>
+      <p class="text-right">配信時間　10:00～26:00 / ライブ　開始時間～26:00</p>
+
+<hr class="my-4">
+    <p class="text-center">はじめてレメディーやサポートチンクチャーをおとりになられる方はホメオパシー療法を正確にご理解いただくために<br><a href="https://www.youtube.com/embed/JDPk2NObTY8"><span style="background:deeppink; color:white;">「由井寅子のホメオパシー療法入門」</a>をご視聴ください。<br>セルフケアで対処が難しい場合はプロフェッショナルホメオパスに相談できるアプリ<b>「ホメチューブ」</b>をお勧めします。詳しくは<b><a href="https://www.homoeopathy.ac/news/27504/"><span style="color: deeppink">こちら</b></a>から。</p>	  
+</div>
+
+	
+<table frame="void" rules="none" align="center" width="1000" border="2" cellspacing="2" cellpadding="3">
+  <tbody>
+
+
+    <tr>
+    <tr bgcolor="#ffcccc">
+      <th class="text-center" scope="col"> 配 信 日 </th>
+      <th class="text-center" scope="col">講演会タイトル</th>
+      <th class="text-center" scope="col">講　師</th>
+      <th class="text-center" scope="col">収 録 日</th>
+    </tr>
+
+
+　<tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;11/4<small>（土）<font color="black"><br>～11/10</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4516"><b><font color="red">★東京PMライブ★とらこ先生海外発表　ドイツUnited to heal　<small>※配信はございません。</small><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>『ZENホメオパシーで、日本人の深いトラウマの問題と大きなショックをどう治癒に導いていくのか』<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;－魂に深く届く　祈りのレメディー＆スピリットウオーターレメディー－　（14:30～15:30）</a></b></td>
+      <td class="text-center small">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ<br>のみ</b></td>
+    </tr>
+　<tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;11/4<small>（土）<font color="black"><br>～11/10</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4519"><b>-----ZENホメオパシー症例集-----　アトピーのケース<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「コロナ禍で心身ともに変容した50代・女性アトピーのケース」（第23回JPHMAコングレスより）</small></a></b></td>
+      <td class="text-center small">工藤聖子</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+
+
+　<tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;11/4<small>（土）<font color="black"><br>～11/10</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4491"><b>インチャコングレス＆インチャコース第一回インナーチャイルドセラピー概論<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>インチャコース卒業生によるインチャ癒し体験のシェア、第一回インナーチャイルドセラピー概論の公開講座です。</small></a></b></td>
+      <td class="text-center small">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center small">2023/4/29<br>2022/9/21</td>
+    </tr>
+　<tr>
+      <td class="text-center"><font color="red"><b>&nbsp;11/5<small>（日）<font color="black"><br>～11/11</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4492"><b>とらこ先生　秋のお彼岸講演2023<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>お彼岸はご先祖さまや自然に感謝を捧げる日本独自の仏教行事です。この命を育む食べ物、空気、太陽、雨などの<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大自然の恵みによって、私たちは生かされていることに心から感謝申し上げます。</small></a></b></td>
+      <td class="text-center small">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center small">2023/9/23</td>
+    </tr>
+　<tr>
+      <td class="text-center"><font color="red"><b>&nbsp;11/5<small>（日）<font color="black"><br>～11/11</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4520"><b>-----ZENホメオパシー症例集-----　妊娠出産のケース<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「出産の緊急時にレメディーが役立ったケース」（第23回JPHMAコングレスより）</small></a></b></td>
+      <td class="text-center small">岡本富士子</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/6<small>（月）<br>～11/12</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4493"><b>毒を出し切るデトックスセミナー　シーズン1「生活毒」<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>Ｋシリーズより 上白糖/マーガリン/コンタクトレンズ/台所洗剤/制汗スプレー/髪染め　等をご紹介します。</small></a></b></td>
+      <td class="text-center small">&nbsp;高宮義和&nbsp;</td>
+      <td class="text-center small">2023/9/28</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/7<small>（火）<br>～11/13</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4494"><b>豊受みなのＴＶ第41回「豊受大鍋大会」<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>コロナ禍で気持ちが沈んでいる人々に希望の光を取り戻してもらおうと始めた『みなのテレビ』ついに最終回！</small></a></b></td>
+      <td class="text-center small">&nbsp;とらこ先生&nbsp;<div>&nbsp;豊受スタッフ&nbsp;</div></td>
+      <td class="text-center small">2022/12/20 </td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/8<small>（水）<br>～11/14</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4495"><b>歯はその人の生き様を表す、過去生からの影響を受ける　パート3<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>虫歯の病理から、ホメオパシー的ケア、歯と過去生の関係など。ゲストは自然派歯科医師・佐藤暢亮先生！</small></a></b></td>
+      <td class="text-center small">由井寅子<br>佐藤暢亮</td>
+      <td class="text-center small">2023/6/17</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/9<small>（木）<br>～11/15</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4496"><b>「キッズとトラウマの癒しのキットを使いこなす3回講座《初級編》」<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>子供の急性症状や心のケアだけじゃない！大人のインナーチャイルドも癒すレメディー36種を解説します。</small></a></b></td>
+      <td class="text-center small">高宮/富田/菊田</td>
+      <td class="text-center small">2021/10・11</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/10<small>（金）<br>～11/16</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4497"><b>【ファミリーホメオパス公開講座】「ホメオパシー的予防」<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>日常に起こる急性の症状に対して、ホームキットからレメディーを選択できる実力を養うコースの公開講座です。</small></a></b></td>
+      <td class="text-center small">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center small">2018/11/30</td>
+    </tr>
+　<tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;11/11<small>（土）<font color="black"><br>～11/17</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4498"><b>ねずさんの目からウロコの「古事記」新解説１～３<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>①『日本の神話、我々の祖先について』　②『神々の物語』　③『古事記の目指した日本の形と男系天皇』</small></a></b></td>
+      <td class="text-center small">&nbsp;小名木善行&nbsp;</td>
+      <td class="text-center small">2017年<br>2019年</td>
+    </tr>
+　<tr>
+      <td class="text-center"><font color="red"><b>&nbsp;11/12<small>（日）<font color="black"><br>～11/18</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4499"><b>2022年豊受新嘗祭＆ねずさん講演会<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>①2022年豊受新嘗祭：午前の部/小名木先生講演 午後の部/とらこ先生講演　②「日本の建国と天皇陛下・皇統について」</small></a></b></td>
+      <td class="text-center small">由井寅子<br>小名木善行</td>
+      <td class="text-center small">2022/11/23<br>2021/2/23</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/13<small>（月）<br>～11/19</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4500"><b>とらこ先生が語る「食と農への豊受のこだわり」 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>雑誌「セラピスト」のインタビュー取材の様子を特別公開します！</small></a></b></td>
+      <td class="text-center small">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center small">2023/4/14</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/14<small>（火）<br>～11/20</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4501"><b>神聖なるサポートチンクチャーを学ぶ1～５一挙配信<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>大人気のシリーズをまとめてお送りします。水のレメディーが入ったサポートチンクチャーについて学べます。</small></a></b></td>
+      <td class="text-center small">菊田雄介</td>
+      <td class="text-center small">-</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/15<small>（水）<br>～11/21</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4502"><b>「ecoでサステナブルな豊受ライフ１～３」一挙配信<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>お百姓ホメオパスおすすめの商品、みなのテレビで紹介された簡単レシピ、体験談など、楽しい情報満載です。</small></a></b></td>
+      <td class="text-center small">&nbsp;渡邊公代&nbsp;</td>
+      <td class="text-center small">2020・2022<br>2023</td>
+    </tr>
+
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/16<small>（木）<br>～11/22</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4462"><b><font color="deeppink">★東京AMライブ配信★&nbsp;薬草を使った臓器の養生法を学ぶ・サポートチンクチャー活用塾 1時限目<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>第1回のテーマは「肺」。秋から冬にかけて、肺の養生法を学びませんか？</small></a></b></td>
+      <td class="text-center small">&nbsp;渡邊公代&nbsp;</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+
+
+　<tr>
+      <td class="text-center"><font color="red"><b>&nbsp;11/23<small>（木祝）<br><font color="black">～11/9</small></b></td>
+      <td>&nbsp; <b><a href="https://ec.homoeopathy.ac/product/4463"><font color="red">★東京ライブ配信★&nbsp;新嘗祭2023<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>【午前の部】石濱哲信先生講演【午後の部】とらこ先生講演</small></a></b></td>
+      <td class="text-center small">由井寅子</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+　<tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;12/2<small>（土）<font color="black"><br>～12/8</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4503"><b><font color="deeppink">★東京PMライブ配信★&nbsp;ホメオパシーサロン<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　　とら子先生によるZENホメオパシー健康相談会のライブ聴講</a></b></td>
+      <td class="text-center small">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;12/21<small>（木）<br>～12/27</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4512"><b><font color="deeppink">★東京AMライブ配信★&nbsp;幸せへの扉　ホメオパシー<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>皆さんがどんな扉を開ければ幸せになるのでしょうか？ご自身で見つける機会です。</small></a></b></td>
+      <td class="text-center small">&nbsp;菅野幸二&nbsp;</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+
+　<tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;12/23<small>（土）<br><font color="black">～11/9</small></b></td>
+      <td>&nbsp; <b><a href="https://ec.homoeopathy.ac/product/4504"><font color="red">★東京AMライブ配信★&nbsp;【とらこ先生2023年最終講演】神ながらの道ー神仏との和合ー<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>開始時間9:30です。お間違えの無いようにお気を付けください。</small></a></b></td>
+      <td class="text-center small">由井寅子</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+　<tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;1/6<small>（土）<font color="black"><br>～1/15</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4505"><b><font color="red">★東京AMライブ配信★&nbsp;新春豊受トーク2024<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>令和 六年も幸せに生きるため皆様とご一緒に新年を祝いたいと思います。ご来場お待ちしております。</small></a></b></td>
+      <td class="text-center small">由井寅子　他</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+
+
+
+
+</table>
+　　<table  frame="void" rules="none" align="center" width="1000" border="2" cellspacing="2" cellpadding="3">
+    <tr>
+    <tr bgcolor="#ffcccc">
+      <th class="text-center" scope="col">配信期間</th>
+      <th class="text-center" scope="col">★第24回JPHMAコングレス 11月30日まで配信中！★</th>
+      <th class="text-center" scope="col">講　師</th>
+      <th class="text-center" scope="col">収 録 日</th>
+    </tr>
+
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/30<small>まで</small></b></td>
+      <td>&nbsp; <b><a href="https://ec.homoeopathy.ac/product/3907">第24回JPHMAコングレス（ZENホメオパシー学術大会）１日目</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国難の現実を知り、自らできるベストをつくそう　－鍵は知恵とZENホメオパシーと自然農－</a></td>
+      <td class="text-center small">JPHMA</td>
+      <td class="text-center small">2023/10/14</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/30<small>まで</small></b></td>
+      <td>&nbsp; <b><a href="https://ec.homoeopathy.ac/product/3908">第24回JPHMAコングレス（ZENホメオパシー学術大会）２日目</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国難の現実を知り、自らできるベストをつくそう　－鍵は知恵とZENホメオパシーと自然農－</a></td>
+      <td class="text-center small">JPHMA</td>
+      <td class="text-center small">2023/10/15</td>
+    </tr>
+
+
+　　<table  frame="void" rules="none" align="center" width="1000" border="2" cellspacing="2" cellpadding="3">
+    <tr>
+    <tr bgcolor="#ffcccc">
+      <th class="text-center" scope="col"> 配 信 日 </th>
+      <th class="text-center" scope="col">講演会タイトル</th>
+      <th class="text-center" scope="col">講　師</th>
+      <th class="text-center" scope="col">収 録 日</th>
+    </tr>
+
+　<tr>
+      <td class="text-center"><b>&nbsp;11/4<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4456"><b> CHhom公開講座「ホメオパシー病理学 内分泌①②」<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>内分泌系の生理・病理を神経系との連動を踏まえた上で、心の問題が深くかかわっていることを臨床を通して学びます。</small></a></b></td>
+      <td class="text-center small">由井寅子</td>
+      <td class="text-center small">2020/10/24<br>2020/12/13</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/5<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4457"><b>菅野ホメオパス講演集（４本）<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>①免疫の宇宙＆ホメオパシー ②はじめてのホメオパシー基礎講座 ③色の世界＆ホメオパシー ④脳科学＆ホメオパシー</small></a></b></td>
+      <td class="text-center small">&nbsp;菅野幸二&nbsp;</td>
+      <td class="text-center small">-</td>
+    </tr>
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/6<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4458"><b>豊受みなのＴＶ第40回「みかん」<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>みかんを使ったおかずのレシピとは！？豊受農民からみなさまへのメッセージも。</small></a></b></td>
+      <td class="text-center small">&nbsp;とらこ先生&nbsp;<div>&nbsp;豊受スタッフ&nbsp;</div></td>
+      <td class="text-center small">2022/12/13 </td>
+    </tr>
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/7<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4488"><b>健康に明るく生きる　ホメオパシー＆デトックス＆ダイエット実践講座<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>体内の水分を循環や排出させ、むくみなどの対応、シェイプアップできるようなレメディ、MT、運動、食事など。</small></a></b></td>
+      <td class="text-center small">&nbsp;増田敬子&nbsp;</td>
+      <td class="text-center small">2022/10/8</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/8<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4490"><b>フラワーエッセンス講演集＋秋の花のエッセンスによる癒し<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>JPHMAコングレス等でのフラワーエッセンスに関する発表のまとめ + 秋の花全9種類の特徴と活用法について。</small></a></b></td>
+      <td class="text-center small">東昭史</td>
+      <td class="text-center small">2021/9/16</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/8<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4439"><b>とらこ先生と行く！秋の収穫祭2023<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>こころもおなかも大満足！自然農を楽しく学ぶ豊受自然農体験ツアー</small></a></b></td>
+      <td class="text-center small">とらこ先生＆<br>豊受スタッフ</td>
+      <td class="text-center small">2023/11/3</td>
+    </tr>
+</table>
+
+<br/>
+       <br>
+       <hr>
+       <div class="row">
+         <div class="text-center col-lg-6 offset-lg-3">
+            <p>Copyright &copy; 2023 &middot; All Rights Reserved &middot; <a href="https://www.homoeopathy.ac/" ><strong>CHhom</strong></a></p>
+         </div>
+       </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
+
+

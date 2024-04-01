@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>動画視聴ページ</title>
+<link href="script/lecture_flv.css" rel="stylesheet" type="text/css">
+<link href="script/main.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body onLoad="Initflv();LMSInitialize();LMSSetValue('cmi.core.lesson_status','passed');LMSFinish();" class="cntr" style="background-image: url(images/lecture_bg.jpg); background-repeat:no-repeat; background-position:top;">
+	<div id="ContentsAll" class="cntr">
+		<div id="LayLectureSWF" class="cntrGen">
+			<div id="container_objLectureSWF" class="cntr cntr_ff">
+<video id="video_smaple" controls autoplay width="990" height="668">
+<script>
+	var video = document.getElementById('video_smaple');
+  if(Hls.isSupported()) {
+	var hls = new Hls();
+	var videoSrcInHls = "20200129075627/low/JPHMA20年の歩み001.m3u8";
+	hls.loadSource(videoSrcInHls);
+	hls.attachMedia(video);
+	hls.on(Hls.Events.MANIFEST_PARSED,function() {
+	  video.play();
+	});
+  } else {
+	var sourceM3U8 = document.createElement("source");
+	sourceM3U8.type = "application/x-mpegURL";
+	sourceM3U8.src = "20200129075627/low/JPHMA20年の歩み001.m3u8";
+	video.appendChild(sourceM3U8);
+  }
+</script>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+

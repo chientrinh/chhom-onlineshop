@@ -1,0 +1,7 @@
+# 環境によって異なる場合があるので、これはサンプルソースとしてresourceに上げよう
+main.php
+main-local.php
+main-local.php.example
+params.php
+params-local.php
+

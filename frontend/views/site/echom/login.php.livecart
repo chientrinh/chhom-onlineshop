@@ -1,0 +1,64 @@
+<?php
+use yii\helpers\Html;
+use yii\bootstrap\ActiveForm;
+
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/frontend/views/site/login.php $
+ * $Id: login.php 3954 2018-07-04 06:08:28Z mori $
+ *
+ * @var $this yii\web\View
+ * @var $form yii\bootstrap\ActiveForm
+ * @var $model \frontend\models\LoginForm
+ */
+
+$title = "ログイン";
+$this->params['breadcrumbs'][] = $title;
+$this->params['body_id']       = 'Login';
+
+$crumbs = array_reverse($this->params['breadcrumbs']);
+array_push($crumbs, Yii::$app->name);
+
+$this->title = implode(' | ', $crumbs); // html>title
+
+$ecampaign = common\models\EventCampaign::find()->active()->all();
+?>
+
+<div style="color: #e00;font-size: 25px">【重要！】 <a href="https://mall.toyouke.com/index.php/facility/profile">ログインは豊受モール</a>で！　<a href="https://mall.toyouke.com/index.php/facility/profile">ここをクリック！</a></div><br>
+<br>
+本日のライブ視聴でのログインはこのサイトではなく、<a href="https://mall.toyouke.com/index.php/facility/profile">こちらの豊受モール</a>から行って下さい！<br>
+６月６日のプレイベント及び６月７日のシンポジウムの自宅ライブ視聴は、一部の方にこのCHhomオンラインショップからログインするようご案内していましたが、正しくは豊受モールでのログインです。<br>
+<br>
+<a href="https://mall.toyouke.com/index.php/facility/profile">ここ（豊受モール）</a>をクリックしてログインを行って頂きますよう宜しくお願い致します。<br>
+<br>
+<a href="https://mall.toyouke.com/index.php/facility/profile">上記</a>からのログイン後マイページが表示されますので、視聴リンクをクリックしてご視聴をお楽しみください。<br>
+<br>
+視聴ページは時間が来るまでは映像は表示されません。視聴時間近くになりましたらブラウザの再読み込みを行って下さい。<br>
+<br>
+映っていない状態のままで待っていても自動的に映像が流れ出すわけではありませんので時間近くになりましたらブラウザの再読み込みまたは再起動をお願い致します。<br>
+
+<div class="site-login">
+    <h1 class="mainTitle"><?= Html::encode($title) ?></h1>
+
+    <p class="mainLead"></p>
+
+    <div class="row">
+        <div class="coal-md-12">
+            <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
+                <?= $form->field($model, 'email') ?>
+                <?= $form->field($model, 'password')->passwordInput() ?>
+                <?= $form->field($model, 'rememberMe')->checkbox() ?>
+                <?php if ($ecampaign): ?>
+                    <?= $form->field($model, 'campaign_code')->textInput() ?>
+                <?php endif; ?>
+                <div class="form-group">
+                    <?= Html::submitButton("ログイン", ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
+                </div>
+            <?php ActiveForm::end(); ?>
+
+                <div style="color:#999;margin:1em 0">
+                    パスワードを忘れた方、未設定の方はこちらから初期化できます。
+                    <?= Html::a("パスワードを初期化", 'https://mall.toyouke.com/index.php/site/forgot-password',['class'=>'btn btn-default pull-right']) ?>
+                </div>
+        </div>
+    </div>
+</div>

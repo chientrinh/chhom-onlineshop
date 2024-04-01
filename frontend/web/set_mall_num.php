@@ -1,0 +1,1 @@
+/var/www/mall/frontend/web/set_mall_num.php

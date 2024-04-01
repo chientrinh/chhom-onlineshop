@@ -1,0 +1,14 @@
+Index: SiteController.php
+===================================================================
+--- SiteController.php	(リビジョン 1117)
++++ SiteController.php	(作業コピー)
+@@ -82,8 +82,7 @@
+ 
+     public function actionHome()
+     {
+-        $shops = \common\models\Branch::findAll([1,2,3,4]);
+-        return $this->render('index', ['shops'=>$shops]);
++        return $this->renderPartial('under_construction');
+     }
+ 
+     public function actionAbout()

@@ -1,0 +1,210 @@
+<?php
+namespace frontend\controllers;
+
+use Yii;
+use frontend\models\LoginForm;
+use frontend\models\SignupForm;
+use frontend\models\ContactForm;
+use yii\base\InvalidParamException;
+use yii\web\BadRequestHttpException;
+use yii\filters\VerbFilter;
+
+/**
+ * Site controller
+ *
+ * $URL: https://tarax.toyouke.com/svn/MALL/frontend/controllers/SiteController.php $
+ * $Id: SiteController.php 981 2015-05-02 08:58:09Z mori $
+ */
+class SiteController extends \yii\web\Controller
+{
+    public $title;
+
+    /**
+     * @inheritdoc
+     */
+    public function init()
+    {
+        parent::init();
+
+        $this->title = Yii::$app->name;
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function behaviors()
+    {
+        // all pages are under construction except 'site/index'
+        return [
+            'access' => [
+                'class' => \yii\filters\AccessControl::className(),
+                'rules' => [
+                    [
+                        'actions'=> ['index','contact','about','usage','legal','home'],
+                        'allow'  => true,
+                        'verbs'  => ['GET'],
+                    ],
+                    [
+                        'actions'=> ['login','signup','forgot-password','renew-password','error','captcha'],
+                        'allow'  => true,
+                        'verbs'  => ['GET','POST'],
+                    ],
+                    [
+                        'actions'=> ['logout'],
+                        'allow'  => true,
+                        'roles'  => ['@'], // allow authenticated users
+                        'verbs'  => ['POST'],
+                    ],
+                    [
+                        'allow'  => false, // everything else is denied
+                    ],
+                ],
+            ],
+        ];
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function actions()
+    {
+        return [
+            'error' => [
+                'class' => 'yii\web\ErrorAction',
+            ],
+            'captcha' => [
+                'class' => 'yii\captcha\CaptchaAction',
+                'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
+            ],
+        ];
+    }
+
+    public function actionIndex()
+    {
+ 	$this->redirect('/magazine');
+    }
+
+    public function actionHome()
+    {
+        $shops = \common\models\Branch::findAll([1,2,3,4]);
+        return $this->render('index', ['shops'=>$shops]);
+    }
+
+    public function actionLogin()
+    {
+        if (!\Yii::$app->user->isGuest) {
+            return $this->goHome();
+        }
+
+        $model = new LoginForm();
+        if ($model->load(Yii::$app->request->post()) && $model->login()) {
+            return $this->goBack();
+        } else {
+            return $this->render('login', [
+                'model' => $model,
+            ]);
+        }
+    }
+
+    public function actionLogout()
+    {
+        Yii::$app->user->logout();
+
+        return $this->goHome();
+    }
+
+    public function actionContact()
+    {
+        $model = new ContactForm();
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+            if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+                Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+            } else {
+                Yii::$app->session->setFlash('error', 'There was an error sending email.');
+            }
+
+            return $this->refresh();
+        } else {
+            $company = \common\models\Company::findOne(1);
+            return $this->render('contact', [
+                'model'   => $model,
+                'company' => $company,
+            ]);
+        }
+    }
+
+    public function actionAbout()
+    {
+        return $this->render('about');
+    }
+
+    public function actionUsage()
+    {
+        return $this->render('usage');
+    }
+
+    public function actionLegal()
+    {
+        return $this->render('legal');
+    }
+
+    public function actionSignup()
+    {
+        $model = new SignupForm();
+        if ($model->load(Yii::$app->request->post())) {
+            if ($user = $model->signup()) {
+                if (Yii::$app->getUser()->login($user)) {
+                    Yii::$app->getSession()->setFlash('success', "登録が完了しました。");
+
+                    $this->goHome();
+                    // return $this->render('signup_ok', [
+                    //     'model' => $model,
+                    // ]);
+                }
+            }
+        }
+
+        return $this->render('signup', [
+            'model' => $model,
+        ]);
+    }
+
+    public function actionForgotPassword()
+    {
+        $model = new \frontend\models\ForgotPasswordForm();
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+            if ($model->sendEmail()) {
+                Yii::$app->getSession()->setFlash('success', 'Check your email for further instructions.');
+
+                return $this->goHome();
+            } else {
+                Yii::$app->getSession()->setFlash('error', 'Sorry, we are unable to reset password for email provided.');
+            }
+        }
+
+        return $this->render('forgotPassword', [
+            'model' => $model,
+        ]);
+    }
+
+    public function actionRenewPassword($token)
+    {
+        try {
+            $model = new \frontend\models\RenewPasswordForm($token);
+        } catch (InvalidParamException $e) {
+            throw new BadRequestHttpException($e->getMessage());
+        }
+
+        if ($model->load(Yii::$app->request->post()) && $model->validate() && $model->resetPassword())
+        {
+            Yii::$app->getSession()->setFlash('success', 'New password was saved.');
+
+            return $this->goHome();
+        }
+
+        return $this->render('renewPassword', [
+            'model' => $model,
+        ]);
+    }
+
+}

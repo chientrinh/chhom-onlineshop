@@ -1,0 +1,47 @@
+<?php
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/frontend/config/main-local.php.example $
+ * $Id: main-local.php.example 801 2015-03-14 07:10:44Z mori $
+ */
+
+$config = [
+    'layout' => 'main',
+    'components' => [
+        'db' => [
+            'username' => 'yii_front',
+            'password' => '9QEkmT82',
+        ],
+        'ysd' => [
+            'username' => 'yii_front',
+            'password' => '9QEkmT82',
+        ],
+        'request' => [
+            'cookieValidationKey' => 'VqQorn6FJvyeGaHXTKu24zjM4r5SLU8em4MnpKNQnfzeWKZX',
+        ],
+    ],
+/*
+    'modules' => [
+        'profile' => [
+            'components' => [
+                'ysdConnection' => [
+                    'url'      => 'http://218.40.13.161/webgw_ml/WRP01010Action_doBatInit.action',//テスト環境@ysd
+                    'password' => '4b769f5d',
+                ],
+            ],
+        ],
+    ],
+*/
+];
+if (defined('YII_ENV') && 'test' == YII_ENV) {}
+else {
+    // configuration adjustments for 'dev' environment
+    $config['bootstrap'][] = 'debug';
+    $config['modules']['debug'] = [
+        'class'     => 'yii\debug\Module',
+        'allowedIPs'=> ['133.242.72.52'],
+    ];
+
+    $config['bootstrap'][] = 'gii';
+    $config['modules']['gii'] = 'yii\gii\Module';
+}
+return $config;

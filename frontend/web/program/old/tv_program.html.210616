@@ -1,0 +1,511 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1006.299" height="884.409" viewBox="0 0 1006.299 884.409">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-アートボード_1);
+      }
+
+      .cls-2 {
+        fill: #cef1e9;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #666;
+        stroke-miterlimit: 10;
+        stroke-width: 0.709px;
+      }
+
+      .cls-3 {
+        fill: #4d4d4d;
+      }
+
+      .cls-4 {
+        fill: #fedfe4;
+      }
+
+      .cls-5, .cls-74, .cls-82 {
+        fill: #fff;
+      }
+
+      .cls-17, .cls-36, .cls-37, .cls-6, .cls-69, .cls-71, .cls-9 {
+        fill: #333;
+      }
+
+      .cls-11, .cls-47, .cls-66, .cls-7 {
+        fill: #ff0001;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-17, .cls-36, .cls-37, .cls-41, .cls-42, .cls-46, .cls-47, .cls-66, .cls-67, .cls-69, .cls-70, .cls-8, .cls-9 {
+        font-size: 14px;
+      }
+
+      .cls-10, .cls-11, .cls-69, .cls-70, .cls-8, .cls-9 {
+        font-family: BIZ-UDGothic, BIZ UDGothic;
+      }
+
+      .cls-10 {
+        fill: #2e58a6;
+      }
+
+      .cls-12, .cls-17, .cls-36, .cls-37, .cls-41, .cls-42, .cls-46, .cls-47, .cls-66, .cls-67, .cls-71, .cls-72, .cls-74 {
+        font-family: BIZ-UDGothic-Bold, BIZ UDGothic;
+        font-weight: 700;
+      }
+
+      .cls-13, .cls-46, .cls-51, .cls-66 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-14, .cls-57 {
+        letter-spacing: -0.079em;
+      }
+
+      .cls-15 {
+        letter-spacing: -0.189em;
+      }
+
+      .cls-16 {
+        letter-spacing: -0.069em;
+      }
+
+      .cls-18, .cls-63 {
+        letter-spacing: -0.1em;
+      }
+
+      .cls-19, .cls-49 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-20, .cls-56 {
+        letter-spacing: -0.059em;
+      }
+
+      .cls-21, .cls-50 {
+        letter-spacing: -0.029em;
+      }
+
+      .cls-22 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-23, .cls-42, .cls-61 {
+        letter-spacing: -0.09em;
+      }
+
+      .cls-24 {
+        letter-spacing: -0.129em;
+      }
+
+      .cls-25 {
+        letter-spacing: -0.19em;
+      }
+
+      .cls-26 {
+        letter-spacing: -0.26em;
+      }
+
+      .cls-27 {
+        letter-spacing: -0.489em;
+      }
+
+      .cls-28, .cls-62 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-29, .cls-48 {
+        letter-spacing: -0.099em;
+      }
+
+      .cls-30 {
+        letter-spacing: -0.109em;
+      }
+
+      .cls-31 {
+        letter-spacing: -0.11em;
+      }
+
+      .cls-32, .cls-37, .cls-55, .cls-67 {
+        letter-spacing: -0.039em;
+      }
+
+      .cls-33, .cls-65 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-34, .cls-58 {
+        letter-spacing: -0.159em;
+      }
+
+      .cls-35, .cls-52 {
+        letter-spacing: -0.049em;
+      }
+
+      .cls-36, .cls-41, .cls-68, .cls-69, .cls-70 {
+        letter-spacing: -0.009em;
+      }
+
+      .cls-38, .cls-64 {
+        letter-spacing: -0.019em;
+      }
+
+      .cls-39 {
+        letter-spacing: -0.2em;
+      }
+
+      .cls-40 {
+        letter-spacing: -0.479em;
+      }
+
+      .cls-42, .cls-45 {
+        fill: #1a1a1a;
+      }
+
+      .cls-43, .cls-44, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-59, .cls-60, .cls-61, .cls-62, .cls-63, .cls-64, .cls-65 {
+        fill: #000;
+      }
+
+      .cls-44, .cls-45 {
+        font-size: 11px;
+      }
+
+      .cls-53 {
+        letter-spacing: -0.149em;
+      }
+
+      .cls-54 {
+        letter-spacing: -0.12em;
+      }
+
+      .cls-59 {
+        letter-spacing: -0.319em;
+      }
+
+      .cls-60 {
+        letter-spacing: -0.299em;
+      }
+
+      .cls-71, .cls-72, .cls-74 {
+        font-size: 12px;
+      }
+
+      .cls-72 {
+        fill: #666;
+      }
+
+      .cls-73, .cls-80 {
+        font-size: 16px;
+      }
+
+      .cls-75 {
+        font-size: 36px;
+      }
+
+      .cls-75, .cls-81 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-76, .cls-78, .cls-79, .cls-80 {
+        font-family: YuGothicUI-Regular, Yu Gothic UI;
+      }
+
+      .cls-77, .cls-78 {
+        font-size: 21px;
+      }
+
+      .cls-79 {
+        font-size: 24px;
+      }
+    </style>
+    <clipPath id="clip-アートボード_1">
+      <rect width="1006.299" height="884.409"/>
+    </clipPath>
+  </defs>
+  <g id="アートボード_1" data-name="アートボード 1" class="cls-1">
+    <rect class="cls-82" width="1006.299" height="884.409"/>
+    <g id="グループ_1" data-name="グループ 1">
+      <rect id="長方形_1" data-name="長方形 1" class="cls-2" width="99.126" height="34.016" transform="translate(800.05 66.025)"/>
+      <rect id="長方形_2" data-name="長方形 2" class="cls-2" width="170.079" height="34.016" transform="translate(626.641 66.025)"/>
+      <rect id="長方形_3" data-name="長方形 3" class="cls-2" width="538.583" height="34.016" transform="translate(85.232 66.025)"/>
+      <rect id="長方形_4" data-name="長方形 4" class="cls-2" width="70.866" height="34.016" transform="translate(10.823 66.025)"/>
+      <rect id="長方形_5" data-name="長方形 5" class="cls-3" width="99.126" height="34.016" transform="translate(800.05 102.876)"/>
+      <rect id="長方形_6" data-name="長方形 6" class="cls-3" width="170.079" height="34.016" transform="translate(626.641 102.876)"/>
+      <rect id="長方形_7" data-name="長方形 7" class="cls-3" width="538.583" height="34.016" transform="translate(85.232 102.876)"/>
+      <rect id="長方形_8" data-name="長方形 8" class="cls-3" width="70.866" height="34.016" transform="translate(10.823 102.876)"/>
+      <rect id="長方形_9" data-name="長方形 9" class="cls-3" width="99.126" height="34.016" transform="translate(800.05 139.726)"/>
+      <rect id="長方形_10" data-name="長方形 10" class="cls-3" width="170.079" height="34.016" transform="translate(626.641 139.726)"/>
+      <rect id="長方形_11" data-name="長方形 11" class="cls-3" width="538.583" height="34.016" transform="translate(85.232 139.726)"/>
+      <rect id="長方形_12" data-name="長方形 12" class="cls-3" width="70.866" height="34.016" transform="translate(10.823 139.726)"/>
+      <rect id="長方形_13" data-name="長方形 13" class="cls-4" width="99.126" height="34.016" transform="translate(800.05 176.577)"/>
+      <rect id="長方形_14" data-name="長方形 14" class="cls-4" width="170.079" height="34.016" transform="translate(626.641 176.577)"/>
+      <rect id="長方形_15" data-name="長方形 15" class="cls-4" width="538.583" height="34.016" transform="translate(85.232 176.577)"/>
+      <rect id="長方形_16" data-name="長方形 16" class="cls-4" width="70.866" height="34.016" transform="translate(10.823 176.577)"/>
+      <rect id="長方形_17" data-name="長方形 17" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 213.427)"/>
+      <rect id="長方形_18" data-name="長方形 18" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 213.427)"/>
+      <rect id="長方形_19" data-name="長方形 19" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 213.427)"/>
+      <rect id="長方形_20" data-name="長方形 20" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 213.427)"/>
+      <rect id="長方形_21" data-name="長方形 21" class="cls-4" width="99.126" height="34.016" transform="translate(800.137 250.277)"/>
+      <rect id="長方形_22" data-name="長方形 22" class="cls-4" width="170.079" height="34.016" transform="translate(626.727 250.277)"/>
+      <rect id="長方形_23" data-name="長方形 23" class="cls-4" width="538.583" height="34.016" transform="translate(85.319 250.277)"/>
+      <rect id="長方形_24" data-name="長方形 24" class="cls-4" width="70.866" height="34.016" transform="translate(10.823 250.277)"/>
+      <rect id="長方形_25" data-name="長方形 25" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 287.128)"/>
+      <rect id="長方形_26" data-name="長方形 26" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 287.128)"/>
+      <rect id="長方形_27" data-name="長方形 27" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 287.128)"/>
+      <rect id="長方形_28" data-name="長方形 28" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 287.128)"/>
+      <rect id="長方形_29" data-name="長方形 29" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 323.978)"/>
+      <rect id="長方形_30" data-name="長方形 30" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 323.978)"/>
+      <rect id="長方形_31" data-name="長方形 31" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 323.978)"/>
+      <rect id="長方形_32" data-name="長方形 32" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 323.978)"/>
+      <rect id="長方形_33" data-name="長方形 33" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 360.829)"/>
+      <rect id="長方形_34" data-name="長方形 34" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 360.829)"/>
+      <rect id="長方形_35" data-name="長方形 35" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 360.829)"/>
+      <rect id="長方形_36" data-name="長方形 36" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 360.829)"/>
+      <rect id="長方形_37" data-name="長方形 37" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 397.679)"/>
+      <rect id="長方形_38" data-name="長方形 38" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 397.679)"/>
+      <rect id="長方形_39" data-name="長方形 39" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 397.679)"/>
+      <rect id="長方形_40" data-name="長方形 40" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 397.679)"/>
+      <rect id="長方形_41" data-name="長方形 41" class="cls-4" width="99.126" height="34.016" transform="translate(800.05 434.545)"/>
+      <rect id="長方形_42" data-name="長方形 42" class="cls-4" width="170.079" height="34.016" transform="translate(626.641 434.545)"/>
+      <rect id="長方形_43" data-name="長方形 43" class="cls-4" width="538.583" height="34.016" transform="translate(85.232 434.545)"/>
+      <rect id="長方形_44" data-name="長方形 44" class="cls-4" width="70.866" height="34.016" transform="translate(10.823 434.545)"/>
+      <rect id="長方形_45" data-name="長方形 45" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 471.38)"/>
+      <rect id="長方形_46" data-name="長方形 46" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 471.38)"/>
+      <rect id="長方形_47" data-name="長方形 47" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 471.38)"/>
+      <rect id="長方形_48" data-name="長方形 48" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 471.38)"/>
+      <rect id="長方形_49" data-name="長方形 49" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 508.23)"/>
+      <rect id="長方形_50" data-name="長方形 50" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 508.23)"/>
+      <rect id="長方形_51" data-name="長方形 51" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 508.23)"/>
+      <rect id="長方形_52" data-name="長方形 52" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 508.23)"/>
+      <rect id="長方形_53" data-name="長方形 53" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 545.081)"/>
+      <rect id="長方形_54" data-name="長方形 54" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 545.081)"/>
+      <rect id="長方形_55" data-name="長方形 55" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 545.081)"/>
+      <rect id="長方形_56" data-name="長方形 56" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 545.081)"/>
+      <rect id="長方形_57" data-name="長方形 57" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 581.931)"/>
+      <rect id="長方形_58" data-name="長方形 58" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 581.931)"/>
+      <rect id="長方形_59" data-name="長方形 59" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 581.931)"/>
+      <rect id="長方形_60" data-name="長方形 60" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 581.931)"/>
+      <rect id="長方形_61" data-name="長方形 61" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 618.781)"/>
+      <rect id="長方形_62" data-name="長方形 62" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 618.781)"/>
+      <rect id="長方形_63" data-name="長方形 63" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 618.781)"/>
+      <rect id="長方形_64" data-name="長方形 64" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 618.781)"/>
+      <rect id="長方形_65" data-name="長方形 65" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 655.632)"/>
+      <rect id="長方形_66" data-name="長方形 66" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 655.632)"/>
+      <rect id="長方形_67" data-name="長方形 67" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 655.632)"/>
+      <rect id="長方形_68" data-name="長方形 68" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 655.632)"/>
+      <rect id="長方形_69" data-name="長方形 69" class="cls-4" width="99.126" height="34.016" transform="translate(800.05 692.348)"/>
+      <rect id="長方形_70" data-name="長方形 70" class="cls-4" width="170.079" height="34.016" transform="translate(626.641 692.348)"/>
+      <rect id="長方形_71" data-name="長方形 71" class="cls-4" width="538.583" height="34.016" transform="translate(85.232 692.348)"/>
+      <rect id="長方形_72" data-name="長方形 72" class="cls-4" width="70.866" height="34.016" transform="translate(10.823 692.348)"/>
+      <rect id="長方形_73" data-name="長方形 73" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 729.332)"/>
+      <rect id="長方形_74" data-name="長方形 74" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 729.332)"/>
+      <rect id="長方形_75" data-name="長方形 75" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 729.332)"/>
+      <rect id="長方形_76" data-name="長方形 76" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 729.332)"/>
+      <rect id="長方形_77" data-name="長方形 77" class="cls-4" width="99.126" height="34.016" transform="translate(800.05 766.049)"/>
+      <rect id="長方形_78" data-name="長方形 78" class="cls-4" width="170.079" height="34.016" transform="translate(626.641 766.049)"/>
+      <rect id="長方形_79" data-name="長方形 79" class="cls-4" width="538.583" height="34.016" transform="translate(85.232 766.049)"/>
+      <rect id="長方形_80" data-name="長方形 80" class="cls-4" width="70.866" height="34.016" transform="translate(10.823 766.049)"/>
+      <rect id="長方形_81" data-name="長方形 81" class="cls-4" width="99.126" height="34.016" transform="translate(800.05 802.899)"/>
+      <rect id="長方形_82" data-name="長方形 82" class="cls-4" width="170.079" height="34.016" transform="translate(626.641 802.899)"/>
+      <rect id="長方形_83" data-name="長方形 83" class="cls-4" width="538.583" height="34.016" transform="translate(85.232 802.899)"/>
+      <rect id="長方形_84" data-name="長方形 84" class="cls-4" width="70.866" height="34.016" transform="translate(10.823 802.899)"/>
+      <rect id="長方形_85" data-name="長方形 85" class="cls-5" width="99.126" height="34.016" transform="translate(800.05 839.884)"/>
+      <rect id="長方形_86" data-name="長方形 86" class="cls-6" width="84.965" height="34.016" transform="translate(909.184 176.577)"/>
+      <rect id="長方形_87" data-name="長方形 87" class="cls-6" width="84.965" height="34.016" transform="translate(909.184 213.427)"/>
+      <rect id="長方形_88" data-name="長方形 88" class="cls-6" width="84.965" height="34.016" transform="translate(909.258 250.277)"/>
+      <rect id="長方形_89" data-name="長方形 89" class="cls-6" width="84.965" height="34.016" transform="translate(909.184 287.128)"/>
+      <rect id="長方形_90" data-name="長方形 90" class="cls-6" width="84.965" height="34.016" transform="translate(909.184 323.978)"/>
+      <rect id="長方形_91" data-name="長方形 91" class="cls-6" width="84.965" height="34.016" transform="translate(909.184 360.829)"/>
+      <rect id="長方形_92" data-name="長方形 92" class="cls-6" width="84.965" height="34.016" transform="translate(909.184 397.679)"/>
+      <rect id="長方形_93" data-name="長方形 93" class="cls-6" width="84.965" height="34.016" transform="translate(909.184 434.545)"/>
+      <rect id="長方形_94" data-name="長方形 94" class="cls-6" width="84.965" height="34.016" transform="translate(909.184 471.38)"/>
+      <rect id="長方形_95" data-name="長方形 95" class="cls-7" width="84.965" height="34.016" transform="translate(909.184 508.23)"/>
+      <rect id="長方形_96" data-name="長方形 96" class="cls-7" width="84.965" height="34.016" transform="translate(909.184 545.081)"/>
+      <rect id="長方形_97" data-name="長方形 97" class="cls-7" width="84.965" height="34.016" transform="translate(909.184 581.931)"/>
+      <rect id="長方形_98" data-name="長方形 98" class="cls-7" width="84.965" height="34.016" transform="translate(909.184 618.781)"/>
+      <rect id="長方形_99" data-name="長方形 99" class="cls-7" width="84.965" height="34.016" transform="translate(909.184 655.632)"/>
+      <rect id="長方形_100" data-name="長方形 100" class="cls-7" width="84.965" height="34.016" transform="translate(909.184 692.348)"/>
+      <rect id="長方形_101" data-name="長方形 101" class="cls-7" width="84.965" height="34.016" transform="translate(909.184 729.332)"/>
+      <rect id="長方形_102" data-name="長方形 102" class="cls-7" width="84.965" height="34.016" transform="translate(909.184 766.049)"/>
+      <rect id="長方形_103" data-name="長方形 103" class="cls-7" width="84.965" height="34.016" transform="translate(909.184 802.899)"/>
+      <rect id="長方形_104" data-name="長方形 104" class="cls-7" width="84.965" height="34.016" transform="translate(909.184 839.732)"/>
+      <rect id="長方形_105" data-name="長方形 105" class="cls-5" width="170.079" height="34.016" transform="translate(626.641 839.884)"/>
+      <rect id="長方形_106" data-name="長方形 106" class="cls-5" width="538.583" height="34.016" transform="translate(85.232 839.884)"/>
+      <rect id="長方形_107" data-name="長方形 107" class="cls-5" width="70.866" height="34.016" transform="translate(10.823 839.884)"/>
+    </g>
+    <g id="グループ_2" data-name="グループ 2">
+      <text id="配信日" class="cls-8" transform="translate(23.264 88.946)"><tspan x="0" y="0">配信日</tspan></text>
+      <text id="_6_1_火_" data-name="6/1(火)" class="cls-8" transform="translate(19.764 125.797)"><tspan x="0" y="0">6/1(火)</tspan></text>
+      <text id="_6_2_水_" data-name="6/2(水)" class="cls-8" transform="translate(19.764 162.648)"><tspan x="0" y="0">6/2(水)</tspan></text>
+      <text id="_6_3_木_" data-name="6/3(木)" class="cls-9" transform="translate(19.764 199.499)"><tspan x="0" y="0">6/3(木)</tspan></text>
+      <text id="_6_4_金_" data-name="6/4(金)" class="cls-9" transform="translate(19.764 236.349)"><tspan x="0" y="0">6/4(金)</tspan></text>
+      <text id="_6_5_土_" data-name="6/5(土)" class="cls-9" transform="translate(19.764 273.2)"><tspan x="0" y="0">6/5(土)</tspan></text>
+      <text id="_6_6_日_" data-name="6/6(日)" class="cls-9" transform="translate(19.764 310.049)"><tspan x="0" y="0">6/6(日)</tspan></text>
+      <text id="_6_7_月_" data-name="6/7(月)" class="cls-9" transform="translate(19.764 346.9)"><tspan x="0" y="0">6/7(月)</tspan></text>
+      <text id="_6_8_火_" data-name="6/8(火)" class="cls-9" transform="translate(19.764 383.751)"><tspan x="0" y="0">6/8(火)</tspan></text>
+      <text id="_6_9_水_" data-name="6/9(水)" class="cls-9" transform="translate(19.764 420.601)"><tspan x="0" y="0">6/9(水)</tspan></text>
+      <text id="_6_10_木_" data-name="6/10(木)" class="cls-9" transform="translate(16.264 457.452)"><tspan x="0" y="0">6/10(木)</tspan></text>
+      <text id="_6_11_金_" data-name="6/11(金)" class="cls-9" transform="translate(16.264 494.301)"><tspan x="0" y="0">6/11(金)</tspan></text>
+      <text id="_6_12_土_" data-name="6/12(土)" class="cls-10" transform="translate(16.264 531.152)"><tspan x="0" y="0">6/12(土)</tspan></text>
+      <text id="_6_13_日_" data-name="6/13(日)" class="cls-11" transform="translate(16.264 568.002)"><tspan x="0" y="0">6/13(日)</tspan></text>
+      <text id="_6_14_月_" data-name="6/14(月)" class="cls-8" transform="translate(16.264 604.853)"><tspan x="0" y="0">6/14(月)</tspan></text>
+      <text id="_6_15_火_" data-name="6/15(火)" class="cls-8" transform="translate(16.264 641.704)"><tspan x="0" y="0">6/15(火)</tspan></text>
+      <text id="_6_16_水_" data-name="6/16(水)" class="cls-8" transform="translate(16.264 678.553)"><tspan x="0" y="0">6/16(水)</tspan></text>
+      <text id="_6_17_木_" data-name="6/17(木)" class="cls-8" transform="translate(16.264 715.404)"><tspan x="0" y="0">6/17(木)</tspan></text>
+      <text id="_6_18_金_" data-name="6/18(金)" class="cls-8" transform="translate(16.264 752.254)"><tspan x="0" y="0">6/18(金)</tspan></text>
+      <text id="_6_19_土_" data-name="6/19(土)" class="cls-10" transform="translate(16.264 789.105)"><tspan x="0" y="0">6/19(土)</tspan></text>
+      <text id="_6_19_土_2" data-name="6/19(土)" class="cls-10" transform="translate(16.264 825.956)"><tspan x="0" y="0">6/19(土)</tspan></text>
+      <text id="_6_20_日_" data-name="6/20(日)" class="cls-11" transform="translate(16.264 862.806)"><tspan x="0" y="0">6/20(日)</tspan></text>
+    </g>
+    <g id="グループ_3" data-name="グループ 3">
+      <text id="講演会タイトル" class="cls-12" transform="translate(312.903 88.946)"><tspan x="0" y="0">講演</tspan><tspan class="cls-13" y="0">会</tspan><tspan class="cls-14" y="0">タ</tspan><tspan class="cls-15" y="0">イ</tspan><tspan class="cls-16" y="0">ト</tspan><tspan y="0">ル</tspan></text>
+      <text id="配信休み" class="cls-12" transform="translate(92.903 125.797)"><tspan x="0" y="0">配信休み</tspan></text>
+      <text id="配信休み-2" data-name="配信休み" class="cls-12" transform="translate(92.903 162.648)"><tspan x="0" y="0">配信休み</tspan></text>
+      <text id="_ライブ配信_第1回_基本のキットのレメディーを使いこなす3回セミナー" data-name="★ライブ配信★　【第1回】基本のキットのレメディーを使いこなす3回セミナー" class="cls-17" transform="translate(92.903 199.499)"><tspan class="cls-13" x="0" y="0">★</tspan><tspan class="cls-16" y="0">ラ</tspan><tspan class="cls-18" y="0">イ</tspan><tspan y="0">ブ配信★　【第1回】基本のキットのレメディーを使いこなす3回セミナー</tspan></text>
+      <text id="ZENホメオパシーとフィトセラピー_2講演_" data-name="ZENホメオパシーとフィトセラピー（2講演）" class="cls-17" transform="translate(92.903 236.349)"><tspan x="0" y="0">ZEN</tspan><tspan class="cls-19" y="0">ホ</tspan><tspan class="cls-20" y="0">メ</tspan><tspan class="cls-21" y="0">オ</tspan><tspan class="cls-22" y="0">パ</tspan><tspan class="cls-21" y="0">シ</tspan><tspan class="cls-23" y="0">ー</tspan><tspan class="cls-24" y="0">と</tspan><tspan class="cls-25" y="0">フ</tspan><tspan class="cls-26" y="0">ィ</tspan><tspan class="cls-14" y="0">ト</tspan><tspan class="cls-20" y="0">セラ</tspan><tspan class="cls-21" y="0">ピ</tspan><tspan class="cls-27" y="0">ー</tspan><tspan class="cls-28" y="0">（</tspan><tspan y="0">2講</tspan><tspan class="cls-28" y="0">演</tspan><tspan y="0">）</tspan></text>
+      <text id="_ライブ配信_歯_歯茎_口腔内を健康にし_免疫を上げよう_" data-name="★ライブ配信★　歯・歯茎・口腔内を健康にし、免疫を上げよう！" class="cls-17" transform="translate(92.903 273.2)"><tspan class="cls-13" x="0" y="0">★</tspan><tspan class="cls-16" y="0">ラ</tspan><tspan class="cls-18" y="0">イ</tspan><tspan y="0">ブ配信★　歯・歯茎・口腔内を健康にし、免疫を上げよう！</tspan></text>
+      <text id="やっぱりホメオパシーは素晴らしい" class="cls-17" transform="translate(92.903 310.049)"><tspan class="cls-29" x="0" y="0">や</tspan><tspan class="cls-13" y="0">っ</tspan><tspan class="cls-30" y="0">ぱ</tspan><tspan class="cls-31" y="0">り</tspan><tspan class="cls-32" y="0">ホ</tspan><tspan class="cls-20" y="0">メ</tspan><tspan class="cls-22" y="0">オパ</tspan><tspan class="cls-21" y="0">シ</tspan><tspan class="cls-33" y="0">ー</tspan><tspan y="0">は素</tspan><tspan class="cls-16" y="0">晴</tspan><tspan class="cls-34" y="0">ら</tspan><tspan class="cls-35" y="0">し</tspan><tspan y="0">い</tspan></text>
+      <text id="ホメオパシー入門_学校案内" data-name="ホメオパシー入門 ＆ 学校案内" class="cls-36" transform="translate(92.903 346.9)"><tspan x="0" y="0">ホメオパシー入門 ＆ 学校案内</tspan></text>
+      <text id="_第1回_基本のキットのレメディーを使いこなす3回セミナー" data-name="【第1回】基本のキットのレメディーを使いこなす3回セミナー" class="cls-17" transform="translate(92.903 383.751)"><tspan x="0" y="0">【第1回】基本のキットのレメディーを使いこなす3回セミナー</tspan></text>
+      <text id="小名木先生_特別講演_天皇誕生日記念" data-name="小名木先生 特別講演 天皇誕生日記念" class="cls-37" transform="translate(92.422 420.601)"><tspan x="0" y="0">小名木先生 特別講演 天皇誕生日記念</tspan></text>
+      <text id="_ライブ配信_第2回_基本のキットのレメディーを使いこなす3回セミナー" data-name="★ライブ配信★　【第2回】基本のキットのレメディーを使いこなす3回セミナー" class="cls-17" transform="translate(92.903 457.452)"><tspan class="cls-13" x="0" y="0">★</tspan><tspan class="cls-16" y="0">ラ</tspan><tspan class="cls-18" y="0">イ</tspan><tspan y="0">ブ配信★　【第2回】基本のキットのレメディーを使いこなす3回セミナー</tspan></text>
+      <text id="この時代を生き抜く_10の講座_第_回_環境2_香害_G" data-name="この時代を生き抜く、10の講座 第６回＜環境2＞ 香害・５G" class="cls-17" transform="translate(91.942 494.301)"><tspan class="cls-23" x="0" y="0">こ</tspan><tspan y="0">の時</tspan><tspan class="cls-38" y="0">代</tspan><tspan class="cls-28" y="0">を生</tspan><tspan class="cls-32" y="0">き</tspan><tspan class="cls-14" y="0">抜</tspan><tspan class="cls-39" y="0">く</tspan><tspan class="cls-40" y="0">、</tspan><tspan y="0">10の講座 第６回＜環境2＞ 香害・５G</tspan></text>
+      <text id="男性のためのホメオパシー_男性特有の症状から心のケアまで" data-name="男性のためのホメオパシー　男性特有の症状から心のケアまで" class="cls-41" transform="translate(92.903 531.152)"><tspan x="0" y="0">男性のためのホメオパシー　男性特有の症状から心のケアまで</tspan></text>
+      <text id="_美食同源_世界の平安の鍵は女性の美にあり_10の講座第9回_経済_から変更になりました_" data-name="「美食同源」世界の平安の鍵は女性の美にあり　※10の講座第9回＜経済＞から変更になりました。" class="cls-42" transform="translate(91.942 568.002)"><tspan class="cls-43" x="0" y="0">「美食同源」世界の平安の鍵は女性の美にあり</tspan><tspan class="cls-44" y="0">　</tspan><tspan class="cls-45" y="0">※10の講座第9回＜経済＞から変更になりました。</tspan></text>
+      <text id="世界ホメオパシー認識週間2021イベント_日本の発酵食品はグリーン_メディスンだ_" data-name="世界ホメオパシー認識週間2021イベント 日本の発酵食品はグリーン・メディスンだ！" class="cls-46" transform="translate(91.942 604.853)"><tspan x="0" y="0">世界ホメオパシー認識週間2021イベント 日本の発酵食品はグリーン・メディスンだ！</tspan></text>
+      <text id="CHhom4年制プロフェッショナルコース公開講座_ホメオパシー病理_内分泌_" data-name="CHhom4年制プロフェッショナルコース公開講座『ホメオパシー病理　内分泌①』" class="cls-12" transform="translate(92.904 641.704)"><tspan x="0" y="0">CHhom4年制プロフェッショナルコース公開講座『ホメオパシー病理　内分泌①』</tspan></text>
+      <text id="この時代を生き抜く_10の講座_第_回_食_タネ_グリホサート_戦後の食の破壊" data-name="この時代を生き抜く、10の講座 第２回＜食＞ タネ、グリホサート、戦後の食の破壊" class="cls-12" transform="translate(91.942 678.553)"><tspan class="cls-23" x="0" y="0">こ</tspan><tspan y="0">の時</tspan><tspan class="cls-38" y="0">代</tspan><tspan class="cls-28" y="0">を生</tspan><tspan class="cls-32" y="0">き</tspan><tspan class="cls-14" y="0">抜</tspan><tspan class="cls-39" y="0">く</tspan><tspan class="cls-40" y="0">、</tspan><tspan y="0">10の講座 第２回＜食＞ タネ、グリホサート、戦後の食の破壊</tspan></text>
+      <text id="_ライブ配信_はじめてのファーイースト_フラワーエッセンス_夏のエッセンス" data-name="★ライブ配信★　はじめてのファーイースト・フラワーエッセンス　夏のエッセンス" class="cls-47" transform="translate(92.903 715.404)"><tspan class="cls-13" x="0" y="0">★</tspan><tspan class="cls-16" y="0">ラ</tspan><tspan class="cls-18" y="0">イ</tspan><tspan y="0">ブ配信★</tspan><tspan class="cls-43" y="0">　</tspan><tspan class="cls-48" y="0">は</tspan><tspan class="cls-49" y="0">じ</tspan><tspan class="cls-50" y="0">め</tspan><tspan class="cls-51" y="0">て</tspan><tspan class="cls-52" y="0">の</tspan><tspan class="cls-53" y="0">フ</tspan><tspan class="cls-54" y="0">ァ</tspan><tspan class="cls-55" y="0">ー</tspan><tspan class="cls-56" y="0">イ</tspan><tspan class="cls-57" y="0">ー</tspan><tspan class="cls-58" y="0">ス</tspan><tspan class="cls-59" y="0">ト</tspan><tspan class="cls-60" y="0">・</tspan><tspan class="cls-57" y="0">フ</tspan><tspan class="cls-61" y="0">ラ</tspan><tspan class="cls-52" y="0">ワ</tspan><tspan class="cls-62" y="0">ー</tspan><tspan class="cls-61" y="0">エ</tspan><tspan class="cls-63" y="0">ッ</tspan><tspan class="cls-56" y="0">セ</tspan><tspan class="cls-57" y="0">ン</tspan><tspan class="cls-64" y="0">ス</tspan><tspan class="cls-43" y="0">　夏</tspan><tspan class="cls-65" y="0">の</tspan><tspan class="cls-61" y="0">エ</tspan><tspan class="cls-63" y="0">ッ</tspan><tspan class="cls-56" y="0">セ</tspan><tspan class="cls-57" y="0">ン</tspan><tspan class="cls-43" y="0">ス</tspan></text>
+      <text id="えらいこっちゃ_と健康問題_オンライン勉強会" data-name="えらいこっちゃ！　５Ｇと健康問題　オンライン勉強会" class="cls-12" transform="translate(92.302 752.254)"><tspan x="0" y="0">えらいこっちゃ！　５Ｇと健康問題　オンライン勉強会</tspan></text>
+      <text id="_ライブ配信_ホメオパシーを応援するお医者さん_医療従事者の皆さまの会" data-name="★ライブ配信★　ホメオパシーを応援するお医者さん・医療従事者の皆さまの会" class="cls-66" transform="translate(92.903 789.105)"><tspan x="0" y="0">★</tspan><tspan class="cls-16" y="0">ラ</tspan><tspan class="cls-18" y="0">イ</tspan><tspan class="cls-32" y="0">ブ配信★</tspan><tspan class="cls-55" y="0">　</tspan><tspan class="cls-55" y="0">ホメオパシーを応援するお医者さん・医療従事者の皆さまの会</tspan></text>
+      <text id="_ライブ配信_ホメオパシーサロン_" data-name="★ライブ配信★　ホメオパシーサロン " class="cls-66" transform="translate(92.903 825.956)"><tspan x="0" y="0">★</tspan><tspan class="cls-16" y="0">ラ</tspan><tspan class="cls-18" y="0">イ</tspan><tspan class="cls-32" y="0">ブ配信★</tspan><tspan class="cls-55" y="0">　</tspan><tspan class="cls-55" y="0">ホメオパシーサロン </tspan></text>
+      <text id="歯_歯茎_口腔内を健康にし_免疫を上げよう_" data-name="歯・歯茎・口腔内を健康にし、免疫を上げよう！" class="cls-67" transform="translate(92.422 862.806)"><tspan x="0" y="0">歯・歯茎・口腔内を健康にし、免疫を上げよう！</tspan></text>
+    </g>
+    <g id="グループ_4" data-name="グループ 4">
+      <text id="講師_演者" data-name="講師/演者" class="cls-8" transform="translate(681.782 88.946)"><tspan x="0" y="0">講師/演者</tspan></text>
+      <text id="高宮義和" class="cls-9" transform="translate(631.782 199.498)"><tspan x="0" y="0">高宮義和</tspan></text>
+      <text id="由井寅子_東昭史" data-name="由井寅子、東昭史" class="cls-9" transform="translate(631.661 236.348)"><tspan class="cls-68" x="0" y="0">由</tspan><tspan y="0">井寅</tspan><tspan class="cls-28" y="0">子</tspan><tspan class="cls-40" y="0">、</tspan><tspan y="0">東昭史</tspan></text>
+      <text id="由井寅子_登守京子" data-name="由井寅子　登守京子" class="cls-9" transform="translate(631.661 273.199)"><tspan class="cls-68" x="0" y="0">由</tspan><tspan y="0">井寅子　登守京子</tspan></text>
+      <text id="由井寅子" class="cls-9" transform="translate(631.661 310.048)"><tspan class="cls-68" x="0" y="0">由</tspan><tspan y="0">井寅子</tspan></text>
+      <text id="由井寅子-2" data-name="由井寅子" class="cls-9" transform="translate(631.782 346.899)"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="高宮義和-2" data-name="高宮義和" class="cls-69" transform="translate(631.661 383.75)"><tspan x="0" y="0">高宮義和</tspan></text>
+      <text id="小名木善行" class="cls-9" transform="translate(631.782 420.6)"><tspan x="0" y="0">小名木善行</tspan></text>
+      <text id="渡邊公代" class="cls-9" transform="translate(631.782 457.451)"><tspan x="0" y="0">渡邊公代</tspan></text>
+      <text id="由井寅子-3" data-name="由井寅子" class="cls-9" transform="translate(631.661 494.3)"><tspan class="cls-68" x="0" y="0">由</tspan><tspan y="0">井寅子</tspan></text>
+      <text id="菅野幸二" class="cls-8" transform="translate(631.782 531.151)"><tspan x="0" y="0">菅野幸二</tspan></text>
+      <text id="由井寅子-4" data-name="由井寅子" class="cls-8" transform="translate(631.661 568.001)"><tspan class="cls-68" x="0" y="0">由</tspan><tspan y="0">井寅子</tspan></text>
+      <text id="由井寅子_他" data-name="由井寅子　他" class="cls-8" transform="translate(631.661 604.852)"><tspan class="cls-68" x="0" y="0">由</tspan><tspan y="0">井寅子　他</tspan></text>
+      <text id="由井寅子-5" data-name="由井寅子" class="cls-8" transform="translate(631.661 641.703)"><tspan class="cls-68" x="0" y="0">由</tspan><tspan y="0">井寅子</tspan></text>
+      <text id="由井寅子-6" data-name="由井寅子" class="cls-8" transform="translate(631.661 678.552)"><tspan class="cls-68" x="0" y="0">由</tspan><tspan y="0">井寅子</tspan></text>
+      <text id="東昭史" class="cls-8" transform="translate(631.782 715.403)"><tspan x="0" y="0">東昭史</tspan></text>
+      <text id="由井寅子_加藤やすこ_黒藪哲哉" data-name="由井寅子 加藤やすこ 黒藪哲哉" class="cls-8" transform="translate(631.661 752.253)"><tspan class="cls-68" x="0" y="0">由</tspan><tspan y="0">井寅子 加藤や</tspan><tspan class="cls-23" y="0">すこ</tspan><tspan y="0" xml:space="preserve"> 黒藪哲哉</tspan></text>
+      <text id="髙野弘之_他" data-name="髙野弘之　他" class="cls-8" transform="translate(631.782 789.104)"><tspan x="0" y="0">髙野弘之　他</tspan></text>
+      <text id="由井寅子-7" data-name="由井寅子" class="cls-8" transform="translate(631.782 825.955)"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="由井寅子_登守京子-2" data-name="由井寅子　登守京子" class="cls-70" transform="translate(631.661 862.805)"><tspan x="0" y="0">由井寅子　登守京子</tspan></text>
+    </g>
+    <g id="グループ_5" data-name="グループ 5">
+      <text id="収録日" class="cls-12" transform="translate(849.642 88.946)"><tspan x="-21" y="0">収録日</tspan></text>
+      <text id="_-" data-name="-" class="cls-12" transform="translate(849.644 125.796)"><tspan x="-3.5" y="0">-</tspan></text>
+      <text id="_--2" data-name="-" class="cls-12" transform="translate(849.644 162.647)"><tspan x="-3.5" y="0">-</tspan></text>
+      <text id="ライブ" class="cls-17" transform="translate(849.644 199.498)"><tspan x="-21" y="0">ライブ</tspan></text>
+      <text id="_2020_8_7_2020_12_18" data-name="2020/8/7
+2020/12/18" class="cls-71" transform="translate(849.644 228.348)"><tspan x="-24" y="0">2020/8/7</tspan><tspan x="-30" y="14">2020/12/18</tspan></text>
+      <text id="ライブ-2" data-name="ライブ" class="cls-17" transform="translate(849.644 273.199)"><tspan x="-21" y="0">ライブ</tspan></text>
+      <text id="_2020_3_14" data-name="2020/3/14" class="cls-17" transform="translate(849.644 310.048)"><tspan x="-31.5" y="0">2020/3/14</tspan></text>
+      <text id="_2018_3_18" data-name="2018/3/18" class="cls-17" transform="translate(849.644 346.899)"><tspan x="-31.5" y="0">2018/3/18</tspan></text>
+      <text id="_2021_6_3" data-name="2021/6/3" class="cls-17" transform="translate(849.644 383.75)"><tspan x="-28" y="0">2021/6/3</tspan></text>
+      <text id="_2021_2_23" data-name="2021/2/23" class="cls-17" transform="translate(849.644 420.6)"><tspan x="-31.5" y="0">2021/2/23</tspan></text>
+      <text id="ライブ-3" data-name="ライブ" class="cls-17" transform="translate(849.644 457.451)"><tspan x="-21" y="0">ライブ</tspan></text>
+      <text id="_2020_11_8" data-name="2020/11/8" class="cls-17" transform="translate(849.644 494.3)"><tspan x="-31.5" y="0">2020/11/8</tspan></text>
+      <text id="_2021_3_21" data-name="2021/3/21" class="cls-12" transform="translate(849.644 531.151)"><tspan x="-31.5" y="0">2021/3/21</tspan></text>
+      <text id="_2021_4_17" data-name="2021/4/17" class="cls-12" transform="translate(849.644 568.001)"><tspan x="-31.5" y="0">2021/4/17</tspan></text>
+      <text id="_2021_4_10" data-name="2021/4/10" class="cls-12" transform="translate(849.644 604.852)"><tspan x="-31.5" y="0">2021/4/10</tspan></text>
+      <text id="_2020_10_24" data-name="2020/10/24" class="cls-12" transform="translate(849.644 641.703)"><tspan x="-35" y="0">2020/10/24</tspan></text>
+      <text id="_2020_7_16" data-name="2020/7/16" class="cls-12" transform="translate(849.644 678.552)"><tspan x="-31.5" y="0">2020/7/16</tspan></text>
+      <text id="ライブ-4" data-name="ライブ" class="cls-12" transform="translate(849.644 715.403)"><tspan x="-21" y="0">ライブ</tspan></text>
+      <text id="_2021_3_7" data-name="2021/3/7" class="cls-12" transform="translate(849.644 752.253)"><tspan x="-28" y="0">2021/3/7</tspan></text>
+      <text id="ライブ-5" data-name="ライブ" class="cls-12" transform="translate(849.644 789.104)"><tspan x="-21" y="0">ライブ</tspan></text>
+      <text id="ライブ-6" data-name="ライブ" class="cls-12" transform="translate(849.644 825.955)"><tspan x="-21" y="0">ライブ</tspan></text>
+      <text id="_2021_6_5" data-name="2021/6/5" class="cls-12" transform="translate(849.644 862.805)"><tspan x="-28" y="0">2021/6/5</tspan></text>
+    </g>
+    <g id="グループ_25" data-name="グループ 25">
+      <g id="グループ_6" data-name="グループ 6">
+        <text id="お申込みは_コチラ" data-name="お申込みは
+コチラ" class="cls-72" transform="translate(951.691 189.291)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text>
+      </g>
+      <g id="グループ_7" data-name="グループ 7">
+        <text id="お申込みは_コチラ-2" data-name="お申込みは
+コチラ" class="cls-72" transform="translate(951.691 226.141)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text>
+      </g>
+      <g id="グループ_8" data-name="グループ 8">
+        <text id="お申込みは_コチラ-3" data-name="お申込みは
+コチラ" class="cls-72" transform="translate(951.691 262.992)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text>
+      </g>
+      <g id="グループ_9" data-name="グループ 9">
+        <text id="お申込みは_コチラ-4" data-name="お申込みは
+コチラ" class="cls-72" transform="translate(951.691 299.842)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text>
+      </g>
+      <g id="グループ_10" data-name="グループ 10">
+        <text id="お申込みは_コチラ-5" data-name="お申込みは
+コチラ" class="cls-72" transform="translate(951.691 336.693)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text>
+      </g>
+      <g id="グループ_11" data-name="グループ 11">
+        <text id="お申込みは_コチラ-6" data-name="お申込みは
+コチラ" class="cls-72" transform="translate(951.691 373.543)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text>
+      </g>
+      <g id="グループ_12" data-name="グループ 12">
+        <text id="お申込みは_コチラ-7" data-name="お申込みは
+コチラ" class="cls-72" transform="translate(951.691 410.394)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text>
+      </g>
+      <g id="グループ_13" data-name="グループ 13">
+        <text id="お申込みは_コチラ-8" data-name="お申込みは
+コチラ" class="cls-72" transform="translate(951.691 447.245)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text>
+      </g>
+      <g id="グループ_14" data-name="グループ 14">
+        <text id="お申込みは_コチラ-9" data-name="お申込みは
+コチラ" class="cls-72" transform="translate(951.691 484.095)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text>
+      </g>
+      <g id="グループ_15" data-name="グループ 15">
+        <a href="https://ec.homoeopathy.ac/product/2461"><text id="お申込みは_コチラ-10" data-name="お申込みは
+コチラ" class="cls-74" transform="translate(951.691 520.946)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text></a>
+      </g>
+      <g id="グループ_16" data-name="グループ 16">
+        <a href="https://ec.homoeopathy.ac/product/2499"><text id="お申込みは_コチラ-11" data-name="お申込みは
+コチラ" class="cls-74" transform="translate(951.691 557.796)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text></a>
+      </g>
+      <g id="グループ_17" data-name="グループ 17">
+        <a href="https://ec.homoeopathy.ac/product/2491"><text id="お申込みは_コチラ-12" data-name="お申込みは
+コチラ" class="cls-74" transform="translate(951.691 594.647)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text></a>
+      </g>
+      <g id="グループ_18" data-name="グループ 18">
+        <a href="https://ec.homoeopathy.ac/product/2483"><text id="お申込みは_コチラ-13" data-name="お申込みは
+コチラ" class="cls-74" transform="translate(951.691 631.498)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text></a>
+      </g>
+      <g id="グループ_19" data-name="グループ 19">
+        <a href="https://ec.homoeopathy.ac/product/2485"><text id="お申込みは_コチラ-14" data-name="お申込みは
+コチラ" class="cls-74" transform="translate(951.691 668.348)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text></a>
+      </g>
+      <g id="グループ_20" data-name="グループ 20">
+        <a href="https://ec.homoeopathy.ac/product/2384"><text id="お申込みは_コチラ-15" data-name="お申込みは
+コチラ" class="cls-74" transform="translate(951.691 705.199)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text></a>
+      </g>
+      <g id="グループ_21" data-name="グループ 21">
+        <a href="https://ec.homoeopathy.ac/product/2486"><text id="お申込みは_コチラ-16" data-name="お申込みは
+コチラ" class="cls-74" transform="translate(951.691 742.049)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text></a>
+      </g>
+      <g id="グループ_22" data-name="グループ 22">
+        <a href="https://ec.homoeopathy.ac/product/2484"><text id="お申込みは_コチラ-17" data-name="お申込みは
+コチラ" class="cls-74" transform="translate(951.691 778.9)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text></a>
+      </g>
+      <g id="グループ_23" data-name="グループ 23">
+        <a href="https://ec.homoeopathy.ac/"><text id="お申込みは_コチラ-18" data-name="お申込みは
+コチラ" class="cls-74" transform="translate(951.691 815.75)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text></a>
+      </g>
+      <g id="グループ_24" data-name="グループ 24">
+        <a href="https://ec.homoeopathy.ac/product/2492"><text id="お申込みは_コチラ-19" data-name="お申込みは
+コチラ" class="cls-74" transform="translate(951.691 852.601)"><tspan x="-30" y="0">お申込みは</tspan><tspan class="cls-73"><tspan x="-24" y="14">コチラ</tspan></tspan></text></a>
+      </g>
+    </g>
+    <text id="_6月CHhom講演会_配信スケジュール" data-name="6月CHhom講演会 配信スケジュール" class="cls-75" transform="translate(350.392 54.524)"><tspan x="-174.599" y="0">6</tspan><tspan class="cls-76" y="0">月</tspan><tspan class="cls-77" y="0">CHhom</tspan><tspan class="cls-78" y="0">講演会</tspan><tspan class="cls-77" y="0"> </tspan><tspan class="cls-79" y="0">配信スケジュール</tspan></text>
+    <text id="配信時間_各日10:00_25:00" data-name="配信時間　各日10:00～25:00" class="cls-80" transform="translate(899.347 57.656)"><tspan x="-203.938" y="0">配信時間　各日</tspan><tspan class="cls-81" y="0">10:00</tspan><tspan y="0">～</tspan><tspan class="cls-81" y="0">25:00</tspan></text>
+  </g>
+</svg>

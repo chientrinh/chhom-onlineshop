@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{http_host} ^https://ec.homoeopathy.ac/remedy/viewbyname?name=Placen
+RewriteRule ^(.*)$ https://mall.toyouke.com/index.php/hj/remedy/Placen?vid=2$1 [R=301,L]
+</IfModule>

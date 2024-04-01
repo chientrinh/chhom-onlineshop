@@ -1,0 +1,1 @@
+../../web/themes/ty-magazine/layouts/magazine.php

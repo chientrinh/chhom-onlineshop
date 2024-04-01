@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*
+	we hope ie will die for ever ♬
+	code is peotry = statement by tommie + pii
+*/
+
+body {font-family: メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS P Gothic', Verdana, Arial, Helvetica, sans-serif; font-size: 14px;}
+h1, h2, h3, h4, h5, h6, ul.nav-menu li a { font-family: メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS P Gothic', Verdana, Arial, Helvetica, sans-serif; font-weight:bold;}
+
+article img {visibility:visible; filter: none !important; border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; max-width: 100%; height: auto; width: auto;}
+
+a:hover, .headline:hover, .headline img, img:hover { filter: none !important; }
+ul.menu li, footer li { display: inline-block; *display: inline; *zoom: 1; float:left;}
+
+
+/*
+header.local { background-color:#fff; }
+*/
+
+@media \0screen {
+  article img { 
+  	width: auto; /* for ie 8 */
+  }
+}

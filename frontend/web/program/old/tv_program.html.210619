@@ -1,0 +1,317 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1125" height="1388" viewBox="0 0 1125 1388">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#b6dfba"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#cbd5e4" stop-opacity="0.698"/>
+    </linearGradient>
+    <clipPath id="clip-_0616-0704">
+      <rect width="1125" height="1388"/>
+    </clipPath>
+  </defs>
+  <g id="_0616-0704" data-name="0616-0704" clip-path="url(#clip-_0616-0704)">
+    <rect width="1125" height="1388" fill="#fff"/>
+    <rect id="長方形_1" data-name="長方形 1" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 114.309)" fill="#fff" stroke="#666" stroke-miterlimit="10" stroke-width="0.709"/>
+    <text id="配信日" transform="translate(84.583 148.532)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-31.5" y="0">配信日</tspan></text>
+    <text id="講演会タイトル" transform="translate(327.795 148.532)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">講演会タイトル</tspan></text>
+    <text id="講師" transform="translate(756.577 148.532)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">講師</tspan></text>
+    <text id="収録日" transform="translate(904.913 147.83)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-31.5" y="0">収録日</tspan></text>
+    <g id="グループ_4" data-name="グループ 4">
+      <rect id="長方形_2" data-name="長方形 2" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 171.193)" fill="url(#linear-gradient)"/>
+      <rect id="長方形_3" data-name="長方形 3" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 171.193)" fill="#696969"/>
+      <text id="_6_15_火_" data-name="6/15(火)" transform="translate(84.583 205.226)" fill="gray" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/15</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">火</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="CHhom公開講座_ホメオパシー病理_内分泌_学校説明会" data-name="CHhom公開講座『ホメオパシー病理　内分泌①』＆学校説明会" transform="translate(147.795 205.226)" fill="gray" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">CHhom公開講座『ホメオパシー病理　内分泌①』＆学校説明会</tspan></text>
+      <text id="_2020_10_24" data-name="2020/10/24" transform="translate(904.913 204.523)" fill="gray" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-57.372" y="0">2020/10/24</tspan></text>
+      <text id="お申込みは_コチラ" data-name="お申込みは
+コチラ" transform="translate(1032.472 190.124)" fill="gray" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text>
+      <line id="線_1" data-name="線 1" y1="45.354" transform="translate(134.712 174.027)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_2" data-name="線 2" y1="45.354" transform="translate(715.814 174.027)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="由井寅子" transform="translate(728.898 205.226)" fill="gray" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子</tspan></text>
+      <line id="線_3" data-name="線 3" y1="45.354" transform="translate(843.373 174.027)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_5" data-name="グループ 5">
+      <rect id="長方形_4" data-name="長方形 4" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 227.886)" fill="url(#linear-gradient-2)"/>
+      <rect id="長方形_5" data-name="長方形 5" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 227.886)" fill="#696969"/>
+      <text id="_6_16_水_" data-name="6/16(水)" transform="translate(84.583 261.919)" fill="#696969" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/16</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">水</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="この時代を生き抜く_10の講座_第_回_食_" data-name="この時代を生き抜く、10の講座　第２回＜食＞" transform="translate(147.795 261.919)" fill="#696969" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">この時代を生き抜く、10の講座　第２回＜食＞</tspan></text>
+      <text id="タネ_グリホサート_戦後の食の破壊" data-name="タネ、グリホサート、
+戦後の食の破壊" transform="translate(598.358 249.817)" fill="gray" font-size="12" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">タネ、グリホサート、</tspan><tspan x="0" y="16">戦後の食の破壊</tspan></text>
+      <text id="由井寅子-2" data-name="由井寅子" transform="translate(728.898 261.919)" fill="#696969" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2020_7_16" data-name="2020/7/16" transform="translate(904.913 261.217)" fill="#696969" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-51.292" y="0">2020/7/16</tspan></text>
+      <text id="お申込みは_コチラ-2" data-name="お申込みは
+コチラ" transform="translate(1032.472 246.817)" fill="gray" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text>
+      <line id="線_4" data-name="線 4" y1="45.354" transform="translate(134.712 230.72)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_5" data-name="線 5" y1="45.354" transform="translate(715.814 230.72)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_6" data-name="線 6" y1="45.354" transform="translate(843.373 230.72)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_6" data-name="グループ 6">
+      <rect id="長方形_6" data-name="長方形 6" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 284.579)" fill="url(#linear-gradient)"/>
+      <rect id="長方形_7" data-name="長方形 7" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 284.579)" fill="#696969"/>
+      <text id="_6_17_木_" data-name="6/17(木)" transform="translate(84.583 318.611)" fill="gray" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/17</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">木</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="_ライブ配信_はじめてのファーイースト_フラワーエッセンス_夏のエッセンス" data-name="★ライブ配信★　はじめてのファーイースト・フラワーエッセンス
+  夏のエッセンス" transform="translate(684 308.611)" fill="gray" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-535.86" y="0">★ライブ配信★　はじめてのファーイースト・フラワーエッセンス</tspan><tspan x="-135.9" y="20" xml:space="preserve">  夏のエッセンス</tspan></text>
+      <text id="ライブ" transform="translate(904.913 317.909)" fill="gray" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-31.185" y="0">ライブ</tspan></text>
+      <text id="お申込みは_コチラ-3" data-name="お申込みは
+コチラ" transform="translate(1032.472 303.51)" fill="gray" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text>
+      <line id="線_7" data-name="線 7" y1="45.354" transform="translate(134.712 287.413)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_8" data-name="線 8" y1="45.354" transform="translate(715.814 287.413)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="東昭史" transform="translate(728.898 318.611)" fill="gray" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">東昭史</tspan></text>
+      <line id="線_9" data-name="線 9" y1="45.354" transform="translate(843.373 287.413)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_7" data-name="グループ 7">
+      <rect id="長方形_8" data-name="長方形 8" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 341.272)" fill="url(#linear-gradient-2)"/>
+      <rect id="長方形_9" data-name="長方形 9" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 341.272)" fill="#f04771"/>
+      <text id="_6_18_金_" data-name="6/18(金)" transform="translate(84.583 375.305)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/18</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">金</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="えらいこっちゃ_Gと健康問題_オンライン勉強会" data-name="えらいこっちゃ！　５Gと健康問題　オンライン勉強会" transform="translate(148 375.305)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">えらいこっちゃ！　５Gと健康問題　オンライン勉強会</tspan></text>
+      <text id="由井寅子_他" data-name="由井寅子 他" transform="translate(728.898 375.305)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子 他</tspan></text>
+      <text id="_2021_3_7" data-name="2021/3/7" transform="translate(904.913 374.603)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-45.213" y="0">2021/3/7</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2486"><text id="お申込みは_コチラ-4" data-name="お申込みは
+コチラ" transform="translate(1032.472 360.203)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_10" data-name="線 10" y1="45.354" transform="translate(134.712 344.106)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_11" data-name="線 11" y1="45.354" transform="translate(715.814 344.106)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_12" data-name="線 12" y1="45.354" transform="translate(843.373 344.106)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_8" data-name="グループ 8">
+      <rect id="長方形_10" data-name="長方形 10" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 397.964)" fill="url(#linear-gradient)"/>
+      <rect id="長方形_11" data-name="長方形 11" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 397.965)" fill="#f04771"/>
+      <text id="_6_19_土_" data-name="6/19(土)" transform="translate(84.583 431.997)" fill="blue" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/19</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">土</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="_ライブ配信_ホメオパシーを応援するお医者さん_医療従事者の皆さまの会" data-name="★ライブ配信★
+ホメオパシーを応援するお医者さん・医療従事者の皆さまの会" transform="translate(147.795 419.997)" fill="red" font-size="16" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std" letter-spacing="-0.05em"><tspan x="0" y="0">★ライブ配信★</tspan><tspan font-size="20" fill="#000"><tspan x="0" y="20">ホメオパシーを応援するお医者さん・医療従事者の皆さまの会</tspan></tspan></text>
+      <text id="ライブ-2" data-name="ライブ" transform="translate(904.913 431.295)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-31.185" y="0">ライブ</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2484"><text id="お申込みは_コチラ-5" data-name="お申込みは
+コチラ" transform="translate(1032.472 416.896)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_13" data-name="線 13" y1="45.354" transform="translate(134.712 400.799)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_14" data-name="線 14" y1="45.354" transform="translate(715.814 400.799)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="髙野弘之_他" data-name="髙野弘之 他" transform="translate(728.898 431.997)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">髙野弘之 他</tspan></text>
+      <line id="線_15" data-name="線 15" y1="45.354" transform="translate(843.373 400.799)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_9" data-name="グループ 9">
+      <rect id="長方形_12" data-name="長方形 12" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 454.657)" fill="url(#linear-gradient-2)"/>
+      <rect id="長方形_13" data-name="長方形 13" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 454.657)" fill="#f04771"/>
+      <text id="_6_19_土_2" data-name="6/19(土)" transform="translate(84.583 488.69)" fill="blue" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/19</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">土</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="_ライブ配信_ホメオパシーサロン" data-name="★ライブ配信★ ホメオパシーサロン" transform="translate(147.795 488.69)" fill="red" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">★ライブ配信★ </tspan><tspan y="0" fill="#000">ホメオパシーサロン</tspan></text>
+      <text id="由井寅子-3" data-name="由井寅子" transform="translate(728.898 488.69)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="ライブ-3" data-name="ライブ" transform="translate(904.913 487.988)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-31.185" y="0">ライブ</tspan></text>
+      <a href="https://ec.homoeopathy.ac/"><text id="お申込みは_コチラ-6" data-name="お申込みは
+コチラ" transform="translate(1032.472 473.589)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_16" data-name="線 16" y1="45.354" transform="translate(134.712 457.492)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_17" data-name="線 17" y1="45.354" transform="translate(715.814 457.492)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_18" data-name="線 18" y1="45.354" transform="translate(843.373 457.492)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_10" data-name="グループ 10">
+      <rect id="長方形_14" data-name="長方形 14" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 511.35)" fill="url(#linear-gradient)"/>
+      <rect id="長方形_15" data-name="長方形 15" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 511.35)" fill="#f04771"/>
+      <text id="_6_20_日_" data-name="6/20（日)" transform="translate(84.583 545.383)" fill="red" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-37.184" y="0">6/20</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">（日</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="歯_歯茎_口腔内を健康にし_免疫を上げよう_" data-name="歯・歯茎・口腔内を健康にし、免疫を上げよう！" transform="translate(147.795 545.383)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">歯・歯茎・口腔内を健康にし、免疫を上げよう！</tspan></text>
+      <text id="_2021_6_5" data-name="2021/6/5" transform="translate(904.913 544.681)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-45.213" y="0">2021/6/5</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2492"><text id="お申込みは_コチラ-7" data-name="お申込みは
+コチラ" transform="translate(1032.472 530.281)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_19" data-name="線 19" y1="45.354" transform="translate(134.712 514.185)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_20" data-name="線 20" y1="45.354" transform="translate(715.814 514.185)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="由井寅子_他-2" data-name="由井寅子 他" transform="translate(728.898 545.383)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子 他</tspan></text>
+      <line id="線_21" data-name="線 21" y1="45.354" transform="translate(843.373 514.185)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_11" data-name="グループ 11">
+      <rect id="長方形_16" data-name="長方形 16" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 568.043)" fill="url(#linear-gradient-2)"/>
+      <rect id="長方形_17" data-name="長方形 17" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 568.043)" fill="#f04771"/>
+      <text id="_6_21_月_" data-name="6/21(月)" transform="translate(84.583 602.076)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/21</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">月</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="_美食同源_世界の平安の鍵は女性の美にあり" data-name="「美食同源」世界の平安の鍵は女性の美にあり" transform="translate(147.795 602.076)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">「美食同源」世界の平安の鍵は女性の美にあり</tspan></text>
+      <text id="由井寅子-4" data-name="由井寅子" transform="translate(728.898 602.076)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2021_4_17" data-name="2021/4/17" transform="translate(904.913 601.374)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-51.292" y="0">2021/4/17</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2500"><text id="お申込みは_コチラ-8" data-name="お申込みは
+コチラ" transform="translate(1032.472 586.975)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_22" data-name="線 22" y1="45.354" transform="translate(134.712 570.878)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_23" data-name="線 23" y1="45.354" transform="translate(715.814 570.878)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_24" data-name="線 24" y1="45.354" transform="translate(843.373 570.878)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_12" data-name="グループ 12">
+      <rect id="長方形_18" data-name="長方形 18" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 624.736)" fill="url(#linear-gradient)"/>
+      <rect id="長方形_19" data-name="長方形 19" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 624.736)" fill="#f04771"/>
+      <text id="_6_22_火_" data-name="6/22(火)" transform="translate(84.583 658.769)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/22</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">火</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="賢者の薬草箱_基本キット3回講座_" data-name="賢者の薬草箱 基本キット3回講座 ①" transform="translate(147.795 658.769)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">賢者の薬草箱 基本キット3回講座 ①</tspan></text>
+      <text id="_2021_6_3" data-name="2021/6/3" transform="translate(904.913 658.066)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-45.213" y="0">2021/6/3</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2501"><text id="お申込みは_コチラ-9" data-name="お申込みは
+コチラ" transform="translate(1032.472 643.667)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_25" data-name="線 25" y1="45.354" transform="translate(134.712 627.571)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_26" data-name="線 26" y1="45.354" transform="translate(715.814 627.571)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="高宮義和" transform="translate(728.898 658.769)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">高宮義和</tspan></text>
+      <line id="線_27" data-name="線 27" y1="45.354" transform="translate(843.373 627.571)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_13" data-name="グループ 13">
+      <rect id="長方形_20" data-name="長方形 20" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 681.429)" fill="url(#linear-gradient-2)"/>
+      <rect id="長方形_21" data-name="長方形 21" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 681.429)" fill="#f04771"/>
+      <text id="_6_23_水_" data-name="6/23(水)" transform="translate(84.583 715.462)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/23</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">水</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="賢者の薬草箱_基本キット3回講座_2" data-name="賢者の薬草箱 基本キット3回講座 ②" transform="translate(147.795 715.462)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">賢者の薬草箱 基本キット3回講座 ②</tspan></text>
+      <text id="渡邊公代" transform="translate(728.898 715.462)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">渡邊公代</tspan></text>
+      <text id="_2021_6_10" data-name="2021/6/10" transform="translate(904.913 714.76)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-51.292" y="0">2021/6/10</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2502"><text id="お申込みは_コチラ-10" data-name="お申込みは
+コチラ" transform="translate(1032.472 700.36)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_28" data-name="線 28" y1="45.354" transform="translate(134.712 684.264)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_29" data-name="線 29" y1="45.354" transform="translate(715.814 684.264)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_30" data-name="線 30" y1="45.354" transform="translate(843.373 684.264)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_14" data-name="グループ 14">
+      <rect id="長方形_22" data-name="長方形 22" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 738.122)" fill="url(#linear-gradient)"/>
+      <rect id="長方形_23" data-name="長方形 23" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 738.122)" fill="#f04771"/>
+      <text id="_6_24_木_" data-name="6/24(木)" transform="translate(84.583 772.154)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/24</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">木</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="_ライブ配信_賢者の薬草箱_基本キット3回講座_" data-name="★ライブ配信★ 賢者の薬草箱 基本キット3回講座 ③" transform="translate(147.795 772.154)" fill="red" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">★ライブ配信★ </tspan><tspan y="0" fill="#000">賢者の薬草箱 基本キット3回講座 ③</tspan></text>
+      <text id="ライブ-4" data-name="ライブ" transform="translate(904.913 771.452)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-31.185" y="0">ライブ</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2446"><text id="お申込みは_コチラ-11" data-name="お申込みは
+コチラ" transform="translate(1032.472 757.053)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_31" data-name="線 31" y1="45.354" transform="translate(134.712 740.957)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_32" data-name="線 32" y1="45.354" transform="translate(715.814 740.957)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="富田沙織" transform="translate(728.898 772.154)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">富田沙織</tspan></text>
+      <line id="線_33" data-name="線 33" y1="45.354" transform="translate(843.373 740.957)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_15" data-name="グループ 15">
+      <rect id="長方形_24" data-name="長方形 24" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 794.815)" fill="url(#linear-gradient-2)"/>
+      <rect id="長方形_25" data-name="長方形 25" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 794.815)" fill="#f04771"/>
+      <text id="_6_25_金_" data-name="6/25(金)" transform="translate(84.583 828.848)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/25</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">金</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="水のレメディ36種_霊的見解セミナー_" data-name="水のレメディ36種 霊的見解セミナー ①" transform="translate(147.795 828.848)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">水のレメディ36種 霊的見解セミナー ①</tspan></text>
+      <text id="由井寅子-5" data-name="由井寅子" transform="translate(728.898 828.848)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2020_2_11" data-name="2020/2/11" transform="translate(904.913 828.146)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-51.292" y="0">2020/2/11</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2503"><text id="お申込みは_コチラ-12" data-name="お申込みは
+コチラ" transform="translate(1032.472 813.746)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_34" data-name="線 34" y1="45.354" transform="translate(134.712 797.649)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_35" data-name="線 35" y1="45.354" transform="translate(715.814 797.649)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_36" data-name="線 36" y1="45.354" transform="translate(843.373 797.649)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_16" data-name="グループ 16">
+      <rect id="長方形_26" data-name="長方形 26" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 851.508)" fill="url(#linear-gradient)"/>
+      <rect id="長方形_27" data-name="長方形 27" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 851.508)" fill="#f04771"/>
+      <text id="_6_26_土_" data-name="6/26（土)" transform="translate(84.583 885.54)" fill="blue" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-37.184" y="0">6/26</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">（土</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="_ライブ配信_第12回_日本の農業_食_未来を考えるシンポジウム" data-name="★ライブ配信★ 第12回 日本の農業、食、未来を考えるシンポジウム" transform="translate(147.795 885.54)" fill="red" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">★ライブ配信★ </tspan><tspan y="0" fill="#000">第12回 日本の農業、食、未来を考えるシンポジウム</tspan></text>
+      <text id="ライブ-5" data-name="ライブ" transform="translate(904.913 884.838)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-31.185" y="0">ライブ</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2449"><text id="お申込みは_コチラ-13" data-name="お申込みは
+コチラ" transform="translate(1032.472 870.438)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_37" data-name="線 37" y1="45.354" transform="translate(134.712 854.342)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_38" data-name="線 38" y1="45.354" transform="translate(715.814 854.342)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="由井寅子_他-3" data-name="由井寅子 他" transform="translate(728.898 885.54)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子 他</tspan></text>
+      <line id="線_39" data-name="線 39" y1="45.354" transform="translate(843.373 854.342)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_17" data-name="グループ 17">
+      <rect id="長方形_28" data-name="長方形 28" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 908.201)" fill="url(#linear-gradient-2)"/>
+      <rect id="長方形_29" data-name="長方形 29" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 908.201)" fill="#f04771"/>
+      <text id="_6_27_日_" data-name="6/27(日)" transform="translate(84.583 942.233)" fill="red" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/27</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">日</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="水のレメディ36種_霊的見解セミナー_2" data-name="水のレメディ36種 霊的見解セミナー ②" transform="translate(147.795 942.233)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">水のレメディ36種 霊的見解セミナー ②</tspan></text>
+      <text id="由井寅子-6" data-name="由井寅子" transform="translate(728.898 942.233)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2020_2_15" data-name="2020/2/15" transform="translate(904.913 941.531)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-51.292" y="0">2020/2/15</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2504"><text id="お申込みは_コチラ-14" data-name="お申込みは
+コチラ" transform="translate(1032.472 927.132)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_40" data-name="線 40" y1="45.354" transform="translate(134.712 911.035)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_41" data-name="線 41" y1="45.354" transform="translate(715.814 911.035)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_42" data-name="線 42" y1="45.354" transform="translate(843.373 911.035)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_18" data-name="グループ 18">
+      <rect id="長方形_30" data-name="長方形 30" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 964.894)" fill="url(#linear-gradient)"/>
+      <rect id="長方形_31" data-name="長方形 31" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 964.894)" fill="#f04771"/>
+      <text id="_6_28_火_" data-name="6/28(火)" transform="translate(84.583 998.926)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/28</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">火</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="目からウロコの古事記の新解説_" data-name="目からウロコの古事記の新解説①" transform="translate(147.795 998.926)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">目からウロコの古事記の新解説①</tspan></text>
+      <text id="_2017_8_13" data-name="2017/8/13" transform="translate(904.913 998.224)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-51.292" y="0">2017/8/13</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2505"><text id="お申込みは_コチラ-15" data-name="お申込みは
+コチラ" transform="translate(1032.472 983.824)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_43" data-name="線 43" y1="45.354" transform="translate(134.712 967.728)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_44" data-name="線 44" y1="45.354" transform="translate(715.814 967.728)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="小名木善行" transform="translate(728.898 998.926)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">小名木善行</tspan></text>
+      <line id="線_45" data-name="線 45" y1="45.354" transform="translate(843.373 967.728)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_19" data-name="グループ 19">
+      <rect id="長方形_32" data-name="長方形 32" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 1021.587)" fill="url(#linear-gradient-2)"/>
+      <rect id="長方形_33" data-name="長方形 33" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 1021.587)" fill="#f04771"/>
+      <text id="_6_29_月_" data-name="6/29(月)" transform="translate(84.583 1055.619)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/29</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">月</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="やっぱりホメオパシーは素晴らしい_" data-name="やっぱりホメオパシーは素晴らしい！" transform="translate(147.795 1055.619)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">やっぱりホメオパシーは素晴らしい！</tspan></text>
+      <text id="由井寅子-7" data-name="由井寅子" transform="translate(728.898 1055.619)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2020_3_14" data-name="2020/3/14" transform="translate(904.913 1054.917)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-51.292" y="0">2020/3/14</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2506"><text id="お申込みは_コチラ-16" data-name="お申込みは
+コチラ" transform="translate(1032.472 1040.518)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_46" data-name="線 46" y1="45.354" transform="translate(134.712 1024.421)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_47" data-name="線 47" y1="45.354" transform="translate(715.814 1024.421)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_48" data-name="線 48" y1="45.354" transform="translate(843.373 1024.421)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_20" data-name="グループ 20">
+      <rect id="長方形_34" data-name="長方形 34" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 1078.279)" fill="url(#linear-gradient)"/>
+      <rect id="長方形_35" data-name="長方形 35" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 1078.28)" fill="#f04771"/>
+      <text id="_6_30_火_" data-name="6/30(火)" transform="translate(84.583 1112.312)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-32.296" y="0">6/30</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">火</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="ホームキットDay_ホームキットの体験談発表_" data-name="ホームキットDay　〜ホームキットの体験談発表〜" transform="translate(147.795 1112.312)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">ホームキットDay　〜ホームキットの体験談発表〜</tspan></text>
+      <text id="_2021_5_1" data-name="2021/5/1" transform="translate(904.913 1111.609)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-45.213" y="0">2021/5/1</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2507"><text id="お申込みは_コチラ-17" data-name="お申込みは
+コチラ" transform="translate(1032.472 1097.21)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_49" data-name="線 49" y1="45.354" transform="translate(134.712 1081.114)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_50" data-name="線 50" y1="45.354" transform="translate(715.814 1081.114)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="高宮義和_他" data-name="高宮義和 他" transform="translate(728.898 1112.312)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">高宮義和 他</tspan></text>
+      <line id="線_51" data-name="線 51" y1="45.354" transform="translate(843.373 1081.114)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_21" data-name="グループ 21">
+      <rect id="長方形_36" data-name="長方形 36" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 1134.972)" fill="url(#linear-gradient-2)"/>
+      <rect id="長方形_37" data-name="長方形 37" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 1134.972)" fill="#f04771"/>
+      <text id="_7_1_水_" data-name="7/1(水)" transform="translate(84.583 1169.005)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-26.636" y="0">7/1</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">水</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="_ライブ配信_コロちゃん時代の夏のホメオパシー対策" data-name="★ライブ配信★ コロちゃん時代の夏のホメオパシー対策" transform="translate(147.795 1169.005)" fill="red" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">★ライブ配信★ </tspan><tspan y="0" fill="#000">コロちゃん時代の夏のホメオパシー対策</tspan></text>
+      <text id="増田敬子" transform="translate(728.898 1169.005)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">増田敬子</tspan></text>
+      <text id="ライブ-6" data-name="ライブ" transform="translate(904.913 1168.303)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-31.185" y="0">ライブ</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2450"><text id="お申込みは_コチラ-18" data-name="お申込みは
+コチラ" transform="translate(1032.472 1153.903)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_52" data-name="線 52" y1="45.354" transform="translate(134.712 1137.807)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_53" data-name="線 53" y1="45.354" transform="translate(715.814 1137.807)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_54" data-name="線 54" y1="45.354" transform="translate(843.373 1137.807)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_22" data-name="グループ 22">
+      <rect id="長方形_38" data-name="長方形 38" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 1191.665)" fill="url(#linear-gradient)"/>
+      <rect id="長方形_39" data-name="長方形 39" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 1191.666)" fill="#f04771"/>
+      <text id="_7_2_木_" data-name="7/2(木)" transform="translate(84.583 1225.697)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-26.636" y="0">7/2</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">木</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="ホメオパシー入門_学校案内" data-name="ホメオパシー入門 + 学校案内" transform="translate(147.795 1225.697)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">ホメオパシー入門 + 学校案内</tspan></text>
+      <text id="_2018_3_18" data-name="2018/3/18" transform="translate(904.913 1224.995)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-51.292" y="0">2018/3/18</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2508"><text id="お申込みは_コチラ-19" data-name="お申込みは
+コチラ" transform="translate(1032.472 1210.596)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_55" data-name="線 55" y1="45.354" transform="translate(134.712 1194.5)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_56" data-name="線 56" y1="45.354" transform="translate(715.814 1194.5)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="由井寅子-8" data-name="由井寅子" transform="translate(728.898 1225.697)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子</tspan></text>
+      <line id="線_57" data-name="線 57" y1="45.354" transform="translate(843.373 1194.5)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_23" data-name="グループ 23">
+      <rect id="長方形_40" data-name="長方形 40" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 1248.358)" fill="url(#linear-gradient-2)"/>
+      <rect id="長方形_41" data-name="長方形 41" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 1248.358)" fill="#f04771"/>
+      <text id="_7_3_金_" data-name="7/3(金)" transform="translate(84.583 1282.391)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-26.636" y="0">7/3</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">金</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="ホメオパシーを応援するお医者さん_医療従事者の皆さまの会" data-name="ホメオパシーを応援するお医者さん・医療従事者の皆さまの会" transform="translate(147.795 1282.391)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std" letter-spacing="-0.05em"><tspan x="0" y="0">ホメオパシーを応援するお医者さん・医療従事者の皆さまの会</tspan></text>
+      <text id="由井寅子-9" data-name="由井寅子" transform="translate(728.898 1282.391)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2021_6_19" data-name="2021/6/19" transform="translate(904.913 1281.688)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-51.292" y="0">2021/6/19</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2509"><text id="お申込みは_コチラ-20" data-name="お申込みは
+コチラ" transform="translate(1032.472 1267.289)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_58" data-name="線 58" y1="45.354" transform="translate(134.712 1251.193)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_59" data-name="線 59" y1="45.354" transform="translate(715.814 1251.193)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_60" data-name="線 60" y1="45.354" transform="translate(843.373 1251.193)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="グループ_24" data-name="グループ 24">
+      <rect id="長方形_42" data-name="長方形 42" width="935.001" height="51.024" rx="14.173" transform="translate(35.499 1305.051)" fill="url(#linear-gradient)"/>
+      <rect id="長方形_43" data-name="長方形 43" width="113.386" height="51.024" rx="18.708" transform="translate(976.602 1305.051)" fill="#f04771"/>
+      <text id="_7_4_土_" data-name="7/4(土)" transform="translate(84.583 1339.084)" fill="blue" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="-26.636" y="0">7/4</tspan><tspan y="0" font-size="14">(</tspan><tspan y="0" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI">土</tspan><tspan y="0" font-size="14">)</tspan></text>
+      <text id="心Day" transform="translate(147.795 1339.084)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">心Day</tspan></text>
+      <text id="_苦しみを分かち合い_生きる希望を見出す_インナーチャイルド分かち合いの会_" data-name="～苦しみを分かち合い 生きる希望を見出す
+　　　　　 インナーチャイルド分かち合いの会～" transform="translate(235.925 1331.075)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0" letter-spacing="-0.2em">～</tspan><tspan y="0">苦しみを分かち合い 生きる希望を見出す</tspan><tspan x="0" y="20">　　　　　 インナーチャイルド分かち合いの会～</tspan></text>
+      <text id="由井寅子-10" data-name="由井寅子" transform="translate(728.898 1339.084)" font-size="18" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2021_4_29" data-name="2021/4/29" transform="translate(904.913 1338.382)" font-size="21" font-family="TsukuARdGothicStd-R, FOT-TsukuARdGothic Std"><tspan x="-51.292" y="0">2021/4/29</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2510"><text id="お申込みは_コチラ-21" data-name="お申込みは
+コチラ" transform="translate(1032.472 1323.982)" fill="#fff" font-size="16" font-family="UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N"><tspan x="-40" y="0">お申込みは</tspan><tspan font-size="21"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_61" data-name="線 61" y1="45.354" transform="translate(134.712 1307.886)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_62" data-name="線 62" y1="45.354" transform="translate(715.814 1307.886)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="線_63" data-name="線 63" y1="45.354" transform="translate(843.373 1307.886)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <line id="線_64" data-name="線 64" y1="45.354" transform="translate(134.711 117.144)" fill="none" stroke="gray" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="線_65" data-name="線 65" y1="45.354" transform="translate(715.813 117.144)" fill="none" stroke="gray" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="線_66" data-name="線 66" y1="45.354" transform="translate(843.373 117.144)" fill="none" stroke="gray" stroke-miterlimit="10" stroke-width="1"/>
+    <text id="_6月_7月" data-name="6月・7月" transform="translate(125.499 98.818)" font-size="48" font-family="UDMarugo_LargePr6N-DB, FOT-UDMarugo_Large Pr6N DB"><tspan x="-89.904" y="0">6</tspan><tspan y="0" font-size="36">月・</tspan><tspan y="0">7</tspan><tspan y="0" font-size="36">月</tspan></text>
+    <text id="CHhom講演会_配信スケジュール" data-name="CHhom講演会 配信スケジュール" transform="translate(527.924 101.966)" font-size="24" font-family="UDMarugo_LargePr6N-DB, FOT-UDMarugo_Large Pr6N DB"><tspan x="-181.38" y="0">CHhom講演会 配信スケジュール</tspan></text>
+    <g id="グループ_3" data-name="グループ 3">
+      <g id="グループ_1" data-name="グループ 1">
+        <rect id="長方形_44" data-name="長方形 44" width="206" height="31" transform="translate(873 60)" fill="#0071bc"/>
+        <text id="各日10:00_25:00" data-name="各日10:00～25:00" transform="translate(877.271 85.2)" fill="#fff" font-size="18" font-family="UDShinMGoPr6N-Light, A-OTF UD Shin Maru Go Pr6N" font-weight="300"><tspan x="0" y="0">各日</tspan><tspan y="0" font-size="24">10:00～25:00</tspan></text>
+      </g>
+      <g id="グループ_2" data-name="グループ 2">
+        <text id="_ライブは開始時間以降の配信です" data-name="※ライブは開始時間以降の配信です" transform="translate(873.41 107.966)" font-size="14" font-family="SegoeUISymbol, Segoe UI Symbol"><tspan x="0" y="0">※</tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">ライブは開始時間以降の配信です</tspan></text>
+        <text id="配信時間" transform="translate(873.41 54.966)" font-size="18" font-family="YuGothicUI-Regular, Yu Gothic UI"><tspan x="0" y="0">配信時間</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

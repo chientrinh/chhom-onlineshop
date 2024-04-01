@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHhom配信スケジュール</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-dark mb-2" style="background-color:#103354;">
+       <a class="navbar-brand" href="https://ec.homoeopathy.ac/">CHhomオンラインショップ</a><a class="navbar-brand"></a>
+	</nav>
+  <div class="jumbotron text-center" class="jumbotron jumbotron-extend">
+      <h4 class="display-8">CHhomオンライン講演会</h4>
+<h2 class="display-5">配信スケジュール</h2>
+<hr class="my-4">
+    <p class="text-right">配信時間　10:00～25:00</p>
+  </div>
+       <br/>
+<table align="center" width="800" border="2" cellspacing="1" cellpadding="3">
+  <tbody>
+    <tr>
+      <th class="text-center" scope="col">配信日</th>
+      <th class="text-center" scope="col">講演会タイトル</th>
+      <th class="text-center" scope="col">講師</th>
+      <th class="text-center" scope="col">収録日</th>
+    </tr>
+   <tr>
+      <td class="text-center">7/2<small>（金）</small></td>
+		<td><a href="https://ec.homoeopathy.ac/product/2508">&nbsp;ホメオパシー入門 + 学校案内</a></td>
+      <td class="text-center">由井寅子</td>
+      <td class="text-center">2018/3/18</td>
+    </tr>
+    <tr>
+      <td class="text-center"><font color="blue">7/3<small>（土）</font></small></td>
+      <td><a href="https://ec.homoeopathy.ac/product/2509">&nbsp;ホメオパシーを応援するお医者さん・医療従事者の皆さまの会</a></td>
+      <td class="text-center">由井寅子</td>
+      <td class="text-center">2021/6/19</td>
+    </tr>
+	<tr>
+		<td class="text-center"><font color="red">7/4<small>（日）</font></small></td>
+      <td><a href="https://ec.homoeopathy.ac/product/2510">&nbsp;心Day<small>&nbsp;-苦しみを分かち合い 生きる希望を見出す インナーチャイルド分かち合いの会-</small></a></td>
+      <td class="text-center">由井寅子</td>
+      <td class="text-center">2021/4/29</td>
+    </tr>
+	        <td class="text-center">7/5<small>（月）</small></td>
+      <td><a href="https://ec.homoeopathy.ac">&nbsp;第12回 日本の農業、食、コロナを考えるシンポジウム</a></td>
+      <td class="text-center">由井寅子 他</td>
+      <td class="text-center">2021/6/26</td>
+    </tr>
+      <td class="text-center">7/6<small>（火）</small></td>
+      <td><a href="https://ec.homoeopathy.ac">&nbsp;この時代を生き抜く、10の講座　第1回＜環境＞</a></td>
+      <td class="text-center">由井寅子</td>
+      <td class="text-center">2020/6/25</td>
+    </tr>
+      <td class="text-center">7/7<small>（水）</small></td>
+      <td><a href="https://ec.homoeopathy.ac">&nbsp;「美食同源」世界の平安の鍵は女性の美にあり</a></td>
+      <td class="text-center">由井寅子</td>
+      <td class="text-center">2021/4/17</td>
+    </tr>
+      <td class="text-center">7/8<small>（木）</small></td>
+      <td><a href="https://ec.homoeopathy.ac/product/2469"><strong>&nbsp;★ライブ配信★ 母なる愛のマザーチンクチャーを感じる３回講座 ①</a></strong></td>
+      <td class="text-center">高宮義和</td>
+      <td  class="text-center" style="color: deeppink"><strong>ライブ</strong></td>
+    </tr>
+      <td class="text-center">7/9<small>（金）</small></td>
+      <td><a href="https://ec.homoeopathy.ac">&nbsp;賢者の薬草箱 基本キット3回講座 ③</a></td>
+      <td class="text-center">富田沙織</td>
+      <td class="text-center">2021/6/24</td>
+    </tr>
+      <td class="text-center"><font color="blue">7/10<small>（土）</small></td>
+      <td><a href="https://ec.homoeopathy.ac">&nbsp;第12回 日本の農業、食、ｺﾛﾅを考えるシンポジウム</a></td>
+      <td class="text-center">由井寅子</td>
+      <td class="text-center">2021/6/26</td>
+    </tr>
+      <td class="text-center"><font color="red">7/11<small>（日）</small></td>
+      <td><a href="https://ec.homoeopathy.ac">&nbsp;母なる愛のマザーチンクチャーを感じる3回講座 ①</a></td>
+      <td class="text-center">由井寅子</td>
+      <td class="text-center">2021/4/17</td>
+    </tr>
+      <td class="text-center">7/12<small>（月）</small></td>
+      <td><a href="https://ec.homoeopathy.ac">&nbsp;この時代を生き抜く、10の講座 第2回＜食①＞</a></td>
+      <td class="text-center">由井寅子</td>
+      <td class="text-center">2020/7/16</td>
+    </tr>
+      <td class="text-center">7/13<small>（火）</small></td>
+      <td><a href="https://ec.homoeopathy.ac">&nbsp;この時代を生き抜く、10の講座 第3回＜歴史＞</a></td>
+      <td class="text-center">由井寅子</td>
+      <td class="text-center">2020/8/15</td>
+    </tr>
+      <td>&nbsp;7/14<small>（水）</small></td>
+      <td><a href="https://ec.homoeopathy.ac">&nbsp;この時代を生き抜く、10の講座 第4回＜種＞</a></td>
+      <td class="text-center">由井寅子</td>
+      <td class="text-center">2020/9/21</td>
+    </tr>
+    <tr>
+      <td class="text-center">7/15<small>（木）</small></td>
+      <td><a href="https://ec.homoeopathy.ac/product/2470"><strong>&nbsp;★ライブ配信★ 母なる愛のマザーチンクチャーを感じる３回講座 ②</a></strong></td>
+      <td class="text-center">渡邊公代</td>
+      <td  class="text-center" style="color: deeppink"><strong>ライブ</strong></td>
+    </tr>
+    <tr>
+      <td class="text-center">7/22<small>（木）</small></td>
+      <td><a href="https://ec.homoeopathy.ac/product/2471"><strong>&nbsp;★ライブ配信★ 母なる愛のマザーチンクチャーを感じる３回講座 ③</a></strong></td>
+      <td class="text-center">菊田雄介</td>
+      <td  class="text-center" style="color: deeppink"><strong>ライブ</strong></td>
+    </tr>
+    <tr>
+      <td class="text-center">7/29<small>（木）</small></td>
+		<td><a href="https://ec.homoeopathy.ac/product/2525"><strong>&nbsp;★ライブ配信★ 今から始めるホメオパシー</strong></a></td>
+      <td class="text-center">富田沙織</td>
+      <td  class="text-center" style="color: deeppink"><strong>ライブ</strong></td>
+    </tr>
+      <td class="text-center"><font color="blue">7/31<small>（土）</small></td>
+		<td><a href="https://ec.homoeopathy.ac/product/2512"><strong>&nbsp;★ライブ配信★<br>&nbsp;白魔術のハーブ・サポートチンクチャー
+薬草魔女に花束を シーズン３</br></a></strong></td>
+      <td class="text-center">菊田雄介</td>
+      <td  class="text-center" style="color: deeppink"><strong>ライブ</strong></td>
+    </tr></table>
+       <br/>
+       <br>
+       <hr>
+       <div class="row">
+         <div class="text-center col-lg-6 offset-lg-3">
+            <p>Copyright &copy; 2021 &middot; All Rights Reserved &middot; <a href="https://www.homoeopathy.ac/" ><strong>CHhom</strong></a></p>
+          </div>
+       </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHhom配信スケジュール</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-dark mb-2" style="background-color:#103354;">
+       <a class="navbar-brand" href="https://www.homoeopathy.ac/"><img src="image/chhom.png" width="88" height="31" class="rounded"/></a><a class="navbar-brand" href="https://ec.homoeopathy.ac/"><img src="image/onlineshop.png" width="88" height="31" class="rounded"/></a><a class="navbar-brand" href="https://tv.toyouke.com/"><img src="image/toyoukeTV.png" width="88" height="31" class="rounded"/></a>
+	</nav>
+  <div class="jumbotron text-center" class="jumbotron jumbotron-extend">
+      <h4 class="display-8">CHhomオンライン講演会</h4>
+      <h2 class="display-5">配信スケジュール</h2>
+	  <h5 class="display-8 text-center"style="background:purple; color:white;">オンライン視聴・会場参加チケットのお申込みは配信スケジュールのタイトルリンクから！</br></h5>
+      <p class="text-right">配信時間　10:00～26:00 / ライブ　開始時間～26:00</p>
+
+<hr class="my-4">
+    <p class="text-center">はじめてレメディーやサポートチンクチャーをおとりになられる方はホメオパシー療法を正確にご理解いただくために<br><a href="https://www.youtube.com/embed/JDPk2NObTY8"><span style="background:deeppink; color:white;">「由井寅子のホメオパシー療法入門」</a>をご視聴ください。<br>セルフケアで対処が難しい場合はプロフェッショナルホメオパスに相談できるアプリ<b>「ホメチューブ」</b>をお勧めします。詳しくは<b><a href="https://www.homoeopathy.ac/news/27504/"><span style="color: deeppink">こちら</b></a>から。</p>	  
+</div>
+
+	
+<table frame="void" rules="none" align="center" width="1000" border="2" cellspacing="2" cellpadding="3">
+  <tbody>
+
+
+    <tr>
+    <tr bgcolor="#ffcccc">
+      <th class="text-center" scope="col"> 配 信 日 </th>
+      <th class="text-center" scope="col">講演会タイトル</th>
+      <th class="text-center" scope="col">講　師</th>
+      <th class="text-center" scope="col">収 録 日</th>
+    </tr>
+
+
+
+
+
+
+　<tr>
+      <td class="text-center"><font color="red"><b>&nbsp;11/26<small>（日）<font color="black"><br>～12/2</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4607"><b>増田敬子ホメオパスの首肩腰足お尻のコリほぐし大会<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>こりほぐしの基礎知識とセルフケアに必要なレメディー、自分でできるエクササイズを レクチャーします！</small></a></b></td>
+      <td class="text-center small">増田敬子</td>
+      <td class="text-center small">2023/1/21</td>
+    </tr>
+　<tr>
+      <td class="text-center"><font color="red"><b>&nbsp;11/26<small>（日）<font color="black"><br>～12/2</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4619"><b>-----ZENホメオパシー症例集　＜インチャ癒しのケース＞-----<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「サポートMENEKI-GREATからの一人っ子インチャの癒し」</small></a></b></td>
+      <td class="text-center small">北村秀夫</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/27<small>（月）<br>～12/3</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4608"><b>未曾有の時代を生き抜くためのはじめてのホメオパシー基礎講座<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>ホメオパシーの基本から、免疫、現代医学との違い、レメディーなど、ZENホメオパシーをテーマに解説。</small></a></b></td>
+      <td class="text-center small">&nbsp;菅野幸二&nbsp;</td>
+      <td class="text-center small">2022/11/17</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/27<small>（月）<br>～12/3</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4620"><b>-----ZENホメオパシー症例集　＜インチャ癒しのケース＞-----<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「由井寅子先生発案のインナーチャイルド癒しをすることでの私の変化」</small></a></b></td>
+      <td class="text-center small">木村恵美子</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/28<small>（火）<br>～12/4</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4609"><b>「みなのテレビ」（１）～（５）一挙配信<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>第1回「麦踏み」第2回「白菜」第3回「米」第4回「レタス」第5回「大根」</small></a></b></td>
+      <td class="text-center small">&nbsp;とらこ先生&nbsp;<div>&nbsp;豊受スタッフ&nbsp;</div></td>
+      <td class="text-center small">2022年</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/28<small>（火）<br>～12/4</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4621"><b>-----ZENホメオパシー症例集　＜自己免疫性疾患のケース＞-----<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「IgG4 関連疾患（指定難病 300）へのホメオパシー的サポート」</small></a></b></td>
+      <td class="text-center small">増田敬子</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/29<small>（水）<br>～12/5</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4610"><b>みなのホメオパシー第1回～第5回　一挙配信<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>八海山尊神社、八海山尊神社元宮、御嶽神社、棒ノ折の川、朝護孫子寺の5本です。</small></a></b></td>
+      <td class="text-center small">由井寅子</td>
+      <td class="text-center small">2023年</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/29<small>（水）<br>～12/5</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4622"><b>-----ZENホメオパシー症例集　＜インチャ癒しのケース＞-----<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「ZENホメオパシーの実践で自分を愛することに目覚め癒していったケース」</small></a></b></td>
+      <td class="text-center small">小林智美</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/30<small>（木）<br>～12/6</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4611"><b>CHhom公開講座「ホメオパシー病理　腸」<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>講義内容：腸で血液が作られる／土と腸は同じ／土と腸の微生物は同じ／古菌はミトコンドリアを活性させる　等</small></a></b></td>
+      <td class="text-center small">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center small">2020/1/25</td>
+    </tr>
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/30<small>（木）<br>～12/6</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4623"><b>-----ZENホメオパシー症例集　＜甲状腺疾患のケース＞-----<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「甲状腺疾患へのZENホメオパシーの有効性」</small></a></b></td>
+      <td class="text-center small">櫛田美智恵</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+
+
+　<tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;12/2<small>（土）<font color="black"><br>～12/8</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4503"><b><font color="deeppink">★東京PMライブ配信★&nbsp;ホメオパシーサロン<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　　とら子先生によるZENホメオパシー健康相談会のライブ聴講</a></b></td>
+      <td class="text-center small">&nbsp;由井寅子&nbsp;</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+
+    <tr>
+      <td class="text-center"><b>&nbsp;12/14<small>（木）<br>～12/20</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4593"><b><font color="deeppink">★東京ライブ配信★&nbsp;薬草を使った臓器の養生法を学ぶ・サポートチンクチャー活用塾 2時限目<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>第2回のテーマは「腸と土」ファーマーホメオパスが、農業の重要性や魅力などをお伝えします！</small></a></b></td>
+      <td class="text-center small">&nbsp;井手麻子&nbsp;</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+
+    <tr>
+      <td class="text-center"><b>&nbsp;12/21<small>（木）<br>～12/27</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4512"><b><font color="deeppink">★東京AMライブ配信★&nbsp;幸せへの扉　ホメオパシー<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>皆さんがどんな扉を開ければ幸せになるのでしょうか？ご自身で見つける機会です。</small></a></b></td>
+      <td class="text-center small">&nbsp;菅野幸二&nbsp;</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+
+　<tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;12/23<small>（土）<br><font color="black">～11/9</small></b></td>
+      <td>&nbsp; <b><a href="https://ec.homoeopathy.ac/product/4504"><font color="red">★東京AMライブ配信★&nbsp;【とらこ先生2023年最終講演】神ながらの道ー神仏との和合ー<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>開始時間9:30です。お間違えの無いようにお気を付けください。</small></a></b></td>
+      <td class="text-center small">由井寅子</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+　<tr>
+      <td class="text-center"><font color="blue"><b>&nbsp;1/6<small>（土）<font color="black"><br>～1/15</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4505"><b><font color="red">★東京AMライブ配信★&nbsp;新春豊受トーク2024<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>令和 六年も幸せに生きるため皆様とご一緒に新年を祝いたいと思います。ご来場お待ちしております。</small></a></b></td>
+      <td class="text-center small">由井寅子　他</td>
+      <td class="text-center" style="color: deeppink"><b>ライブ</b></td>
+    </tr>
+
+
+
+
+</table>
+　　<table  frame="void" rules="none" align="center" width="1000" border="2" cellspacing="2" cellpadding="3">
+    <tr>
+    <tr bgcolor="#ffcccc">
+      <th class="text-center" scope="col">配信期間</th>
+      <th class="text-center" scope="col">★第24回JPHMAコングレス 11月30日まで配信中！★</th>
+      <th class="text-center" scope="col">講　師</th>
+      <th class="text-center" scope="col">収 録 日</th>
+    </tr>
+
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/30<small>まで</small></b></td>
+      <td>&nbsp; <b><a href="https://ec.homoeopathy.ac/product/3907">第24回JPHMAコングレス（ZENホメオパシー学術大会）１日目</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国難の現実を知り、自らできるベストをつくそう　－鍵は知恵とZENホメオパシーと自然農－</a></td>
+      <td class="text-center small">JPHMA</td>
+      <td class="text-center small">2023/10/14</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/30<small>まで</small></b></td>
+      <td>&nbsp; <b><a href="https://ec.homoeopathy.ac/product/3908">第24回JPHMAコングレス（ZENホメオパシー学術大会）２日目</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国難の現実を知り、自らできるベストをつくそう　－鍵は知恵とZENホメオパシーと自然農－</a></td>
+      <td class="text-center small">JPHMA</td>
+      <td class="text-center small">2023/10/15</td>
+    </tr>
+
+
+　　<table  frame="void" rules="none" align="center" width="1000" border="2" cellspacing="2" cellpadding="3">
+    <tr>
+    <tr bgcolor="#ffcccc">
+      <th class="text-center" scope="col"> 配 信 日 </th>
+      <th class="text-center" scope="col">講演会タイトル</th>
+      <th class="text-center" scope="col">講　師</th>
+      <th class="text-center" scope="col">収 録 日</th>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/26<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4598"><b>映画「タネは誰のもの」<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>・特別講演「今、皆さんに知っていただきたい大切な話」山田正彦氏（元農林水産大臣、弁護士）　<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;・新作映画「食の安全を守る人々（仮題）」を語る　　原村政樹（映画監督）　・映画「タネは誰のもの」</small></a></b></td>
+      <td class="text-center small">映画</td>
+      <td class="text-center small">-</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/26<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4613"><b>-----ZENホメオパシー症例集　＜コロナワクチンのケース＞-----<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「ワクチン接種後悪化した膀胱炎が改善したケース+α」</small></a></b></td>
+      <td class="text-center small">尾崎実花</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/27<small>まで</small></b></td>
+     <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4599"><b>林重孝さん講演「種から育てよう－オーガニックの野菜のタネの採り方、育て方－」<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「有機農業の普及に、種がいかに大切か」「野菜づくりのコツ」など</small></a></td>
+      <td class="text-center small">&nbsp;林重孝&nbsp;</td>
+      <td class="text-center small">2022/7/6</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/27<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4614"><b>-----ZENホメオパシー症例集　＜虫刺されのケース＞-----<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「ムカデに刺されてホメオパシーで大事に至らなかったケース」</small></a></b></td>
+      <td class="text-center small">岡田八潮</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/28<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4600"><b>基本のレメディーを使ったペットのケアを学ぼう！パート１前後半＆２<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>動物たちのケアにホメオパシーのキットを使いこなそう！
+怪我事故の対処から、下痢や便秘、血尿、膀胱炎など。</small></a></b></td>
+      <td class="text-center small">あさのりょうこ<br>つかさ雷太</td>
+      <td class="text-center small">2022/8<br>2023/8/17</td>
+    </tr>
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/28<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4615"><b>-----ZENホメオパシー症例集　＜子宮頸がんワクチンのケース＞-----<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「子宮頸がんワクチン後の諸症状と多嚢胞性卵巣機能障害による無排卵、無月経から妊娠、出産へと導けたケース」</small></a></b></td>
+      <td class="text-center small">山田美智子</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+　<tr>
+      <td class="text-center"><b>&nbsp;11/29<small>まで</small></b></td>
+      <td>&nbsp; <b><a href="https://ec.homoeopathy.ac/product/4463">新嘗祭2023<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>【午前の部】石濱哲信先生講演【午後の部】とらこ先生講演</small></a></b></td>
+      <td class="text-center small">由井寅子</td>
+      <td class="text-center small">2023/11/23</td>
+    </tr>
+
+　<tr>
+      <td class="text-center"><b>&nbsp;11/29<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4616"><b>-----ZENホメオパシー症例集　＜コロナワクチンのケース＞-----<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「コロナワクチン後の帯状疱疹後神経痛に対して鍼灸とホメオパシーの併用が奏功したケース、お灸の勧め」</small></a></b></td>
+      <td class="text-center small">橋本孝子</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+
+    <tr>
+      <td class="text-center"><b>&nbsp;11/30<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4601"><b>QX-SCIO開発者ビル・ネルソン氏講演<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>量子力学の説明から始まり、SCIO の事例に至るまで、幅広く奥深い内容であり、一見の価値があります。</small></a></b></td>
+      <td class="text-center small">ビル・ネルソン</td>
+      <td class="text-center small">2006/9/18</td>
+    </tr>
+    <tr>
+      <td class="text-center"><b>&nbsp;11/30<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4617"><b>-----ZENホメオパシー症例集　＜メンタルケアのケース＞-----<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「精神に働きかけるサポートチンクチャーが、深い気づきをもたらす」</small></a></b></td>
+      <td class="text-center small">井手麻子</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+　<tr>
+      <td class="text-center"><b>&nbsp;12/1<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4602"><b>第14回日本の農業と食を考えるシンポジウム 基調講演・来賓講演<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>①来賓講演「お金に頼らない自給農という生き方」（岡本よりたか氏）<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②来賓講演「食料危機と工業型農業からどう抜け出すか？世界の実践から」（印鑰智哉氏）<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③基調講演「食料危機を乗り越える鍵は”豊受式”農業にあり」（由井寅子代表）</small></a></b></td>
+      <td class="text-center small">由井寅子 他&nbsp;</td>
+      <td class="text-center small">2022/6/18</td>
+    </tr>
+　<tr>
+      <td class="text-center"><b>&nbsp;12/1<small>まで</small></b></td>
+      <td>&nbsp; <a href="https://ec.homoeopathy.ac/product/4618"><b>-----ZENホメオパシー症例集　＜メンタルケアのケース＞-----<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>「怒り、屈辱、憤慨等の感情への応急対応」</small></a></b></td>
+      <td class="text-center small">渋谷直子</td>
+      <td class="text-center small">2022/10/15<br>2022/10/16</td>
+    </tr>
+</table>
+
+<br/>
+       <br>
+       <hr>
+       <div class="row">
+         <div class="text-center col-lg-6 offset-lg-3">
+            <p>Copyright &copy; 2023 &middot; All Rights Reserved &middot; <a href="https://www.homoeopathy.ac/" ><strong>CHhom</strong></a></p>
+         </div>
+       </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
+
+

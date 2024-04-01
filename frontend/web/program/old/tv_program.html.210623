@@ -1,0 +1,329 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1125" height="926" viewBox="0 0 1125 926">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-_0622-0704);
+      }
+
+      .cls-2, .cls-26, .cls-31, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #666;
+        stroke-width: 0.709px;
+      }
+
+      .cls-11, .cls-2, .cls-21 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-10, .cls-14, .cls-16, .cls-18, .cls-19, .cls-3, .cls-6 {
+        font-size: 21px;
+      }
+
+      .cls-12, .cls-14, .cls-17, .cls-19, .cls-3 {
+        font-family: TsukuARdGothicStd-R, FOT-TsukuARdGothic Std;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        fill: #f04771;
+      }
+
+      .cls-16, .cls-18, .cls-6 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-28, .cls-7, .cls-8 {
+        font-size: 14px;
+      }
+
+      .cls-29, .cls-30, .cls-8 {
+        font-family: YuGothicUI-Regular, Yu Gothic UI;
+      }
+
+      .cls-9 {
+        font-size: 16px;
+        font-family: UDMarugo_LargePr6N-M, FOT-UDMarugo_Large Pr6N;
+      }
+
+      .cls-11, .cls-21 {
+        fill: none;
+      }
+
+      .cls-11 {
+        stroke: #fff;
+      }
+
+      .cls-12, .cls-17, .cls-26, .cls-30 {
+        font-size: 18px;
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-14, .cls-17, .cls-18 {
+        fill: red;
+      }
+
+      .cls-15 {
+        fill: #000;
+      }
+
+      .cls-16 {
+        fill: blue;
+      }
+
+      .cls-19 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-20 {
+        letter-spacing: -0.2em;
+      }
+
+      .cls-21 {
+        stroke: gray;
+      }
+
+      .cls-22 {
+        font-size: 48px;
+      }
+
+      .cls-22, .cls-24 {
+        font-family: UDMarugo_LargePr6N-DB, FOT-UDMarugo_Large Pr6N DB;
+      }
+
+      .cls-23 {
+        font-size: 36px;
+      }
+
+      .cls-24, .cls-27 {
+        font-size: 24px;
+      }
+
+      .cls-25 {
+        fill: #0071bc;
+      }
+
+      .cls-26 {
+        font-family: UDShinMGoPr6N-Light, A-OTF UD Shin Maru Go Pr6N;
+        font-weight: 300;
+      }
+
+      .cls-28 {
+        font-family: SegoeUISymbol, Segoe UI Symbol;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#b6dfba"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#cbd5e4" stop-opacity="0.698"/>
+    </linearGradient>
+    <clipPath id="clip-_0622-0704">
+      <rect width="1125" height="926"/>
+    </clipPath>
+  </defs>
+  <g id="_0622-0704" data-name="0622-0704" class="cls-1">
+    <rect class="cls-31" width="1125" height="926"/>
+    <rect id="長方形_1" data-name="長方形 1" class="cls-2" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 114.309)"/>
+    <text id="配信日" class="cls-3" transform="translate(207.318 148.532)"><tspan x="-31.5" y="0">配信日</tspan></text>
+    <text id="講演会タイトル" class="cls-3" transform="translate(450.531 148.532)"><tspan x="0" y="0">講演会タイトル</tspan></text>
+    <text id="講師" class="cls-3" transform="translate(879.312 148.532)"><tspan x="0" y="0">講師</tspan></text>
+    <text id="収録日" class="cls-3" transform="translate(1027.648 147.83)"><tspan x="-31.5" y="0">収録日</tspan></text>
+    <g id="グループ_12" data-name="グループ 12" transform="translate(0 -453.543)">
+      <rect id="長方形_18" data-name="長方形 18" class="cls-4" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 624.736)"/>
+      <rect id="長方形_19" data-name="長方形 19" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 624.736)"/>
+      <text id="_6_22_火_" data-name="6/22(火)" class="cls-6" transform="translate(207.318 658.769)"><tspan x="-32.296" y="0">6/22</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">火</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="賢者の薬草箱_基本キット3回講座_" data-name="賢者の薬草箱 基本キット3回講座 ①" class="cls-3" transform="translate(270.531 658.769)"><tspan x="0" y="0">賢者の薬草箱 基本キット3回講座 ①</tspan></text>
+      <text id="_2021_6_3" data-name="2021/6/3" class="cls-3" transform="translate(1027.648 658.066)"><tspan x="-45.213" y="0">2021/6/3</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2501"><text id="お申込みは_コチラ" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 643.667)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_25" data-name="線 25" class="cls-11" y1="45.354" transform="translate(257.447 627.571)"/>
+      <line id="線_26" data-name="線 26" class="cls-11" y1="45.354" transform="translate(838.549 627.571)"/>
+      <text id="高宮義和" class="cls-12" transform="translate(851.633 658.769)"><tspan x="0" y="0">高宮義和</tspan></text>
+      <line id="線_27" data-name="線 27" class="cls-11" y1="45.354" transform="translate(966.108 627.571)"/>
+    </g>
+    <g id="グループ_13" data-name="グループ 13" transform="translate(0 -453.543)">
+      <rect id="長方形_20" data-name="長方形 20" class="cls-13" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 681.429)"/>
+      <rect id="長方形_21" data-name="長方形 21" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 681.429)"/>
+      <text id="_6_23_水_" data-name="6/23(水)" class="cls-6" transform="translate(207.318 715.462)"><tspan x="-32.296" y="0">6/23</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">水</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="賢者の薬草箱_基本キット3回講座_2" data-name="賢者の薬草箱 基本キット3回講座 ②" class="cls-3" transform="translate(270.531 715.462)"><tspan x="0" y="0">賢者の薬草箱 基本キット3回講座 ②</tspan></text>
+      <text id="渡邊公代" class="cls-12" transform="translate(851.633 715.462)"><tspan x="0" y="0">渡邊公代</tspan></text>
+      <text id="_2021_6_10" data-name="2021/6/10" class="cls-3" transform="translate(1027.648 714.76)"><tspan x="-51.292" y="0">2021/6/10</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2502"><text id="お申込みは_コチラ-2" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 700.36)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_28" data-name="線 28" class="cls-11" y1="45.354" transform="translate(257.447 684.264)"/>
+      <line id="線_29" data-name="線 29" class="cls-11" y1="45.354" transform="translate(838.549 684.264)"/>
+      <line id="線_30" data-name="線 30" class="cls-11" y1="45.354" transform="translate(966.108 684.264)"/>
+    </g>
+    <g id="グループ_14" data-name="グループ 14" transform="translate(0 -453.543)">
+      <rect id="長方形_22" data-name="長方形 22" class="cls-4" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 738.122)"/>
+      <rect id="長方形_23" data-name="長方形 23" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 738.122)"/>
+      <text id="_6_24_木_" data-name="6/24(木)" class="cls-6" transform="translate(207.318 772.154)"><tspan x="-32.296" y="0">6/24</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">木</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="_ライブ配信_賢者の薬草箱_基本キット3回講座_" data-name="★ライブ配信★ 賢者の薬草箱 基本キット3回講座 ③" class="cls-14" transform="translate(270.531 772.154)"><tspan x="0" y="0">★ライブ配信★ </tspan><tspan class="cls-15" y="0">賢者の薬草箱 基本キット3回講座 ③</tspan></text>
+      <text id="ライブ" class="cls-3" transform="translate(1027.648 771.452)"><tspan x="-31.185" y="0">ライブ</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2446"><text id="お申込みは_コチラ-3" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 757.053)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_31" data-name="線 31" class="cls-11" y1="45.354" transform="translate(257.447 740.957)"/>
+      <line id="線_32" data-name="線 32" class="cls-11" y1="45.354" transform="translate(838.549 740.957)"/>
+      <text id="富田沙織" class="cls-12" transform="translate(851.633 772.154)"><tspan x="0" y="0">富田沙織</tspan></text>
+      <line id="線_33" data-name="線 33" class="cls-11" y1="45.354" transform="translate(966.108 740.957)"/>
+    </g>
+    <g id="グループ_15" data-name="グループ 15" transform="translate(0 -453.543)">
+      <rect id="長方形_24" data-name="長方形 24" class="cls-13" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 794.815)"/>
+      <rect id="長方形_25" data-name="長方形 25" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 794.815)"/>
+      <text id="_6_25_金_" data-name="6/25(金)" class="cls-6" transform="translate(207.318 828.848)"><tspan x="-32.296" y="0">6/25</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">金</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="水のレメディ36種_霊的見解セミナー_" data-name="水のレメディ36種 霊的見解セミナー ①" class="cls-3" transform="translate(270.531 828.848)"><tspan x="0" y="0">水のレメディ36種 霊的見解セミナー ①</tspan></text>
+      <text id="由井寅子" class="cls-12" transform="translate(851.633 828.848)"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2020_2_11" data-name="2020/2/11" class="cls-3" transform="translate(1027.648 828.146)"><tspan x="-51.292" y="0">2020/2/11</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2503"><text id="お申込みは_コチラ-4" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 813.746)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_34" data-name="線 34" class="cls-11" y1="45.354" transform="translate(257.447 797.649)"/>
+      <line id="線_35" data-name="線 35" class="cls-11" y1="45.354" transform="translate(838.549 797.649)"/>
+      <line id="線_36" data-name="線 36" class="cls-11" y1="45.354" transform="translate(966.108 797.649)"/>
+    </g>
+    <g id="グループ_16" data-name="グループ 16" transform="translate(0 -453.543)">
+      <rect id="長方形_26" data-name="長方形 26" class="cls-4" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 851.508)"/>
+      <rect id="長方形_27" data-name="長方形 27" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 851.508)"/>
+      <text id="_6_26_土_" data-name="6/26(土)" class="cls-16" transform="translate(207.318 885.54)"><tspan x="-32.296" y="0">6/26</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">土</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="_ライブ配信_第12回_日本の農業_食_未来を考えるシンポジウム" data-name="★ライブ配信★ 第12回 日本の農業、食、未来を考えるシンポジウム" class="cls-17" transform="translate(270.531 885.54)"><tspan x="0" y="0">★ライブ配信★ </tspan><tspan class="cls-15" y="0">第12回 日本の農業、食、未来を考えるシンポジウム</tspan></text>
+      <text id="ライブ-2" data-name="ライブ" class="cls-3" transform="translate(1027.648 884.838)"><tspan x="-31.185" y="0">ライブ</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2449"><text id="お申込みは_コチラ-5" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 870.438)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_37" data-name="線 37" class="cls-11" y1="45.354" transform="translate(257.447 854.342)"/>
+      <line id="線_38" data-name="線 38" class="cls-11" y1="45.354" transform="translate(838.549 854.342)"/>
+      <text id="由井寅子_他" data-name="由井寅子 他" class="cls-12" transform="translate(851.633 885.54)"><tspan x="0" y="0">由井寅子 他</tspan></text>
+      <line id="線_39" data-name="線 39" class="cls-11" y1="45.354" transform="translate(966.108 854.342)"/>
+    </g>
+    <g id="グループ_17" data-name="グループ 17" transform="translate(0 -453.543)">
+      <rect id="長方形_28" data-name="長方形 28" class="cls-13" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 908.201)"/>
+      <rect id="長方形_29" data-name="長方形 29" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 908.201)"/>
+      <text id="_6_27_日_" data-name="6/27(日)" class="cls-18" transform="translate(207.318 942.233)"><tspan x="-32.296" y="0">6/27</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">日</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="水のレメディ36種_霊的見解セミナー_2" data-name="水のレメディ36種 霊的見解セミナー ②" class="cls-3" transform="translate(270.531 942.233)"><tspan x="0" y="0">水のレメディ36種 霊的見解セミナー ②</tspan></text>
+      <text id="由井寅子-2" data-name="由井寅子" class="cls-12" transform="translate(851.633 942.233)"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2020_2_15" data-name="2020/2/15" class="cls-3" transform="translate(1027.648 941.531)"><tspan x="-51.292" y="0">2020/2/15</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2504"><text id="お申込みは_コチラ-6" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 927.132)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_40" data-name="線 40" class="cls-11" y1="45.354" transform="translate(257.447 911.035)"/>
+      <line id="線_41" data-name="線 41" class="cls-11" y1="45.354" transform="translate(838.549 911.035)"/>
+      <line id="線_42" data-name="線 42" class="cls-11" y1="45.354" transform="translate(966.108 911.035)"/>
+    </g>
+    <g id="グループ_18" data-name="グループ 18" transform="translate(0 -453.543)">
+      <rect id="長方形_30" data-name="長方形 30" class="cls-4" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 964.894)"/>
+      <rect id="長方形_31" data-name="長方形 31" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 964.894)"/>
+      <text id="_6_28_月_" data-name="6/28(月)" class="cls-6" transform="translate(207.318 998.926)"><tspan x="-32.296" y="0">6/28</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">月</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="目からウロコの古事記の新解説_" data-name="目からウロコの古事記の新解説①" class="cls-3" transform="translate(270.531 998.926)"><tspan x="0" y="0">目からウロコの古事記の新解説①</tspan></text>
+      <text id="_2017_8_13" data-name="2017/8/13" class="cls-3" transform="translate(1027.648 998.224)"><tspan x="-51.292" y="0">2017/8/13</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2505"><text id="お申込みは_コチラ-7" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 983.824)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_43" data-name="線 43" class="cls-11" y1="45.354" transform="translate(257.447 967.728)"/>
+      <line id="線_44" data-name="線 44" class="cls-11" y1="45.354" transform="translate(838.549 967.728)"/>
+      <text id="小名木善行" class="cls-12" transform="translate(851.633 998.926)"><tspan x="0" y="0">小名木善行</tspan></text>
+      <line id="線_45" data-name="線 45" class="cls-11" y1="45.354" transform="translate(966.108 967.728)"/>
+    </g>
+    <g id="グループ_19" data-name="グループ 19" transform="translate(0 -453.543)">
+      <rect id="長方形_32" data-name="長方形 32" class="cls-13" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 1021.587)"/>
+      <rect id="長方形_33" data-name="長方形 33" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 1021.587)"/>
+      <text id="_6_29_火_" data-name="6/29(火)" class="cls-6" transform="translate(207.318 1055.619)"><tspan x="-32.296" y="0">6/29</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">火</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="やっぱりホメオパシーは素晴らしい_" data-name="やっぱりホメオパシーは素晴らしい！" class="cls-3" transform="translate(270.531 1055.619)"><tspan x="0" y="0">やっぱりホメオパシーは素晴らしい！</tspan></text>
+      <text id="由井寅子-3" data-name="由井寅子" class="cls-12" transform="translate(851.633 1055.619)"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2020_3_14" data-name="2020/3/14" class="cls-3" transform="translate(1027.648 1054.917)"><tspan x="-51.292" y="0">2020/3/14</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2506"><text id="お申込みは_コチラ-8" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 1040.518)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_46" data-name="線 46" class="cls-11" y1="45.354" transform="translate(257.447 1024.421)"/>
+      <line id="線_47" data-name="線 47" class="cls-11" y1="45.354" transform="translate(838.549 1024.421)"/>
+      <line id="線_48" data-name="線 48" class="cls-11" y1="45.354" transform="translate(966.108 1024.421)"/>
+    </g>
+    <g id="グループ_20" data-name="グループ 20" transform="translate(0 -453.543)">
+      <rect id="長方形_34" data-name="長方形 34" class="cls-4" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 1078.279)"/>
+      <rect id="長方形_35" data-name="長方形 35" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 1078.28)"/>
+      <text id="_6_30_水_" data-name="6/30(水)" class="cls-6" transform="translate(207.318 1112.312)"><tspan x="-32.296" y="0">6/30</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">水</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="ホームキットDay_ホームキットの体験談発表_" data-name="ホームキットDay　〜ホームキットの体験談発表〜" class="cls-3" transform="translate(270.531 1112.312)"><tspan x="0" y="0">ホームキットDay　〜ホームキットの体験談発表〜</tspan></text>
+      <text id="_2021_5_1" data-name="2021/5/1" class="cls-3" transform="translate(1027.648 1111.609)"><tspan x="-45.213" y="0">2021/5/1</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2507"><text id="お申込みは_コチラ-9" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 1097.21)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_49" data-name="線 49" class="cls-11" y1="45.354" transform="translate(257.447 1081.114)"/>
+      <line id="線_50" data-name="線 50" class="cls-11" y1="45.354" transform="translate(838.549 1081.114)"/>
+      <text id="高宮義和_他" data-name="高宮義和 他" class="cls-12" transform="translate(851.633 1112.312)"><tspan x="0" y="0">高宮義和 他</tspan></text>
+      <line id="線_51" data-name="線 51" class="cls-11" y1="45.354" transform="translate(966.108 1081.114)"/>
+    </g>
+    <g id="グループ_21" data-name="グループ 21" transform="translate(0 -453.543)">
+      <rect id="長方形_36" data-name="長方形 36" class="cls-13" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 1134.972)"/>
+      <rect id="長方形_37" data-name="長方形 37" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 1134.972)"/>
+      <text id="_7_1_木_" data-name="7/1(木)" class="cls-6" transform="translate(207.318 1169.005)"><tspan x="-26.636" y="0">7/1</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">木</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="_ライブ配信_コロちゃん時代の夏のホメオパシー対策" data-name="★ライブ配信★ コロちゃん時代の夏のホメオパシー対策" class="cls-14" transform="translate(270.531 1169.005)"><tspan x="0" y="0">★ライブ配信★ </tspan><tspan class="cls-15" y="0">コロちゃん時代の夏のホメオパシー対策</tspan></text>
+      <text id="増田敬子" class="cls-12" transform="translate(851.633 1169.005)"><tspan x="0" y="0">増田敬子</tspan></text>
+      <text id="ライブ-3" data-name="ライブ" class="cls-3" transform="translate(1027.648 1168.303)"><tspan x="-31.185" y="0">ライブ</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2450"><text id="お申込みは_コチラ-10" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 1153.903)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_52" data-name="線 52" class="cls-11" y1="45.354" transform="translate(257.447 1137.807)"/>
+      <line id="線_53" data-name="線 53" class="cls-11" y1="45.354" transform="translate(838.549 1137.807)"/>
+      <line id="線_54" data-name="線 54" class="cls-11" y1="45.354" transform="translate(966.108 1137.807)"/>
+    </g>
+    <g id="グループ_22" data-name="グループ 22" transform="translate(0 -453.543)">
+      <rect id="長方形_38" data-name="長方形 38" class="cls-4" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 1191.665)"/>
+      <rect id="長方形_39" data-name="長方形 39" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 1191.666)"/>
+      <text id="_7_2_金_" data-name="7/2(金)" class="cls-6" transform="translate(207.318 1225.697)"><tspan x="-26.636" y="0">7/2</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">金</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="ホメオパシー入門_学校案内" data-name="ホメオパシー入門 + 学校案内" class="cls-3" transform="translate(270.531 1225.697)"><tspan x="0" y="0">ホメオパシー入門 + 学校案内</tspan></text>
+      <text id="_2018_3_18" data-name="2018/3/18" class="cls-3" transform="translate(1027.648 1224.995)"><tspan x="-51.292" y="0">2018/3/18</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2508"><text id="お申込みは_コチラ-11" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 1210.596)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_55" data-name="線 55" class="cls-11" y1="45.354" transform="translate(257.447 1194.5)"/>
+      <line id="線_56" data-name="線 56" class="cls-11" y1="45.354" transform="translate(838.549 1194.5)"/>
+      <text id="由井寅子-4" data-name="由井寅子" class="cls-12" transform="translate(851.633 1225.697)"><tspan x="0" y="0">由井寅子</tspan></text>
+      <line id="線_57" data-name="線 57" class="cls-11" y1="45.354" transform="translate(966.108 1194.5)"/>
+    </g>
+    <g id="グループ_23" data-name="グループ 23" transform="translate(0 -453.543)">
+      <rect id="長方形_40" data-name="長方形 40" class="cls-13" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 1248.358)"/>
+      <rect id="長方形_41" data-name="長方形 41" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 1248.358)"/>
+      <text id="_7_3_土_" data-name="7/3(土)" class="cls-16" transform="translate(207.318 1282.391)"><tspan x="-26.636" y="0">7/3</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">土</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="ホメオパシーを応援するお医者さん_医療従事者の皆さまの会" data-name="ホメオパシーを応援するお医者さん・医療従事者の皆さまの会" class="cls-19" transform="translate(270.531 1282.391)"><tspan x="0" y="0">ホメオパシーを応援するお医者さん・医療従事者の皆さまの会</tspan></text>
+      <text id="由井寅子-5" data-name="由井寅子" class="cls-12" transform="translate(851.633 1282.391)"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2021_6_19" data-name="2021/6/19" class="cls-3" transform="translate(1027.648 1281.688)"><tspan x="-51.292" y="0">2021/6/19</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2509"><text id="お申込みは_コチラ-12" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 1267.289)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_58" data-name="線 58" class="cls-11" y1="45.354" transform="translate(257.447 1251.193)"/>
+      <line id="線_59" data-name="線 59" class="cls-11" y1="45.354" transform="translate(838.549 1251.193)"/>
+      <line id="線_60" data-name="線 60" class="cls-11" y1="45.354" transform="translate(966.108 1251.193)"/>
+    </g>
+    <g id="グループ_24" data-name="グループ 24" transform="translate(0 -453.543)">
+      <rect id="長方形_42" data-name="長方形 42" class="cls-4" width="935.001" height="51.024" rx="14.173" transform="translate(158.234 1305.051)"/>
+      <rect id="長方形_43" data-name="長方形 43" class="cls-5" width="113.386" height="51.024" rx="18.708" transform="translate(31.765 1305.051)"/>
+      <text id="_7_4_日_" data-name="7/4(日)" class="cls-18" transform="translate(207.318 1339.084)"><tspan x="-26.636" y="0">7/4</tspan><tspan class="cls-7" y="0">(</tspan><tspan class="cls-8" y="0">日</tspan><tspan class="cls-7" y="0">)</tspan></text>
+      <text id="心Day" class="cls-3" transform="translate(270.531 1339.084)"><tspan x="0" y="0">心Day</tspan></text>
+      <text id="_苦しみを分かち合い_生きる希望を見出す_インナーチャイルド分かち合いの会_" data-name="～苦しみを分かち合い 生きる希望を見出す
+　　　　　 インナーチャイルド分かち合いの会～" class="cls-12" transform="translate(358.66 1331.075)"><tspan class="cls-20" x="0" y="0">～</tspan><tspan y="0">苦しみを分かち合い 生きる希望を見出す</tspan><tspan x="0" y="20">　　　　　 インナーチャイルド分かち合いの会～</tspan></text>
+      <text id="由井寅子-6" data-name="由井寅子" class="cls-12" transform="translate(851.633 1339.084)"><tspan x="0" y="0">由井寅子</tspan></text>
+      <text id="_2021_4_29" data-name="2021/4/29" class="cls-3" transform="translate(1027.648 1338.382)"><tspan x="-51.292" y="0">2021/4/29</tspan></text>
+      <a href="https://ec.homoeopathy.ac/product/2510"><text id="お申込みは_コチラ-13" data-name="お申込みは
+コチラ" class="cls-9" transform="translate(87.635 1323.982)"><tspan x="-40" y="0">お申込みは</tspan><tspan class="cls-10"><tspan x="-31.5" y="24">コチラ</tspan></tspan></text></a>
+      <line id="線_61" data-name="線 61" class="cls-11" y1="45.354" transform="translate(257.447 1307.886)"/>
+      <line id="線_62" data-name="線 62" class="cls-11" y1="45.354" transform="translate(838.549 1307.886)"/>
+      <line id="線_63" data-name="線 63" class="cls-11" y1="45.354" transform="translate(966.108 1307.886)"/>
+    </g>
+    <line id="線_64" data-name="線 64" class="cls-21" y1="45.354" transform="translate(257.446 117.144)"/>
+    <line id="線_65" data-name="線 65" class="cls-21" y1="45.354" transform="translate(838.548 117.144)"/>
+    <line id="線_66" data-name="線 66" class="cls-21" y1="45.354" transform="translate(966.108 117.144)"/>
+    <text id="_6月_7月" data-name="6月・7月" class="cls-22" transform="translate(139.734 98.818)"><tspan x="-89.904" y="0">6</tspan><tspan class="cls-23" y="0">月・</tspan><tspan y="0">7</tspan><tspan class="cls-23" y="0">月</tspan></text>
+    <text id="CHhom講演会_配信スケジュール" data-name="CHhom講演会 配信スケジュール" class="cls-24" transform="translate(542.16 101.966)"><tspan x="-181.38" y="0">CHhom講演会 配信スケジュール</tspan></text>
+    <g id="グループ_3" data-name="グループ 3" transform="translate(14.235)">
+      <g id="グループ_1" data-name="グループ 1">
+        <rect id="長方形_44" data-name="長方形 44" class="cls-25" width="206" height="31" transform="translate(873 60)"/>
+        <text id="各日10:00_25:00" data-name="各日10:00～25:00" class="cls-26" transform="translate(877.271 85.2)"><tspan x="0" y="0">各日</tspan><tspan class="cls-27" y="0">10:00～25:00</tspan></text>
+      </g>
+      <g id="グループ_2" data-name="グループ 2">
+        <text id="_ライブは開始時間以降の配信です" data-name="※ライブは開始時間以降の配信です" class="cls-28" transform="translate(873.41 107.966)"><tspan x="0" y="0">※</tspan><tspan class="cls-29" y="0">ライブは開始時間以降の配信です</tspan></text>
+        <text id="配信時間" class="cls-30" transform="translate(873.41 54.966)"><tspan x="0" y="0">配信時間</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

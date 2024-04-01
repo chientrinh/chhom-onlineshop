@@ -1,0 +1,158 @@
+<?php
+/**
+ * $URL: http://tarax.toyouke.com/svn/MALL/frontend/config/main.php $
+ * $Id: main.php 2922 2016-10-05 06:48:15Z mori $
+ */
+
+$params = array_merge(
+    require(__DIR__ . '/../../common/config/params.php'),
+    require(__DIR__ . '/../../common/config/params-local.php'),
+    require(__DIR__ . '/params.php'),
+    require(__DIR__ . '/params-local.php')
+);
+
+return [
+    'layout' => 'beta-release',
+    'id'                  => 'app-frontend',
+    'basePath'            => dirname(__DIR__),
+    'controllerNamespace' => 'frontend\controllers',
+    'bootstrap'           => ['log'],
+    'modules'             => [
+        'magazine' => [
+            'class' => 'app\modules\magazine\Module',
+        ],
+        'cart' => [
+            'class' => 'frontend\modules\cart\Module',
+        ],
+        'member' => [
+            'class' => 'common\modules\member\Module',
+            'layoutPath'   => '@app/views/layouts',
+            'pointBack' => [
+                \common\models\Product::PKEY_TORANOKO_G_ADMISSION => 500,
+                \common\models\Product::PKEY_TORANOKO_N_ADMISSION => 250,
+            ],
+        ],
+        'casher' => [
+            'class' => 'frontend\modules\pointing\Module',
+        ],
+        'cms' => [
+            'class' => 'common\modules\cms\Module',
+        ],
+        'pointing' => [
+            'class' => 'frontend\modules\pointing\Module',
+        ],
+        'profile' => [
+            'class' => 'frontend\modules\profile\Module',
+            'components' => [
+                'ysdConnection' => [
+                    'class' => \common\components\ysd\RrqConnection::className(),
+                    'url'   => 'https://www.web-koufuri.com/webgw_ml/WRP01010Action_doBatInit.action',//本番環境
+                    'corpcd'   => '50803',
+                    'svcno'    => '004',
+                    'password' => '6ffdb60c',
+                ],
+            ]
+        ],
+        'recipe' => [
+            'class' => 'common\modules\recipe\Module',
+            'defaultRoute' => 'default',
+        ],
+        'signup' => [
+            'class' => 'frontend\modules\signup\Module',
+        ],
+        'sodan' => [
+            'class' => 'common\modules\sodan\Module',
+            'defaultRoute' => 'admin',
+            'layoutPath'   => '@app/views/layouts',
+            'layout'       => 'bootstrap',
+            'modules'      => [
+                'room' => [
+                    'class' => 'common\modules\sodan\modules\room\Module',
+                    'defaultRoute' => 'default',
+                ],
+                'webdb' => [
+                    'class' => 'frontend\modules\sodan\Module',
+                    'viewPath'   => '@frontend/modules/sodan/views',
+                    'layoutPath' => '@frontend/modules/sodan/views/layouts',
+                    'layout' => 'main',
+                ],
+            ]
+        ],
+    ],
+    'components'          => [
+        'db' => [
+            'username' => 'yii_front',
+            'password' => '',
+        ],
+        'ysd' => [
+            'username' => 'yii_front',
+            'password' => '',
+        ],
+        'webdb18' => [
+            'username' => 'dbuser',
+            'password' => '',
+            'charset'  => 'euc-jp',
+        ],
+        'webdb20' => [
+            'username' => 'dbuser',
+            'password' => '',
+            'charset'  => 'euc-jp',
+        ],
+        'urlManager' => [
+            'class' => 'yii\web\UrlManager',
+            'scriptUrl'  => '/index.php',
+            'showScriptName' => false,
+            'enablePrettyUrl' => true,
+            'rules'           => [
+                '<action:login|logintest|logout|guide|about|usage|legal>' => 'site/<action>',
+                '<module:magazine>/<action:\w+>'    => '<module>/default/<action>',
+                '<module:magazine>/<id:\d+>[/]?'    => '<module>/default/view',
+                '<module:magazine>/<id:\d+>/<page>' => '<module>/default/view',
+                ['pattern' => '<module>/<controller>/<id:\d+>/<page:.*>',
+                 'route'   => '<module>/<controller>/view',
+                 'encodeParams' => false,
+                ],
+                '<controller>/<id:\d+>'             => '<controller>/view',
+                'remedy/<action:index|search|view-image>' => 'remedy/<action>',
+                'remedy/<firstLetter:A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z>'
+                                                    => 'remedy/indexof',
+                'category/<name>'                   => 'category/viewbyname',
+                'hj/tincture/<name>'                => 'hj/tincture',
+                'hj/remedy/<name>'                  => 'remedy/viewbyname',
+                'cart/<action>'                     => 'cart/default/<action>',
+                'cart/remedy/compose/<abbr>'        => 'cart/remedy/compose',
+		'facility/<action>'                     => '/<action>',
+            ],
+        ],
+        'assetManager' => [
+            'bundles' => [
+                'yii\bootstrap\BootstrapAsset' => [
+                    'sourcePath' => '@app/assets',
+                    'css'        => ['bootstrap.css'],
+                ],
+            ],
+        ],
+        'session' => [
+            'class'        => 'yii\web\DbSession',
+            'name'         => 'TYMALLSESSID',
+            'db'           => 'db',  // the application component ID of the DB connection. Defaults to 'db'.
+            'sessionTable' => 'wtb_session',
+            'timeout'      => 60 * 60 * 5, // 5 hour
+        ],
+        'view' => [
+            'theme' => [
+                'pathMap' => ['@app/views' => 'themes/ty-magazine'],
+                'baseUrl' => 'themes/ty-magazine',
+            ],
+        ],
+        'user'            => [
+            'identityClass'   => 'common\models\Customer',
+            'enableAutoLogin' => false,
+            'enableSession'   => true,
+        ],
+        'errorHandler' => [
+            'errorAction' => 'site/error',
+        ],
+    ],
+    'params' => $params,
+];

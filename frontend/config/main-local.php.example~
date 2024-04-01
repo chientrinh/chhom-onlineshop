@@ -1,0 +1,16 @@
+<?php
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/frontend/config/main-local.php.example $
+ * $Id: main-local.php.example 801 2015-03-14 07:10:44Z mori $
+ */
+
+$config = [
+    'components' => [
+        'db' => [
+            'password' => 'icntHT9F'
+        ]
+    ],
+
+];
+
+return $config;
