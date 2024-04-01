@@ -1,0 +1,128 @@
+<?php
+
+namespace backend\models;
+
+use Yii;
+use yii\base\Model;
+use yii\data\ActiveDataProvider;
+
+/**
+ * SearchCustomer represents the model behind the search form about `common\models\Customer`.
+ *
+ * $URL: https://tarax.toyouke.com/svn/MALL/backend/models/SearchProduct.php $
+ * $Id: SearchProduct.php 2435 2016-04-15 10:27:07Z mori $
+ */
+class SearchProduct extends \common\models\Product
+{
+    public $company;
+    public $keywords;
+    public $subcategory;
+
+    /**
+     * @inheritdoc
+     */
+    public function rules()
+    {
+        return [
+            ['kana','filter', 'filter'=> function($value) { return mb_convert_kana($value,'c'); }],
+            ['kana','filter', 'filter'=> function($value) { return \common\components\Romaji2Kana::translate($value,'hiragana'); }],
+            [['product_id', 'category_id', 'price', 'restrict_id',], 'integer'],
+            [['name','code','kana','summary','description'], 'string'],
+            [['start_date','expire_date'], 'date','format'=>'yyyy-MM-dd HH:mm:ii'],
+            [['product_id','category_id','name','code','kana','price','summary','description'], 'safe'],
+            ['company', 'exist', 'targetClass'=>\common\models\Company::className(), 'targetAttribute'=>'company_id', 'when'=> function($model){ return $model->company; }],
+            ['subcategory', 'exist', 'targetClass'=>\common\models\Subcategory::className(), 'targetAttribute'=>'subcategory_id','allowArray'=>true],
+            [['company','subcategory'], 'safe', 'on'=>'search'],
+            ['keywords','filter', 'filter'=> function($value) { return \common\components\Romaji2Kana::translate($value); }, 'skipOnEmpty'=>true ],
+            ['in_stock','boolean'],
+        ];
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function scenarios()
+    {
+        return parent::scenarios();
+    }
+
+    /**
+     * Creates data provider instance with search query applied
+     *
+     * @param array $params
+     *
+     * @return ActiveDataProvider
+     */
+    public function search($params)
+    {
+        $query = parent::find();
+
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+            'sort'  => [ 'defaultOrder' => ['product_id' => SORT_DESC] ],
+        ]);
+        $dataProvider->sort = self::appendSortAttributes($dataProvider->sort);
+
+        $this->load($params);
+
+        if (!$this->validate()) {
+            // uncomment the following line if you do not want to any records when validation fails
+            // $query->where('0=1');
+            return $dataProvider;
+        }
+
+        $query->andFilterWhere([
+            $this->tableName().'.product_id'  => $this->product_id,
+            $this->tableName().'.category_id' => $this->category_id,
+            $this->tableName().'.code'        => $this->code,
+            $this->tableName().'.price'       => $this->price,
+            $this->tableName().'.restrict_id' => $this->restrict_id,
+            $this->tableName().'.in_stock'    => $this->in_stock,
+        ]);
+
+        if($this->company)
+            $query->innerJoinWith(['seller'])->andFilterWhere(['mtb_category.seller_id' => $this->company]);
+
+        $query
+            ->andFilterWhere(['like', $this->tableName().'.name',        $this->name])
+            ->andFilterWhere(['like', $this->tableName().'.code',        $this->code])
+            ->andFilterWhere(['like', $this->tableName().'.kana',        $this->kana])
+            ->andFilterWhere(['like', $this->tableName().'.summary',     $this->summary])
+            ->andFilterWhere(['like', $this->tableName().'.description', $this->description])
+            ->andFilterWhere(['<=','start_date', new \yii\db\Expression('NOW()')]);
+
+        if($this->keywords)
+            foreach(explode(' ', $this->keywords) as $item)
+            {
+                $query->andFilterWhere([
+                    'or',
+                    ['like', $this->tableName().'.name',$item],
+                    ['like', $this->tableName().'.kana',$item],
+                    ['like', $this->tableName().'.code',$item],
+                    ['like', $this->tableName().'.price',$item],
+                ]);
+            }
+
+        if($this->subcategory)
+        {
+            $q1 = \common\models\Subcategory::find()->orWhere(['subcategory_id'=> $this->subcategory])
+                                                    ->orWhere(['parent_id'     => $this->subcategory]);
+            $q2 = \common\models\ProductSubcategory::find()->andWhere(['subcategory_id'=>$q1->select('subcategory_id')]);
+            $q3 = \common\models\ProductMaster::find()->andWhere(['ean13' => $q2->select('ean13')]);
+
+            $query->andWhere(['product_id' => $q3->select('product_id')]);
+        }
+
+        return $dataProvider;
+    }
+
+    private static function appendSortAttributes(\yii\data\Sort $sort)
+    {
+        $sort->attributes['name'] = [
+            'asc'  => ['kana' => SORT_ASC ],
+            'desc' => ['kana' => SORT_DESC],
+        ];
+
+        return $sort;
+    }
+}

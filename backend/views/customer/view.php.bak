@@ -1,0 +1,304 @@
+<?php
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/backend/views/customer/view.php $
+ * $Id: view.php 1384 2015-08-27 07:41:21Z mori $
+ */
+
+use yii\helpers\Html;
+use yii\widgets\DetailView;
+
+/* @var $this yii\web\View */
+/* @var $model common\models\Customer */
+
+$this->title = $model->name;
+$this->params['breadcrumbs'][] = ['label' => "顧客", 'url' => ['index']];
+$this->params['breadcrumbs'][] = $this->title;
+
+?>
+<div class="customer-view">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+    <?php if($model->isExpired()): ?>
+        <p class="alert alert-danger">
+            この顧客は無効になりました
+        </p>
+    <?php endif ?>
+    <?= DetailView::widget([
+        'model' => $model,
+        'attributes' => [
+            'kana',
+            [
+                'attribute'=>'code',
+                'format'   =>'html',
+                'value'=> Html::tag('strong',$model->code,['style'=>'font-family:fixed']),
+            ],
+            [
+                'attribute'=>'grade',
+                'value'=> $model->grade->longname,
+            ],
+            'point:integer',
+            'fulladdress',
+            [
+                'attribute' => 'sex',
+                'value'     => $model->sex ? $model->sex->name : null,
+            ],
+            [
+                'attribute'=>'birth',
+                'value'=> preg_match('/0000/', $model->birth)
+                ? null
+                : Yii::$app->formatter->asDate($model->birth, 'full'),
+            ],
+            'email',
+            'tel',
+            [
+                'attribute' => 'subscribe',
+                'value' => ($subscribe = \common\models\Subscribe::findOne($model->subscribe)) ? $subscribe->name : '未指定',
+            ],
+            'create_date',
+            [
+                'attribute' => 'expire_date',
+                'format'    => 'html',
+                'value'     => Html::tag('p',$model->expire_date, $model->isExpired() ? ['class'=>'alert-text alert-danger'] : []),
+            ],
+        ],
+    ]) ?>
+
+    <?php if(! $model->isExpired()): ?>
+    <p class="text-right">
+        <?= Html::a("更新", ['update', 'id' => $model->customer_id], ['class' => 'btn btn-primary']) ?>
+    </p>
+    <?php endif ?>
+
+    <?= \yii\grid\GridView::widget([
+        'dataProvider' => new \yii\data\ArrayDataProvider([
+            'allModels' => $model->getMemberships(true)->all(),
+            'pagination' => false,
+            'sort'       => new \yii\data\Sort([
+                'defaultOrder' => 'start_date',
+            ]),
+        ]),
+        'caption' => "所属",
+        'layout'  => '{items}',
+        'columns' => [
+            'label',
+            [
+                'attribute'=> 'company_id',
+                'label'    => "所属",
+                'value'    => function($data){return $data->membership->company->name; },
+            ],
+            'start_date',
+            'expire_date',
+            [
+                'class' => 'yii\grid\ActionColumn',
+                'template' => '{update}',
+                'buttons' => [
+                    'update' => function ($url, $model, $key) { return Html::a('修正', ['/customer-membership/update','customer_id'=>$model->customer_id, 'membership_id'=>$model->membership_id]); },
+                ],
+                'header' => $model->isExpired() ? '' : Html::a("追加", ['/customer-membership/create', 'customer_id' => $model->customer_id], ['class' => 'btn btn-xs btn-primary']),
+            ],
+
+
+        ],
+        ]); ?>
+
+<?php if ($model->children): ?>
+    <?= \yii\grid\GridView::widget([
+        'dataProvider' => new \yii\data\ArrayDataProvider([
+            'allModels' => $model->children,
+            'pagination' => false,
+        ]),
+        'caption' => "家族会員",
+        'layout'  => '{items}',
+        'columns' => [
+            [
+                'attribute'=>'name',
+                'format'   =>'html',
+                'value'    =>function($data){return Html::a($data->name, ['view','id'=>$data->customer_id]); },
+            ],
+            'kana',
+            [
+                'attribute' => 'sex',
+                'value'     => function($data){ return $data->sex->name; },
+            ],
+            'birth:date',
+            'age',
+        ],
+        ]); ?>
+<?php elseif ($model->parent): ?>
+    <?= \yii\grid\GridView::widget([
+        'dataProvider' => new \yii\data\ArrayDataProvider([
+            'allModels' => [$model->parent],
+            'pagination' => false,
+        ]),
+        'caption' => "親会員",
+        'layout'  => '{items}',
+        'columns' => [
+            [
+                'attribute'=>'name',
+                'format'   =>'html',
+                'value'    =>function($data){return Html::a($data->name, ['view','id'=>$data->customer_id]); },
+            ],
+            'sex.name',
+            'birth:date',
+        ],
+        ]); ?>
+<?php endif ?>
+
+    <?= \yii\grid\GridView::widget([
+        'dataProvider' => new \yii\data\ArrayDataProvider([
+            'allModels' => $model->infos,
+        ]),
+        'caption' => "付記",
+        'layout'  => '{items}{pager}',
+        'columns' => [
+            [
+                'attribute' => 'content',
+                'contentOptions' => ['class' => 'col-md-6'],
+            ],
+            'update_date',
+            'updator.name',
+            [
+                'class' => 'yii\grid\ActionColumn',
+                'template' => '{update}',
+                'buttons' => [
+                    'update' => function ($url, $model, $key) { return Html::a('修正', ['/customer-info/update','customer_id'=>$model->customer_id,'create_date'=>$model->create_date]); },
+                ],
+                'header' => $model->isExpired() ? '' : Html::a("追加", ['/customer-info/create', 'customer_id' => $model->customer_id], ['class' => 'btn btn-xs btn-primary']),
+            ],
+        ],
+        ]); ?>
+
+    <?= \yii\grid\GridView::widget([
+        'dataProvider' => new \yii\data\ArrayDataProvider([
+            'allModels' => $model->purchases,
+        ]),
+        'caption' => "ご注文の履歴",
+        'layout'  => '{summary}{items}{pager}',
+        'columns' => [
+            [
+                'attribute' => 'purchase_id',
+                'format'    => 'html',
+                'value'     => function($model){ return Html::a(sprintf('%06d',$model->purchase_id), ['/purchase/view', 'id'=>$model->purchase_id]); },
+            ],
+            'create_date:date',
+            [
+                'attribute' => 'branch',
+                'format'    => 'html',
+                'value'     => function($data){ return $data->branch->name; },
+            ],
+            [
+                'attribute' => 'total_charge',
+                'format'    => 'currency',
+                'contentOptions' => ['class'=>'text-right'],
+            ],
+            [
+                'attribute' => 'point_consume',
+                'format'    => 'currency',
+                'value'     => function($data){ return (0 - $data->point_consume); },
+                'contentOptions' => ['class'=>'text-right'],
+            ],
+            [
+                'attribute' => 'point_given',
+                'format'    => 'integer',
+                'contentOptions' => ['class'=>'text-right'],
+            ],
+        ],
+        ]); ?>
+
+    <?= \yii\grid\GridView::widget([
+        'dataProvider' => new \yii\data\ArrayDataProvider([
+            'allModels' => $model->pointings,
+        ]),
+        'caption' => "ポイント付与の履歴",
+        'layout'  => '{summary}{items}{pager}',
+        'columns' => [
+            [
+                'attribute' => 'pointing_id',
+                'format'    => 'html',
+                'value'     => function($model){ return Html::a(sprintf('%06d',$model->pointing_id), ['/pointing/view', 'id'=>$model->pointing_id]); },
+            ],
+            'create_date:date',
+            [
+                'attribute' => 'seller',
+                'format'    => 'html',
+                'value'     => function($model){ return $model->seller ? Html::a($model->seller->name, ['/customer/view', 'id'=>$model->seller_id]) : null; },
+                'contentOptions' => ['class'=>'text-right'],
+            ],
+            [
+                'attribute' => 'point_consume',
+                'format'    => 'currency',
+                'value'     => function($model){ return (0 - $model->point_consume); },
+                'contentOptions' => ['class'=>'text-right'],
+            ],
+            [
+                'attribute' => 'point_given',
+                'format'    => 'integer',
+                'contentOptions' => ['class'=>'text-right'],
+            ],
+        ],
+        ]); ?>
+
+    <?= \yii\grid\GridView::widget([
+        'dataProvider' => new \yii\data\ArrayDataProvider([
+            'allModels' => $model->recipes,
+        ]),
+        'caption' => "適用書 <small>認定ホメオパスから発行してもらった履歴</small>",
+        'layout'  => '{summary}{items}{pager}',
+        'columns' => [
+            [
+                'attribute' => 'recipe_id',
+                'format'    => 'html',
+                'value'     => function($model){ return Html::a(sprintf('%06d',$model->recipe_id), ['/recipe/view', 'id'=>$model->recipe_id]); },
+            ],
+            [
+                'attribute' => 'create_date',
+                'format'    => ['date','php:Y-m-d D'],
+            ],
+            [
+                'attribute' => 'update_date',
+                'format'    => ['date','php:Y-m-d D'],
+            ],
+        ],
+        ]); ?>
+
+    <?php if($recipes = $model->getRecipes(true)->count()): ?>
+    <?= \yii\grid\GridView::widget([
+        'dataProvider' => new \yii\data\ArrayDataProvider([
+            'allModels' => $model->getRecipes(true),
+        ]),
+        'caption' => "適用書 <small>自分が発行した履歴</small>",
+        'layout'  => '{summary}{items}{pager}',
+        'columns' => [
+            [
+                'attribute' => 'recipe_id',
+                'format'    => 'html',
+                'value'     => function($model){ return Html::a(sprintf('%06d',$model->recipe_id), ['/recipe/view', 'id'=>$model->recipe_id]); },
+            ],
+            [
+                'attribute' => 'client_id',
+                'format'    => 'html',
+                'value'     => function($model){
+                    if(! $model->client_id)
+                        return '(指定なし)';
+
+                    if($model->client->kana)
+                        $kana = $model->client->kana;
+                    else
+                        $kana = '(未登録)';
+
+                    return Html::a($kana, ['/customer/view','id'=>$model->client_id]);
+                },
+            ],
+            [
+                'attribute' => 'create_date',
+                'format'    => ['date','php:Y-m-d D'],
+            ],
+            [
+                'attribute' => 'update_date',
+                'format'    => ['date','php:Y-m-d D'],
+            ],
+        ],
+    ]); ?>
+    <?php endif ?>
+
+</div>

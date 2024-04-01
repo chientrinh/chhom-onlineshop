@@ -1,0 +1,69 @@
+<?php
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/backend/views/product-master/csv.php $
+ * $Id: csv.php 2624 2016-06-25 10:28:47Z mori $
+ *
+ * @var $this yii\web\View
+ * @var $dataProvider yii\data\ActiveDataProvider of RemedyStock
+ */
+
+use \yii\helpers\Html;
+use \yii\helpers\ArrayHelper;
+
+class MyWidget
+{
+    public static function getValues($model)
+    {
+        $vendor = strtoupper(ArrayHelper::getValue($model,'category.vendor.key'));
+        $seller = strtoupper(ArrayHelper::getValue($model,'category.seller.key'));
+        $remedy = null;
+        $potency= null;
+        $vial   = null;
+        $category = ArrayHelper::getValue($model,'category.name');
+        $restrict = ArrayHelper::getValue($model,'restriction.name');
+        $name     = ArrayHelper::getValue($model,'name');
+        $kana     = ArrayHelper::getValue($model,'kana');
+        $ean13    = ArrayHelper::getValue($model,'ean13');
+        $price    = ArrayHelper::getValue($model,'price');
+        $expired  = false;
+
+        if($product = $model->product)
+        {
+            $code = ArrayHelper::getValue($product,'code');
+            $pick = ArrayHelper::getValue($product,'pickcode');
+            $name = ArrayHelper::getValue($product,'name');
+            $kana = ArrayHelper::getValue($product,'kana');
+
+            $expired = $model->product->isExpired();
+        }
+        elseif($stock = $model->stock)
+        {
+            $code   = ArrayHelper::getValue($stock,'code');
+            $pick   = ArrayHelper::getValue($stock,'pickcode');
+        }
+        else
+        {
+            $code = '';
+            $pick = '';
+        }
+        $remedy  = ArrayHelper::getValue($model,'remedy.abbr');
+        $potency = ArrayHelper::getValue($model,'potency.name');
+        $vial    = ArrayHelper::getValue($model,'vial.name');
+
+        return [$ean13, $name, $kana, $model->dsp_priority, $seller, $vendor, $category, $price, $code, $pick, $remedy, $potency, $vial, $restrict, $model->in_stock];
+    }
+}
+
+?>
+barcode,name,kana,dsp_priority,販社,供給社,カテゴリー,定価,品番,PICK,REMEDY,POTENCY,容器,公開区分,在庫<br>
+<?php
+$i = 0;
+foreach($dataProvider->query->each() as $model)
+{
+    $values = \MyWidget::getValues($model);
+    echo implode(',', $values),"<br>\n";
+
+    $i++;
+}
+?>
+以上<?= $i ?>点

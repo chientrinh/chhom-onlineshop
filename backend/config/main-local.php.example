@@ -1,0 +1,45 @@
+<?php
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/backend/config/main-local.php.example $
+ * $Id: main-local.php.example 920 2015-04-19 06:40:29Z mori $
+ */
+
+$config = [
+    'components' => [
+        'db' => [ 'password' => 'PXqSJ4kZ' ],
+        'webdb18' => [
+            'username' => 'dbuser',
+            'password' => '',
+        ],
+        'webdb20' => [
+            'username' => 'dbuser',
+            'password' => '',
+        ],
+        'ecOrange' => [
+            'dsn'      => 'mysql:host=localhost;dbname=eccube_db_HE',
+            'username' => 'yii_back',
+            'password' => '',
+        ],
+        'ecCube' => [
+            'dsn'      => 'mysql:host=localhost;dbname=eccube_db_TY',
+            'username' => 'yii_back',
+            'password' => '',
+        ],
+        'request' => [
+            'cookieValidationKey' => 'kZOzgMBo4P9PJbzYmwBQx3_v42bUgzIl',
+        ],
+    ],
+    'bootstrap' => ['gii'],
+    'modules' => ['gii'=>'yii\gii\Module'],
+];
+
+if (1) {
+    // configuration adjustments for 'dev' environment
+    $config['bootstrap'][] = 'debug';
+    $config['modules']['debug'] = 'yii\debug\Module';
+
+    $config['bootstrap'][] = 'gii';
+    $config['modules']['gii'] = 'yii\gii\Module';
+}
+
+return $config;

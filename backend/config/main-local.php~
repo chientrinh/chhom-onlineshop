@@ -1,0 +1,36 @@
+<?php
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/backend/config/main-local.php.example $
+ * $Id: main-local.php.example 801 2015-03-14 07:10:44Z mori $
+ */
+
+$config = [
+    'components' => [
+        'db'     => ['password' => '5NoKCJ2E', ],
+        'webdb18' => [
+            'username' => 'dbuser',
+            'password' => 'Bsh5Qpg8',
+            'charset'  => 'euc-jp',
+        ],
+        'webdb20' => [
+            'username' => 'dbuser',
+            'password' => 'Bsh5Qpg8',
+            'charset'  => 'euc-jp',
+        ],
+        'ecOrange' => [
+            'dsn'      => 'mysql:host=db.toyouke.com;dbname=eccube_db_HE',
+            'username' => 'yii_tihm',
+            'password' => 'PXqSJ4kZ',
+        ],
+        'ecCube' => [
+            'dsn'      => 'mysql:host=localhost;dbname=eccube_db_TY',
+            'username' => 'yii_back',
+            'password' => 'PXqSJ4kZ',
+        ],
+        'request' => [
+            'cookieValidationKey' => 'ARNICA_kZOzgMBo4P9PJbzYmwABC3_v4DEFgzIl',
+        ],
+    ],
+];
+
+return $config;

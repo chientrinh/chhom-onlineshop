@@ -1,0 +1,141 @@
+<?php
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/backend/config/main.php $
+ * $Id: main.php 3282 2017-05-02 08:11:36Z kawai $
+ */
+
+$params = array_merge(
+    require(__DIR__ . '/../../common/config/params.php'),
+    require(__DIR__ . '/../../common/config/params-local.php'),
+    require(__DIR__ . '/params.php'),
+    require(__DIR__ . '/params-local.php')
+);
+
+return [
+    'name'                => '豊受モール backyard',
+    'id'                  => 'app-backend',
+    'basePath'            => dirname(__DIR__),
+    'controllerNamespace' => 'backend\controllers',
+    'bootstrap'           => ['log'],
+    'modules'             => [
+        'casher' => [
+            'class' => 'backend\modules\casher\Module',
+        ],
+        'cms' => [
+            'class' => 'common\modules\cms\Module',
+        ],
+        'event' => [
+            'class' => 'common\modules\event\Module',
+            'defaultRoute' => 'admin',
+        ],
+        'member' => [
+            'class' => 'common\modules\member\Module',
+            'defaultRoute' => 'admin',
+            'pointBack' => [
+                \common\models\Product::PKEY_TORANOKO_G_ADMISSION => 500,
+                \common\models\Product::PKEY_TORANOKO_N_ADMISSION => 250,
+            ],
+        ],
+        'invoice' => [
+            'class' => 'common\modules\invoice\Module',
+            'defaultRoute' => 'admin',
+        ],
+        'recipe' => [
+            'class' => 'common\modules\recipe\Module',
+            'defaultRoute' => 'admin',
+        ],
+        'sales' => [
+            'class' => 'backend\modules\sales\Module',
+            'title' => '売上の明細',
+        ],
+        'sodan' => [
+            'class' => 'common\modules\sodan\Module',
+            'defaultRoute' => 'admin',
+        ],
+        'stock' => [
+            'class' => 'backend\modules\stock\Module',
+        ],
+        'webdb' => [
+            'class' => 'app\modules\webdb\Module',
+        ],
+        'ysd' => [
+            'class' => \backend\modules\ysd\Module::className(),
+        ],
+        'shipping' => [
+            'class' => \backend\modules\shipping\Module::className(),
+        ],
+    ],
+    'components' => [
+        'authManager' => [
+            'class' => \backend\rbac\DbManager::className(),
+        ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName'  => true,
+            'rules'           => [
+                '<action:login|logout>'      => 'site/<action>',
+                '<controller>/<id:[-]?\d+>'   => '<controller>/view',
+                'remedy/<action:index|view|create|add|update|delete>'
+                                             => 'remedy/<action>',
+                'remedy/<name>'              => 'remedy/viewbyname',
+                '<module>/<controller>/<id:\d+>'            => '<module>/<controller>/view',
+                '<module>/<controller>/<id:\d+>/?<page:.*>' => '<module>/<controller>/view',
+            ],
+        ],
+        'view' => [
+            'class' => common\components\View::className(),
+        ],
+        'db' => [
+            'username' => 'yii_back',
+            'password' => '',
+//            'password' => '5IM2tWhA',
+        ],
+        'factory' => [
+            'class'    => \yii\db\Connection::className(),
+            'dsn'      => 'mysql:host=localhost;dbname=factory',
+            'charset'  => 'utf8',
+            'username' => 'yii_back',
+            'password' => '',
+        ],
+        'ysd' => [
+            'username' => 'yii_back',
+//            'username' => 'root',
+            'password' => '',
+//            'password' => '5IM2tWhA',
+        ],
+        'request' => [
+            'csrfParam'  => '_backendCSRF',
+            'csrfCookie' => [
+                'path'     => "/backyard",
+                'httpOnly' => true,
+            ],
+        ],
+        'user' => [
+            'identityCookie' => [
+                'name'     => '_backendIdentity',
+                'path'     => "/backyard",
+                'httpOnly' => true,
+            ],
+            'identityClass'   => 'backend\models\Staff',
+            'enableAutoLogin' => true,
+        ],
+        'session' => [
+            'cookieParams' => [
+                'path' => '/backyard',
+            ],
+        ],
+        'errorHandler' => [
+            'errorAction' => 'site/error',
+        ],
+        'log' => [
+            'targets' => [
+                [
+                    'class' => 'yii\log\FileTarget',
+                    'levels' => ['info', 'error'],
+                    'logVars' => [],
+                ],
+            ],
+        ],
+    ],
+    'params' => $params,
+];

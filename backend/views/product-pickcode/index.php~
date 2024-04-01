@@ -1,0 +1,39 @@
+<?php
+
+use yii\helpers\Html;
+use yii\grid\GridView;
+
+/* @var $this yii\web\View */
+/* @var $dataProvider yii\data\ActiveDataProvider */
+
+$this->title = 'ピックコード';
+$this->params['breadcrumbs'][] = ['label'=>$this->title, 'url' => ['/product-pickcode/index']];
+?>
+<div class="product-pickcode-index">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+                               <div class="dropdown-menu-right">
+<?= Html::a("CSV表示", ['index', 'csv'=>1], ['class' => 'btn btn-default pull-right']) ?>
+</div>
+
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel'  => $searchModel,
+        'layout' => '{summary}{pager}{items}{pager}',
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            'ean13',
+            'product_code',
+            'pickcode',
+            'model.name',
+
+            ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
+
+    <p>
+        <?= Html::a('Create Product Pickcode', ['create'], ['class' => 'btn btn-success']) ?>
+    </p>
+
+</div>

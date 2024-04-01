@@ -1,0 +1,159 @@
+<?php
+
+use yii\helpers\Html;
+use yii\helpers\ArrayHelper;
+
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/backend/views/live-info/index.php $
+ * $Id: index.php 2286 2020-04-28 11:28:00Z kawai $
+ *
+ * @var $this yii\web\View
+ * @var $searchModel common\models\LiveInfoSearch
+ * @var $dataProvider yii\data\ActiveDataProvider
+ */
+$onlineEnable = [0 => '不可', 1 => '可'];
+?>
+<div class="live-info-index">
+
+    <h1>ライブ配信追加情報</h1>
+    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+
+    <?= \yii\grid\GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel'  => $searchModel,
+        'columns' => [
+            [
+                'attribute' => 'info_id',
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],
+            ],
+            [
+                'label' => '表示するチケット',
+                'format'    => 'html',
+                'value'     =>  function($data){
+                    $liveItems = $data->getLiveItemInfos()->all();
+                    if(count($liveItems) > 0) {
+                        $products = [];
+                        foreach($liveItems as $data) {
+                            $products[] = $data->product_id.' : '.Html::a($data->product->name, ['product/view','id'=>$data->product_id]);
+                        }
+                        return implode ( "<br />" ,$products);
+                          
+                    } else {
+                        return "";
+                    }
+                },
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],
+            ],
+            [
+                'attribute' => 'name',
+                'format'    => 'raw',
+                'value'     => function($data){ return Html::a($data->name, ['view', 'id'=>$data->info_id]); },
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],
+            ],
+            [
+                'attribute' => 'option_name',
+                'format'    => 'text',
+                'value'     => function($data){ return $data->option_name; },
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],
+            ],
+            [
+                'attribute' => 'option_description',
+                'format'    => 'text',
+                'value'     => function($data){ return $data->option_description; },
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],                
+            ],
+            [
+                'label'     => '自宅受講時<br>オプション',
+                'encodeLabel' => false,
+                'attribute' => 'online_option_enable',
+                'format'    => 'text',
+                'filter'    => $onlineEnable,
+                'value'     => function($data){ return $data->online_option_enable ? '可' : '不可'; },
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],
+            ],
+            [
+                'attribute' => 'product_id',
+                'format'    => 'raw',
+                'value'     => function($data){ return $data->product_id ? $data->product_id.' : '.Html::a($data->product->name, ['product/view', 'id'=>$data->product_id]) : ""; },
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],
+            ],
+            [
+                'attribute' => 'coupon_name',
+                'format'    => 'raw',
+                'value'     => function($data){ return $data->coupon_name;},
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],
+            ],
+            [
+                'attribute' => 'coupon_code',
+                'format'    => 'raw',
+                'value'     => function($data){ return $data->coupon_code;},
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],                
+            ],
+            [
+                'attribute' => 'coupon_discount',
+                'format'    => 'currency',
+                'value'     => function($data){ return $data->coupon_discount;},
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],
+            ],
+            [
+                'label'     => '自宅受講時<br>クーポン',
+                'encodeLabel' => false,
+                'attribute' => 'online_coupon_enable',
+                'format'    => 'text',
+                'filter'    => $onlineEnable,                
+                'value'     => function($data){ return $data->online_coupon_enable ? '可' : '不可'; },
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],
+            ],            
+            [
+                'attribute' => 'expire_date',
+                'format'    => 'text',
+                'value'     => function($data){ return $data->expire_date; },
+                 'headerOptions' => [
+                // this should be on a CSS file as class instead of a inline style attribute...
+                'style' => 'text-align: center !important;vertical-align: middle !important'
+                 ],
+            ],
+            [
+                'class' => \yii\grid\ActionColumn::className(),
+                'template' => '{view}{update}',
+            ],
+
+        ],
+    ]); ?>
+
+    <?= Html::a('追加', ['create'], ['class' => 'btn btn-success']) ?>
+
+</div>

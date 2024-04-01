@@ -1,0 +1,55 @@
+<?php
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/backend/config/main-local.php.example $
+ * $Id: main-local.php.example 801 2015-03-14 07:10:44Z mori $
+ */
+
+$config = [
+    'components' => [
+        'db'     => [ 'password' => '5NoKCJ2E' ],
+        'factory'=> [ 'password' => '5NoKCJ2E' ],
+        'ysd'    => [ 'password' => '5NoKCJ2E' ],
+//        'db'     => [ 'password' => '5IM2tWhA' ],
+///        'db'     => [ 'password' => '' ],
+///	'factory'=> [ 'password' => '5NoKCJ2E' ],
+//        'ysd'    => [ 'password' => '5NoKCJ2E' ],
+///        'ysd'    => [ 'password' => '' ],
+        'webdb18' => [
+            'username' => 'dbuser',
+            'password' => 'Bsh5Qpg8',
+            'charset'  => 'euc-jp',
+        ],
+        'webdb20' => [
+            'username' => 'dbuser',
+            'password' => 'Bsh5Qpg8',
+            'charset'  => 'euc-jp',
+        ],
+        'ecOrange' => [
+            'dsn'      => 'mysql:host=db.toyouke.com;dbname=eccube_db_HE',
+            'username' => 'yii_tihm',
+            'password' => 'PXqSJ4kZ',
+        ],
+        'ecCube' => [
+            'dsn'      => 'mysql:host=localhost;dbname=eccube_db_TY',
+            'username' => 'yii_back',
+            'password' => 'PXqSJ4kZ',
+        ],
+        'request' => [
+            'cookieValidationKey' => 'ARNICA_kZOzgMBo4P9PJbzYmwABC3_v4DEFgzIl',
+        ],
+    ],
+];
+
+if (defined('YII_ENV') && 'test' == YII_ENV) {}
+else {
+    // configuration adjustments for 'dev' environment
+    $config['bootstrap'][] = 'debug';
+    $config['modules']['debug'] = [
+        'class'     => 'yii\debug\Module',
+        'allowedIPs'=> ['133.242.72.52','192.168.0.*','127.0.0.1','::1'],
+    ];
+
+    $config['bootstrap'][] = 'gii';
+    $config['modules']['gii'] = 'yii\gii\Module';
+}
+return $config;

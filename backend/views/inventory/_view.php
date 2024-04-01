@@ -1,0 +1,1 @@
+../../modules/casher/views/inventory/_view.php

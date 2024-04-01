@@ -1,0 +1,106 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\DetailView;
+use \common\models\LiveInfo;
+
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/backend/views/live-info/view.php $
+ * $Id: view.php 2992 2016-10-19 07:37:38Z mori $
+ *
+ * @var $this yii\web\View
+ * @var $model common\models\Streaming
+ */
+
+$this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view','id'=>$model->info_id]];
+?>
+<div class="live-info-view">
+
+    <p class="pull-right">
+        <?= Html::a('編集', ['update', 'id' => $model->info_id], ['class' => 'btn btn-primary']) ?>
+        <?= !$model->isNewRecord ? \yii\helpers\Html::a("削除", ['live-info/delete','id'=>$model->info_id],['class'=>'btn btn-danger', 'title'=>'確認', 'data' =>['confirm'=>"この追加情報を削除します。よろしいですか？"]]) : null ?>
+        <?= Html::a('',['view','id'=>$model->info_id -1],['class'=>'btn btn-sm btn-default glyphicon glyphicon-chevron-left'])?>
+        <?= Html::a('',['view','id'=>$model->info_id +1],['class'=>'btn btn-sm btn-default glyphicon glyphicon-chevron-right'])?>
+    </p>
+
+    <h1><?= Html::encode($model->name) ?></h1>
+
+    <?= DetailView::widget([
+        'model' => $model,
+        'attributes' => [
+            'info_id',
+            [
+                'attribute' => 'name',
+                'format'    => 'raw',
+                'value'     => Html::a($model->name, ['product/view', 'id'=>$model->info_id]),
+            ],
+            [
+                'attribute' => 'place',
+                'format'    => 'raw',
+                'value'     => $model->place,
+            ],
+            [
+                'attribute' => 'option_name',
+                'format'    => 'raw',
+                'value'     => $model->option_name,
+            ],
+            [
+                'attribute' => 'option_description',
+                'format'    => 'text',
+                'value'     => $model->option_description,
+            ],
+            [
+                'attribute' => 'product_id',
+                'format'    => 'raw',
+                'value'     => $model->product_id ? Html::a($model->product_id. ' : '.$model->product->name, ['product/view', 'id'=>$model->product_id]) : "",
+            ],
+            // [
+            //     'attribute' => 'option_price',
+            //     'format'    => 'text',
+            //     'value'     => $model->option_price,
+            // ],
+            [
+                'attribute' => 'coupon_name',
+                'format'    => 'raw',
+                'value'     => $model->coupon_name,
+            ],
+            [
+                'attribute' => 'coupon_code',
+                'format'    => 'raw',
+                'value'     => $model->coupon_code,
+            ],
+            [
+                'attribute' => 'coupon_discount',
+                'format'    => 'currency',
+                'value'     => $model->coupon_discount,
+            ],
+            [
+                'attribute' => 'online_coupon_enable',
+                'format'    => 'text',
+                'value'     => $model->online_coupon_enable ? '可' : '不可',
+            ],            
+            'create_date',
+            'update_date',
+            'expire_date',
+        ],
+    ]) ?>
+
+    <h2>表示するチケット</h2>
+    <?= Html::a('チケットの追加', ['live-item-info/create'], ['class' => 'btn btn-success pull-right']) ?>
+    <?= \yii\grid\GridView::widget([
+        'dataProvider' => new \yii\data\ActiveDataProvider([
+            'query' => $model->getLiveItemInfos(),
+            'sort'  => ['defaultOrder' => ['info_id'=>SORT_DESC]],
+        ]),
+        'columns' => [
+            [
+                'attribute' => 'product_id',
+                'format'    => 'html',
+                'value'     => function($data)
+                {
+                    return $data->product_id.' : '.Html::a($data->product->name, ['product/view','id'=>$data->product_id]).'　　'.Html::a('チケットの変更', ['live-item-info/update', 'id' => $data->id], ['class' => 'btn btn-primary pull-right']);
+                },
+            ],
+        ],
+    ]) ?>
+</div>
