@@ -11,7 +11,7 @@
  */
 ?>
 <?= $customer->name ?> 様   <?php if ($customer->code): ?>【会員番号：<?= $customer->code ?>】 <?php endif; ?> 
-
+    
 このたびは<?= Yii::$app->name ?>をご利用いただきまして誠にありがとうございます。
 下記のとおりご注文を承りましたのでご確認のほどお願い申し上げます。
 

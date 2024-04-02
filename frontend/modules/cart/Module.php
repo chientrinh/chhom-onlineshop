@@ -520,7 +520,7 @@ class Module extends \yii\base\Module
                         );
                     } else {
                         if('echom-frontend' == Yii::$app->id) {
-
+                            
                             // クレジット決済ならcredit.localtoyouke.com にリダイレクトさせる
                             if($purchase->payment_id == \common\models\Payment::PKEY_CREDIT_CARD) {
                                 return true;

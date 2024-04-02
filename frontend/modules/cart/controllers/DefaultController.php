@@ -435,7 +435,7 @@ class DefaultController extends \yii\web\Controller implements \yii\base\ViewCon
                 }
             }
         }
-
+        
         $result = $this->module->finish($cart_idx);
 
         if($result && 'echom-frontend' == Yii::$app->id) {
@@ -474,7 +474,7 @@ class DefaultController extends \yii\web\Controller implements \yii\base\ViewCon
                 'purchase' => $purchase,
                 'result'   => $result,
             ]);
-
+            
         } else if ($result['credit_ret'] == 'ok') {
             $credit = true;
             if($purchase = \common\models\Purchase::findOne($result['purchase_id']))
@@ -488,7 +488,7 @@ class DefaultController extends \yii\web\Controller implements \yii\base\ViewCon
                 } else {
                     $mailer = new \common\components\sendmail\PurchaseMail(['model'=>$purchase]);
                 }
-
+                
 // var_dump($result);exit;
                 if($mailer->thankyou($result)) {
                     return $this->redirect(['complete', 
