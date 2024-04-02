@@ -1,0 +1,131 @@
+<?php
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/common/config/main.php $
+ * $Id: main.php 3442 2017-06-21 11:57:57Z mori $
+ */
+
+return [
+    'name'       => '豊受モール',
+    'language'   => 'ja-JP', // this is referred by Yii::$app->formatter, do not change!
+    'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
+    'components' => [
+        'tax' => [
+            'class'    => 'common\models\Tax',
+//            'rate'     => 0.08,
+        ],
+        'db' => [
+            'class'    => 'yii\db\Connection',
+            'dsn'      => 'mysql:host=localhost;dbname=mall',
+            'username' => '',
+            'password' => '',
+            'charset'  => 'utf8',
+        ],
+        'ysd' => [
+            'class'    => \yii\db\Connection::className(),
+            'dsn'      => 'mysql:host=localhost;dbname=ysd',
+            'username' => '',
+            'password' => '',
+            'charset'  => 'utf8',
+        ],
+        'webdb18' => [ // HJ
+            'class'    => 'yii\db\Connection',
+            'dsn'      => 'pgsql:host=webdb18.homoeopathy.co.jp;port=5432;dbname=homoeoc',
+            'username' => '',
+            'password' => '',
+            'charset'  => 'euc-jp',
+        ],
+        'webdb19' => [ // HJ
+            'class'    => 'yii\db\Connection',
+            'dsn'      => 'pgsql:host=webdb19.homoeopathy.co.jp;port=5432;dbname=homoeoc',
+            'username' => '',
+            'password' => '',
+            'charset'  => 'euc-jp',
+        ],
+        'webdb20' => [ // HE, HP
+            'class'    => 'yii\db\Connection',
+            'dsn'      => 'pgsql:host=webdb20.homoeopathy.co.jp;port=5432;dbname=homoeoc',
+            'username' => '',
+            'password' => '',
+            'charset'  => 'euc-jp',
+        ],
+        'ecOrange' => [ // HE
+            'class'    => 'yii\db\Connection',
+            'dsn'      => 'mysql:host=127.0.0.1;port=3309;dbname=eccube_db_toyouke',
+            'username' => '',
+            'password' => '',
+            'charset'  => 'utf8',
+            'tablePrefix' => 'dtb_',
+        ],
+        'ecCube' => [  // TY
+            'class'    => 'yii\db\Connection',
+            'dsn'      => 'mysql:host=127.0.0.1;port=3308;dbname=eccube_db_TY',
+            'username' => '',
+            'password' => '',
+            'charset'  => 'utf8',
+        ],
+        'authManager' => [
+            'class' => \yii\rbac\DbManager::className(),
+        ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+        ],
+        'formatter' => [
+            'currencyCode'      => 'JPY',
+            'decimalSeparator'  => '.',
+            'thousandSeparator' => ',',
+            'dateFormat'        => 'yyyy-MM-dd',
+            'defaultTimeZone'   => 'Asia/Tokyo',
+            'nullDisplay'       => '',
+            'numberFormatterOptions' => [
+                NumberFormatter::MIN_INTEGER_DIGITS => 1,
+            ],
+        ],
+        'dom' => [
+            'class' => 'common\components\SimpleHtmlDom'
+        ],
+        'cart' => [
+            'class' => 'common\components\cart\ConsumerCart',
+        ],
+        'mailer' => [
+            'class'    => 'common\components\Mailer',
+            'viewPath' => '@common/mail',
+            'useFileTransport' => false,
+
+            'transport' => [
+                'class'      => 'Swift_SmtpTransport',
+                'host'       => 'smtp.toyouke.com',
+                'username'   => 'system@toyouke.com',
+                'password'   => 'hkip4xT#',
+                'port'       => '587',
+                'encryption' => 'tls',
+            ],
+         ],
+        'cache' => [
+            'class'      => 'yii\caching\DbCache',
+            'cacheTable' => 'wtb_cache',
+        ],
+        'log' => [
+            'traceLevel' => 0,
+            'targets'    => [
+                [
+                    'class'      => \yii\log\DbTarget::className(),
+                    'levels'     => ['warning'],
+                    'categories' => ['*'],
+                    'logTable'   => 'ltb_system',
+                ],
+                [
+                    'class'      => \yii\log\EmailTarget::className(),
+                    'levels'     => ['error'],
+                    'except'     => ['yii\web*'],
+                    'message'    => [
+                         'from'    => ['system@toyouke.com'],
+                         'to'      => YII_DEBUG
+                         ? ['mori@homoeopathy.co.jp',]
+                         : ['webmaster@ml.toyouke.com', 'system@homoeopathy.co.jp'],
+                         'subject' => sprintf('[ERROR] %s', gethostname()),
+                    ],
+                ],
+            ],
+        ],
+    ],
+];

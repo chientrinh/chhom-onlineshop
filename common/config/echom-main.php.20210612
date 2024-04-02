@@ -1,0 +1,98 @@
+<?php
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/common/config/main.php $
+ * $Id: main.php 3172 2016-12-22 07:09:20Z mori $
+ */
+
+return [
+    'name'       => 'CHhomオンラインショップ',
+    'language'   => 'ja-JP', // this is referred by Yii::$app->formatter, do not change!
+    'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
+    'components' => [
+        'tax' => [
+            'class'    => 'common\models\Tax',
+            'rate'     => 0.1,
+        ],
+        'db' => [
+            'class'    => 'yii\db\Connection',
+            'dsn'      => 'mysql:host=localhost;dbname=mall',
+            'username' => 'root',
+            'password' => '5IM2tWhA',
+            'charset'  => 'utf8',
+        ],
+        'ysd' => [
+            'class'    => \yii\db\Connection::className(),
+            'dsn'      => 'mysql:host=localhost;dbname=ysd',
+            'username' => '',
+            'password' => '',
+            'charset'  => 'utf8',
+        ],
+        'authManager' => [
+            'class' => \yii\rbac\DbManager::className(),
+        ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+        ],
+        'formatter' => [
+            'currencyCode'      => 'JPY',
+            'decimalSeparator'  => '.',
+            'thousandSeparator' => ',',
+            'dateFormat'        => 'yyyy-MM-dd',
+            'defaultTimeZone'   => 'Asia/Tokyo',
+            'nullDisplay'       => '',
+            'numberFormatterOptions' => [
+                NumberFormatter::MIN_INTEGER_DIGITS => 1,
+            ],
+        ],
+        'dom' => [
+            'class' => 'common\components\SimpleHtmlDom'
+        ],
+        'cart' => [
+            'class' => 'common\components\cart\ConsumerCart',
+        ],
+        'mailer' => [
+            'class'    => 'common\components\Mailer',
+            'viewPath' => '@common/mail',
+            'useFileTransport' => false,
+
+            'transport' => [
+                'class'      => 'Swift_SmtpTransport',
+//                'host'       => 'smtp.toyouke.com',
+//                'username'   => 'system@toyouke.com',
+//                'password'   => 'jz6KPN3w',
+                'host'       => 'homoeopathy.ac',
+                'username'   => 'ec-chhom',
+                'password'   => 'T8hkjgDh',
+                'port'       => '587',
+                'encryption' => 'tls',
+            ],
+         ],
+        'cache' => [
+            'class'      => 'yii\caching\DbCache',
+            'cacheTable' => 'wtb_cache',
+        ],
+        'log' => [
+            'traceLevel' => 0,
+            'targets'    => [
+                [
+                    'class'      => \yii\log\DbTarget::className(),
+                    'levels'     => ['warning'],
+                    'categories' => ['*'],
+                    'logTable'   => 'ltb_system',
+                ],
+                [
+                    'class'      => \yii\log\EmailTarget::className(),
+                    'levels'     => ['error'],
+                    'except'     => ['yii\web*'],
+                    'message'    => [
+                         'from'    => ['mkawai0919+malldev@gmail.com'],
+                         'to'      => YII_DEBUG
+                         ? ['m_kawai@homoeopathy.co.jp',]
+                         : ['mkawai0919+malldev@gmail.com', 'm_kawai@homoeopathy.co.jp'],
+                         'subject' => sprintf('[ERROR] %s', gethostname()),
+                    ],
+                ],
+            ],
+        ],
+    ],
+];

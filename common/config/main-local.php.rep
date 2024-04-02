@@ -1,0 +1,58 @@
+<?php
+return [
+    'components' => [
+        'db' => [
+//            'class'   => 'yii\db\Connection',
+//            'dsn'     => 'mysql:host=localhost;dbname=mall',
+//            'username'=> 'yii_back',
+//            'charset' => 'utf8',
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=mall',
+            'username' => 'masterslave',
+            'password' => '5IM2tWhA',
+            'charset' => 'utf8',
+
+            'enableSlaves' => true,
+            'slaveConfig' => [
+                'username' => 'masterslave',
+                'password' => '5IM2tWhA',
+                'charset' => 'utf8',
+                'attributes' => [
+                    // use a smaller connection timeout
+                    PDO::ATTR_TIMEOUT => 10,
+                ],
+            ],
+
+            // list of slave configurations
+            'slaves' => [
+                ['dsn' => 'mysql:host=18.178.112.109;dbname=mall', 'username' => 'masterslave', 'password' => '5IM2tWhA'],
+                ['dsn' => 'mysql:host=18.182.0.64;dbname=mall', 'username' => 'masterslave', 'password' => '5IM2tWhA'],
+                ['dsn' => 'mysql:host=52.68.181.170;dbname=mall', 'username' => 'masterslave', 'password' => '5IM2tWhA'],
+                ['dsn' => 'mysql:host=13.113.223.239;dbname=mall', 'username' => 'masterslave', 'password' => '5IM2tWhA'],
+                ['dsn' => 'mysql:host=52.68.181.170;dbname=mall', 'username' => 'masterslave', 'password' => '5IM2tWhA'],
+                ['dsn' => 'mysql:host=13.114.253.232;dbname=mall', 'username' => 'masterslave', 'password' => '5IM2tWhA'],
+                ['dsn' => 'mysql:host=18.178.23.245;dbname=mall', 'username' => 'masterslave', 'password' => '5IM2tWhA'],
+                ['dsn' => 'mysql:host=18.180.169.107;dbname=mall', 'username' => 'masterslave', 'password' => '5IM2tWhA'],
+                ['dsn' => 'mysql:host=18.180.64.164;dbname=mall', 'username' => 'masterslave', 'password' => '5IM2tWhA'],
+                ['dsn' => 'mysql:host=54.199.10.55;dbname=mall', 'username' => 'masterslave', 'password' => '5IM2tWhA'],
+            ],
+
+        ],
+        'webdb18' => [
+            'username' => 'dbuser',
+            'password' => 'Bsh5Qpg8',
+        ],
+        'webdb20' => [
+            'username' => 'dbuser',
+            'password' => 'Bsh5Qpg8',
+        ],
+	'ecOrange' => [
+	        'username' => 'yii_tihm',
+	        'password' => 'Ahtk7oG3',
+	],
+	'ecCube' => [
+	        'username' => 'yii_tihm',
+	        'password' => 'Ahtk7oG3',
+	],
+    ],
+];

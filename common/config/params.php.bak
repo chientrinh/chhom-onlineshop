@@ -1,0 +1,35 @@
+<?php
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/common/config/params.php $
+ * $Id: params.php 1405 2015-08-29 12:10:04Z mori $
+ */
+
+/**
+ * setup Japanese environments
+ */
+mb_language('Japanese');
+ini_set('mbstring.detect_order', 'auto');
+ini_set('mbstring.http_input'  , 'auto');
+ini_set('mbstring.http_output' , 'pass');
+ini_set('mbstring.internal_encoding', 'utf8');
+ini_set('mbstring.script_encoding'  , 'utf8');
+ini_set('mbstring.substitute_character', 'none');
+mb_regex_encoding('utf8');
+
+/**
+ * use 64 bit for hash
+ */
+ini_set('session.hash_function','sha256');
+
+/**
+ * allocate 256MB to process large image files
+ */
+ini_set("memory_limit","256M"); // see @common/models/ProductImage.php for details
+
+return [
+    'orderEmail'   => 'shop@toyouke.com',
+    'supportEmail' => 'member@toyouke.com',
+    'adminEmail'   => 'system@toyouke.com',
+
+    'user.passwordResetTokenExpire' => 3600,
+];

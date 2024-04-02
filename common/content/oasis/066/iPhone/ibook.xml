@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+  <AuthVersion>ActiBook  [[3.0.0.0_SD]]</AuthVersion>
+  <name>ネットオアシス66号</name>
+  <title>ネットオアシス66号</title>
+  <total>76</total>
+  <cover/>
+  <toright/>
+  <w>320</w>
+  <h>451.2900390625</h>
+  <div>
+    <w>320</w>
+    <h>460</h>
+  </div>
+  <zoom_s>1,2,3</zoom_s>
+  <over_zoom>6</over_zoom>
+  <step/>
+  <update>2015/10/02 18:57:08</update>
+  <download/>
+  <streaming/>
+  <pagelink_color>255255000</pagelink_color>
+  <pagelink_highlight>2</pagelink_highlight>
+  <ga>UA-1080312-9</ga>
+  <pen/>
+  <content_size>18938027</content_size>
+</book>

@@ -1,0 +1,139 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/mediaWindow.css"/>
+<title>ネットオアシス67号 :: ActiBook</title>
+<meta name="keywords" content="ネットオアシス67号,電子ブック,ebook,デジタルカタログ,アクティブック,ActiBook,書籍" />
+<meta name="description" content="ネットオアシス67号 :: ActiBook" />
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+<script language="javascript">
+var isIE = navigator.appName.indexOf("Microsoft") != -1;
+var isSWFActive = false;
+var lostFocusflag = false;
+function swfActivity(){
+  isSWFActive = true;
+  checkWindow();
+}
+
+function thisMovie(movieName) {
+  return (isIE) ? window[movieName] : document[movieName];
+}
+
+function checkWindow(){
+  if(isSWFActive == true){
+    var hf = document.hasFocus();
+    if(hf == true){
+      thisMovie("ActiBook").focus();
+      thisMovie("ActiBook").hideProtectPanel();
+    }else{
+      thisMovie("ActiBook").showProtectPanel();
+    }
+  }
+}
+
+function lostFocus(){
+  if(isSWFActive == true && lostFocusflag){
+    thisMovie("ActiBook").showProtectPanel();
+  }
+}
+
+function catchFocus(){
+  if(isSWFActive == true){
+    thisMovie("ActiBook").focus();
+    thisMovie("ActiBook").hideProtectPanel();
+    setFlagTrue();
+  }
+}
+
+function init(){
+  window.focus();
+  if(isSWFActive == true){
+    thisMovie("ActiBook").focus();
+  }
+}
+function setFlagFalse(){
+	lostFocusflag = false;	
+}
+function setFlagTrue(){
+	lostFocusflag = true;
+}
+</script>
+</head>
+<style type="text/css">
+@media print {
+    body { display: none !important; }
+}
+</style>
+<script language="javascript">
+if(isIE){
+setInterval('checkWindow()',250);
+document.write('<body bgcolor="#ffffff" onLoad="init()">');
+}else{
+document.write('<body bgcolor="#ffffff" onLoad="init()" onBlur="lostFocus()" onFocus="catchFocus()">');
+}
+</script>
+    <script src="js/WindowOpen.js" language="javascript"></script>
+<!--ムービーで使用されている URL-->
+<!--ムービーで使用されているテキスト-->
+<!-- saved from url=(0013)about:internet -->
+<script language="javascript">
+  if (AC_FL_RunContent == 0) {
+    alert("このページでは \"AC_RunActiveContent.js\" が必要です。");
+  } else {
+    AC_FL_RunContent(
+      'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0',
+      'width', '100%',
+      'height', '100%',
+      'src', 'ActiBook',
+      'quality', 'high',
+      'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+      'align', 'center',
+      'play', 'true',
+      'loop', 'true',
+      'scale', 'noborder',
+      'wmode', 'window',
+      'devicefont', 'false',
+      'id', 'ActiBook',
+      'bgcolor', '#ffffff',
+      'name', 'ActiBook',
+      'menu', 'true',
+      'allowFullScreen', 'true',
+      'allowScriptAccess','sameDomain',
+      'movie', 'ActiBook',
+      'salign', ''
+      ); //end AC code
+  }
+  function sendToSwfInfo(){
+    return location.href;
+  }
+</script>
+<noscript>
+  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="1000" height="670" id="ActiBook" align="center">
+  <param name="allowScriptAccess" value="sameDomain" />
+  <param name="allowFullScreen" value="false" />
+  <param name="movie" value="ActiBook.swf" /><param name="quality" value="high" /><param name="scale" value="noborder" /><param name="bgcolor" value="#ffffff" /> <embed src="ActiBook.swf" quality="high" scale="noborder" bgcolor="#ffffff" name="ActiBook" align="center" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" width="1000" height="670" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+  </object>
+</noscript>
+<input type="button" id="test" name="test" value="test" style="display:none;" onClick="" />
+<input type="button" id="open" name="open" value="open" style="display:none;" onClick="openMediaWindow(mediaWindow.params);" />
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+    try{
+      var pageTracker = _gat._getTracker("UA-1080312-9");
+      pageTracker._trackPageview();
+    }catch(err) {}
+    function tracker(str){
+      try{
+        var pageTracker = _gat._getTracker("UA-1080312-9");
+        pageTracker._trackPageview(str);
+      }catch(err) {}
+    }
+</script>
+
+</body>
+</html>

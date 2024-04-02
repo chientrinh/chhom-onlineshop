@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ネットオアシス68号 :: ActiBook</title>
+<meta name="keywords" content="ネットオアシス68号,電子ブック,ebook,デジタルカタログ,アクティブック,ActiBook,書籍" />
+<meta name="description" content="ネットオアシス68号 :: ActiBook" />
+<meta name="viewport" content="width=device-width" />
+
+<link rel="INDEX" href="./index.html" />
+<link rev="made" href="mailto:info@startialab.co.jp" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="stylesheet" type="text/css" href="css/ie5mac.css" />
+
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css"><![endif]-->
+<script type="text/javascript" src="./js/WindowOpen.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="xandroid/js/jquery.js" type="text/javascript"></script>
+<script src="xandroid/js/jquery-ui.js" type="text/javascript"></script>
+<script src="xandroid/js/acordion.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="xandroid/css/android.css"/>
+</head>
+<body>
+<div id="wrapper">
+<div id="iphone_base">
+
+<div class="section">
+  <h2 class="title01">ブックタイトル
+    <span>：ネットオアシス68号</span></h2>
+</div>
+
+<div id="i_title">
+<div class="book_box">
+<h3 class="book_title"><img src="xandroid/images/title01.png" width="265" height="31" alt="電子ブック" /></h3>
+<div class="i_thumb"><a id="applink02" href="actibook:///bid=member2237&pwd=mineral"><img src="iPhone/cover.jpg" alt="ActiBook" width="80"></a>
+</div>
+
+<div class="i_txt01">
+<p class="m20"><a href="actibook:///bid=member2237&pwd=mineral"><img src="xandroid/images/app_btn01.png" alt="アプリで見る" /></a></p>
+
+<script type="text/javascript">
+
+// To avoid the "protocol not supported" alert, fail must open another app.
+var appstorefail = "https://market.android.com/details?id=com.startialab.actibook";
+
+function applink(fail){
+    return function(){
+        var clickedAt = +new Date;
+        // During tests on 3g/3gs this timeout fires immediately if less than 500ms. return to MobileSafari, ensure freshnes
+        setTimeout(function(){
+            // To avoid failing ons!
+            if (+new Date - clickedAt < 2000){
+                window.location = fail;
+            }
+        }, 500);
+    };
+}
+document.getElementById("applink").onclick = applink(appstorefail);
+document.getElementById("applink02").onclick = applink(appstorefail);
+
+</script>
+</div>
+</div>
+<div class="btn_store">
+<p class="app_txt02">アプリで見るには、ActiBookアプリが必要です(無償)</p>
+<p class="get_app"><a href="https://market.android.com/details?id=com.startialab.actibook"><img src="xandroid/images/ipad_app_logo.png" width="65" height="65" alt="logo" /></a></p>
+<p class="app_txt01"><a href="https://market.android.com/details?id=com.startialab.actibook">アプリケーション<br />
+ダウンロードはこちら</a></p>
+</div>
+</div>
+
+<h2 class="m10"><img src="xandroid/images/sousa_title.jpg" width="320" height="49" alt="基本操作" /></h2>
+<div class="iphone_menu">
+<div class="section m20">
+
+<div id="accordion" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+	  <h3 id="page01"><a href="#page01" name="n01" id="n01">ページをめくる</a></h3>
+	  <div>
+<div class="iphone_txt01">
+<dl class="iphone_txt02">
+<dt><img src="xandroid/images/iphone_img01.jpg" alt="ページをめくる"></dt>
+<dd>ブックが左開きの場合、画面の３分の１にあたる領域をタップするか、右から左に画面をフリックするとページをめくることができます。</dd>
+</dl>
+</div>	
+	  </div>
+	  <h3 id="page02"><a href="#page02">ページを拡大する</a></h3>
+	  <div>
+		  <div class="iphone_txt01">
+<dl class="iphone_txt02">
+<dt><img src="xandroid/images/iphone_img02.jpg" alt="ページをめくる" /></dt>
+<p>画面中央のあたりをダブルタップ、もしくはピンチアウトするとページを拡大することができます。<br />
+  また、ピンチインの操作で画面を縮小することができます。</p>
+<p>拡大後の画面はドラッグすることで移動できます。</p>
+</dl>
+</div>
+	  </div>
+	  <h3 id="thum_title"><a href="#thum_title">サムネイル</a></h3>
+	  <div>
+		  <div class="iphone_txt01">
+<dl class="iphone_txt02">
+<dt><img src="xandroid/images/iphone_img03.jpg" alt="ページをめくる" /></dt>
+<dd>表示されているブックの全ページのサムネイルが表示されタップするとそのページにジャンプできます。</dd>
+</dl>
+</div>
+	  </div>
+	  <h3 id="mokuji_title"><a href="#mokuji_title">目次</a></h3>
+	  <div>
+		  <div class="iphone_txt01">
+<dl class="iphone_txt02">
+<dt><img src="xandroid/images/iphone_img04.jpg" alt="ページをめくる" /></dt>
+<dd>
+  <p class="m10">表示されているブックの目次が表示されタップするとそのページにジャンプできます。</p>
+  <p>※目次情報が無い場合には、目次アイコンが非表示となります。</p>
+</dd>
+</dl>
+</div>
+	  </div>
+      <h3 id="shiori_title"><a href="#shiori_title">しおりをつける</a></h3>
+	  <div>
+		  <div class="iphone_txt01">
+<dl class="iphone_txt02">
+<dt><img src="xandroid/images/iphone_img05.jpg" alt="ページをめくる" /></dt>
+<dd>ユーザが自分のお気に入りのページにしおりをつけておくことができ、いつでもそのしおりの貼られたページへジャンプすることが可能です。</dd>
+</dl>
+</div>
+	  </div>
+      <h3 id="link_title"><a href="#link_title">リンクを開く</a></h3>
+	  <div>
+		  <div class="iphone_txt01">
+  <p class="border-text01">設定によって様々なリンクがあります。<br>アイコンによってどんな種類か見分ける事が可能です。 <br />
+  ※リンクが設定されていないページではリンクアイコンが非表示となっています。</p>
+
+<div class="system-data">
+<div class="iphone_data m30">
+<p class="border-text02"><strong>リンクの種類</strong></p>
+<dl>
+<dt><img src="xandroid/images/ipad_icon01.jpg" width="29" height="25" alt="アプリ内ブラウザリンク " /></dt>
+<dd>
+<p><strong>アプリ内ブラウザリンク</strong>
+<br />アプリを一旦閉じることなく指定されたリンク先にジャンプする事が出来ます。
+</p>
+</dd>
+</dl>
+
+
+
+<dl>
+<dt><img src="xandroid/images/ipad_icon02.jpg" width="29" height="25" alt="アプリ内ブラウザリンク " /></dt>
+<dd>
+<p><strong>ブック内リンク</strong><br />
+ブック内の指定されたページにジャンプする事が出来ます。</p>
+</dd>
+</dl>
+<dl>
+  <dt><img src="xandroid/images/ipad_icon03.jpg" width="29" height="25" alt="アプリ内ブラウザリンク " /></dt>
+  <dd>
+    <p><strong>アプリ外ブラウザリンク</strong><br />
+      アプリが自動的に閉じ、Safariが立ち上がり、指定されたリンク先にジャンプすることが出来ます。 </p>
+  </dd>
+</dl>
+<dl>
+  <dt><img src="xandroid/images/ipad_icon04.jpg" width="29" height="25" alt="アプリ内ブラウザリンク " /></dt>
+  <dd>
+    <p><strong>音声ファイルリンク</strong><br />
+      指定された音声ファイルが再生され、該当のページから移動するまで流れ続けます。<br>（ダウンロードして閲覧していない場合、音声ファイルの大きさや通信環境によってリンクを押してからタイムラグが出る場合があります）<br>※サウンドオフになっている場合機能しません。</p>
+  </dd>
+</dl>
+</div>
+
+
+
+</div>
+
+ 
+   </div>
+	  </div>
+  </div>
+</div>
+
+<div class="section">
+<p class="copy_txt">※「iPhone」，「iPad」及び「App Store」は， Apple Inc.の商標又は登録商標です。<br />
+※「Android」及び「Android Market」はGoogle Inc.の商標又は登録商標です。</p>
+</div>
+
+<div class="footer">
+</div>
+
+</div>
+
+<div class="clear"></div>
+</div>
+
+
+</div>
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+    try{
+      var pageTracker = _gat._getTracker("UA-1080312-9");
+      pageTracker._trackPageview();
+    }catch(err) {}
+    function tracker(str){
+      try{
+        var pageTracker = _gat._getTracker("UA-1080312-9");
+        pageTracker._trackPageview(str);
+      }catch(err) {}
+    }
+</script>
+
+</body>
+</html>

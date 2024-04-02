@@ -1,0 +1,29 @@
+<?php
+return [
+    'components' => [
+        'db' => [
+            'class'   => 'yii\db\Connection',
+            'dsn'     => 'mysql:host=localhost;dbname=mall',
+            'username'=> 'yii_back',
+            'charset' => 'utf8',
+        ],
+        'webdb18' => [
+//            'dsn'      => 'pgsql:host=122.216.200.100;port=5432;dbname=homoeoc',
+            'username' => 'dbuser',
+            'password' => 'Bsh5Qpg8',
+        ],
+        'webdb20' => [
+//            'dsn'     => 'pgsql:host=113.37.97.107;port=5432;dbname=homoeoc',
+            'username' => 'dbuser',
+            'password' => 'Bsh5Qpg8',
+        ],
+	'ecOrange' => [
+	        'username' => 'yii_tihm',
+	        'password' => 'Ahtk7oG3',
+	],
+	'ecCube' => [
+	        'username' => 'yii_tihm',
+	        'password' => 'Ahtk7oG3',
+	],
+    ],
+];

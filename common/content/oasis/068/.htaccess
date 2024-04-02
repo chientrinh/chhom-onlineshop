@@ -1,0 +1,7 @@
+AuthUserFile    /home/vir/g1/h_center/www/toranoko/oasis3/.private
+AuthGroupFile    /dev/null
+          AuthName         ByPassword
+          AuthType         Basic
+#          <limit get>
+          require valid-user
+#          </limit>

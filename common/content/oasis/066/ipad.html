@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ネットオアシス66号 :: ActiBook</title>
+<meta name="keywords" content="ネットオアシス66号,電子ブック,ebook,デジタルカタログ,アクティブック,ActiBook,書籍" />
+<meta name="description" content="ネットオアシス66号 :: ActiBook" />
+<meta name="viewport" content="width=device-width" />
+
+<link rel="INDEX" href="./index.html" />
+<link rev="made" href="mailto:info@startialab.co.jp" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="stylesheet" type="text/css" href="css/ie5mac.css" />
+
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<script type="text/javascript" src="./js/WindowOpen.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<link href="xipad/css/ipad.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="wrapper">
+
+
+<div id="base_ipad">
+
+<div class="section m20">
+<p class="book_title">ブックタイトル ：ネットオアシス66号</p>
+</div>
+
+<div class="section">
+
+<div id="ebook-btn">
+
+<div class="ebook_left">
+<h3 class="ml10 flt m15"><img src="xipad/images/title01.png" width="400" height="48" alt="電子ブック" /></h3>
+
+<ul class="btn_box01">
+    <li class="app_btn"><a id="ipad_applink02" href="actibook:///bid=member2235&pwd=cocoro">アプリで見る</a></li>
+
+</ul>
+<!--<p class="book_text01 m20">タップすると別ウィンドウで電子ブックが開かれます。</p>-->
+<script type="text/javascript">
+// To avoid the "protocol not supported" alert, fail must open another app.
+var appstorefail = "http://itunes.apple.com/jp/app/actibook/id373073800?mt=8";
+function applink(fail){
+    return function(){
+        var clickedAt = +new Date;
+        // During tests on 3g/3gs this timeout fires immediately if less than 500ms.
+        setTimeout(
+			function(){
+            	// To avoid failing on return to MobileSafari, ensure freshness!
+            	if (+new Date - clickedAt < 2000){
+                	window.location = fail;
+					//document.getElementById("get-app").style.display = "none";
+            	}
+        }, 		500);
+    };
+}
+function applink02(fail){
+    return function(){
+        var clickedAt = +new Date;
+        // During tests on 3g/3gs this timeout fires immediately if less than 500ms.
+        setTimeout(
+			function(){
+            	// To avoid failing on return to MobileSafari, ensure freshness!
+            	if (+new Date - clickedAt < 2000){
+                	window.location = fail;
+					//document.getElementById("get-app").style.display = "none";
+            	}
+        }, 		500);
+    };
+}
+document.getElementById("ipad_applink").onclick = applink(appstorefail); 
+document.getElementById("ipad_applink02").onclick = applink02(appstorefail);
+</script>
+<div class="get-app" id="get-app">
+<p><a id="ipad_applink02" href="http://itunes.apple.com/jp/app/actibook/id373073800?mt=8" title="Adobe Flash Player無償ダウンロード"><img src="xipad/images/ipad_app_logo.png" alt="Adobe Flash Player無償ダウンロード" /></a></p>
+<p class="get-app_text"> アプリで見るには、ActiBookアプリが必要です(無償)<br /> <br />&lt;&lt; iPad用ActiBookアプリをダウンロード</p>
+
+</div>
+</div>
+
+<div class="ebook_right">
+
+ <img src="xipad/images/box_top.jpg" alt="top" width="370" height="11" />
+
+<div class="book_box01">
+  <p class="book_thum"><a href="actibook:///bid=member2235&pwd=cocoro"><img src="iPhone/ipad/cover.jpg" alt="：ネットオアシス66号" width="128" /></a></p>
+<p class="pc_notice"><img src="xipad/images/headline01.jpg" alt="電子ブック閲覧環境" /><br />
+  アプリの対応端末は、iOS4.0以上に対応しております（3GSでも閲覧は可能ですが、推奨はしておりません）。ブラウザで見る場合はSafariのみ対応しております。</p>
+</div>
+<p class="book_bottom"></p>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<h2 class="mgb"><img src="xipad/images/headline02_ipad.jpg" alt="基本操作" width="880" height="50"/></h2>
+
+<ul class="ebook-operation">
+<li>
+<h3><img src="xipad/images/headline03_ipad.jpg" alt="ページをめくる" /></h3>
+<dl>
+<dt><img src="xipad/images/ipad_img01.jpg" alt="ページをめくる" /></dt>
+<dd>ブックが左開きの場合、画面の３分の１にあたる領域をタップするか、右から左に画面をフリックすると<br />
+  ページをめくることができます。</dd>
+</dl>
+</li>
+<li>
+<h3><img src="xipad/images/headline04_ipad.jpg" alt="ページを拡大表示" /></h3>
+<dl>
+<dt><img src="xipad/images/ipad_img02.jpg" alt="ページを拡大表示" /></dt>
+<dd>
+<p class="m20">画面中央のあたりをダブルタップ、もしくはピンチアウトするとページを拡大することができます。
+また、ピンチインの操作で画面を縮小することができます。</p>
+
+<p class="m10">拡大後の画面はドラッグすることで移動できます。</p>
+
+<p class="txt_c"><img src="xipad/images/ipad_img02_2.jpg" alt="ドラッグ" width="150" height="95" /></p>
+</dd>
+</dl>
+</li>
+</ul>
+
+<ul class="ebook-operation">
+<li>
+<h3><img src="xipad/images/headline05_ipad.jpg" alt="サムネイル" /></h3>
+<dl>
+<dt><img src="xipad/images/ipad_img03.jpg" alt="サムネイル" /></dt>
+<dd>表示されているブックの全ページのサムネイルが表示されタップするとそのページにジャンプできます。</dd>
+</dl>
+</li>
+<li>
+<h3><img src="xipad/images/headline06_ipad.jpg" alt="目次" /></h3>
+<dl>
+<dt><img src="xipad/images/ipad_img04.jpg" alt="目次" /></dt>
+<dd>  <p class="m10">表示されているブックの目次が表示されタップするとそのページにジャンプできます。</p>
+  <p>※目次情報が無い場合には、目次アイコンが非表示となります。</p>
+</dd>
+</dl>
+</li>
+</ul>
+
+<ul class="ebook-operation">
+<li>
+<h3><img src="xipad/images/headline08_ipad.jpg" alt="しおりをつける" /></h3>
+<dl>
+<dt><img src="xipad/images/ipad_img05.jpg" alt="しおりをつける" /></dt>
+<dd>ユーザが自分のお気に入りのページにしおりをつけておくことができ、いつでもそのしおりの貼られたページへジャンプすることが可能です。</dd>
+</dl>
+</li>
+</ul>
+
+<div class="section">
+<h2 class="mgb"><img src="xipad/images/headline10_ipad.jpg" alt="リンクを開く"/></h2>
+<p class="border-text01">設定によって様々なリンクがあります。アイコンによってどんな種類か見分ける事が可能です。 <br />
+  ※リンクが設定されていないページではリンクアイコンが非表示となっています。</p>
+
+</div>
+
+<div class="system-data">
+<div class="box_ipad m30">
+<p class="border-text02"><strong>リンクの種類</strong></p>
+<dl>
+<dt><img src="xipad/images/ipad_icon01.jpg" width="29" height="25" alt="アプリ内ブラウザリンク " /></dt>
+<dd>
+<p><strong>アプリ内ブラウザリンク</strong>
+<br />アプリを一旦閉じることなく指定されたリンク先にジャンプする事が出来ます。
+</p>
+</dd>
+</dl>
+
+
+
+<dl>
+<dt><img src="xipad/images/ipad_icon02.jpg" width="29" height="25" alt="アプリ内ブラウザリンク " /></dt>
+<dd>
+<p><strong>ブック内リンク</strong><br />
+ブック内の指定されたページにジャンプする事が出来ます。</p>
+</dd>
+</dl>
+<dl>
+  <dt><img src="xipad/images/ipad_icon03.jpg" width="29" height="25" alt="アプリ内ブラウザリンク " /></dt>
+  <dd>
+    <p><strong>アプリ外ブラウザリンク</strong><br />
+      アプリが自動的に閉じ、Safariが立ち上がり、指定されたリンク先にジャンプすることが出来ます。 </p>
+  </dd>
+</dl>
+<dl>
+  <dt><img src="xipad/images/ipad_icon04.jpg" width="29" height="25" alt="アプリ内ブラウザリンク " /></dt>
+  <dd>
+    <p><strong>音声ファイルリンク</strong><br />
+      指定された音声ファイルが再生され、該当のページから移動するまで流れ続けます。<br>（ダウンロードして閲覧していない場合、音声ファイルの大きさや通信環境によってリンクを押してからタイムラグが出る場合があります）<br>※サウンドオフになっている場合機能しません。</p>
+  </dd>
+</dl>
+</div>
+<div class="section m30">
+
+<div class="section">
+<p class="copy_txt">※「iPhone」，「iPad」及び「App Store」は， Apple Inc.の商標又は登録商標です。<br />
+※「Android」及び「Android Market」はGoogle Inc.の商標又は登録商標です。</p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+    try{
+      var pageTracker = _gat._getTracker("UA-1080312-9");
+      pageTracker._trackPageview();
+    }catch(err) {}
+    function tracker(str){
+      try{
+        var pageTracker = _gat._getTracker("UA-1080312-9");
+        pageTracker._trackPageview(str);
+      }catch(err) {}
+    }
+</script>
+
+</body>
+</html>

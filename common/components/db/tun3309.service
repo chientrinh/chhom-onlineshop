@@ -1,0 +1,9 @@
+[Unit]
+Description=SSH Tunnel to MySQL DB for EC-Orange
+
+[Service]
+TimeoutStartSec=0
+ExecStart=/var/www/mall/common/components/db/tun3309.py
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,20 @@
+{
+    "name": "pommespanzer/yii2-barcode",
+    "description": "use BCGcode",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pommespanzer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pommespanzer\\barcode\\": ""
+        }
+    }
+}

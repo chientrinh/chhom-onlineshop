@@ -1,0 +1,509 @@
+body {
+	font-family: Verdana, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 75%;
+	line-height: 160%;
+	text-align: center;
+	color: rgb(51, 51, 51);
+	background-image: url('../../images/background-main.jpg');
+	background-repeat: repeat-x;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: lighter;
+}
+img {
+	border-width: 0px;
+	border-style: none;
+	vertical-align: top;
+}
+#wrapper {
+	margin: 0px auto;
+	width: 320px;
+	background-image: url('../images/background-side.jpg');
+	background-repeat: repeat-y;
+	background-position: center center;
+}
+#base {
+	margin: 0px auto;
+	width: 800px;
+	text-align: left;
+	display: none;
+}
+#base_ipad {
+	margin: 0px auto;
+	width: 800px;
+	text-align: left;
+	display: none;
+}
+#base_iphone {
+	margin: 0px auto;
+	width: 320px;
+	text-align: left;
+}
+#header {
+	width: 800px;
+	line-height: 74px;
+	float: left;
+	text-indent: 15px;
+	background-image: url('../images/header.jpg');
+	background-repeat: no-repeat;
+}
+a:link, a:visited {
+	color: rgb(0, 102, 153);
+	text-decoration: none;
+}
+a:active, a:hover {
+	color: rgb(0, 204, 255);
+	text-decoration: none;
+}
+.mgb {
+	float: left;
+	margin: 0pt 0pt 20px;
+}
+#ebook-btn {
+	width: 780px;
+	margin: 0pt 10px 20px;
+	float: left;
+	display: inline;
+}
+#ebook-btn dt {
+	width: 340px;
+	float: left;
+}
+#ebook-btn dt a {
+	width: 322px;
+	height: 132px;
+	float: left;
+	display: block;
+	text-indent: -9999px;
+}
+#ebook-btn dt a:link, #ebook-btn dt a:visited {
+	background-image: url('../images/ebook-btn.jpg');
+}
+#ebook-btn dt a:hover, #ebook-btn dt a:active {
+	background-image: url('../images/ebook-btn-on.jpg');
+}
+#ebook-btn dd {
+	width: 440px;
+	float: left;
+}
+#ebook-btn dd p {
+	margin: 0pt 0pt 10px;
+}
+.get-flash-player a {
+	display: block;
+	font-size: 85%;
+}
+.get-flash-player img {
+	margin: 0pt 10px 0pt 0pt;
+}
+.ebook-operation {
+	width: 800px;
+	list-style-type: none;
+	margin: 0pt 0pt 20px -10px;
+	float: left;
+	display: inline;
+}
+.ebook-operation li {
+	width: 380px;
+	float: left;
+	margin: 0pt 0pt 20px 20px;
+	display: inline;
+}
+.ebook-operation h3 {
+	width: 380px;
+	float: left;
+	margin: 0pt 0pt 20px;
+}
+.ebook-operation dl {
+	width: 380px;
+	float: left;
+}
+.ebook-operation dt {
+	width: 170px;
+	float: left;
+	text-align: center;
+}
+.ebook-operation dd {
+	width: 200px;
+	float: right;
+	margin: 0pt 10px 0pt 0pt;
+	display: inline;
+}
+.ebook-operation dd span {
+	font-size: 85%;
+}
+#right-click-title {
+	width: 800px;
+	line-height: 50px;
+	float: left;
+	background-image: url('../images/right-click.jpg');
+	background-repeat: no-repeat;
+	background-position: 10px 50%;
+	text-indent: 160px;
+}
+.right-click-list {
+	width: 800px;
+	float: left;
+	margin: 0pt 0pt 30px;
+	list-style-type: none;
+}
+.right-click-list li {
+	float: left;
+	margin: 0pt 0pt 0pt 33px;
+	display: inline;
+}
+.border-text01 {
+	width: 280px;
+	float: left;
+	border-bottom: 1px dotted rgb(204, 204, 204);
+	margin-bottom:20px;
+	display: inline;
+}
+.system-data {
+	width: 280px;
+	float: left;
+	padding-bottom: 60px;
+	clear:left;
+}
+.system-data dl {
+	width: 260px;
+	float: left;
+	margin: 0pt 0px 15px;
+	display: inline;
+}
+.system-data dt {
+	width: 260px;
+	display:block;
+	margin-bottom:10px;
+}
+.system-data dt strong {
+	background-image: url('../images/icon01.jpg');
+	background-repeat: no-repeat;
+	background-position: 0pt 50%;
+	padding-left: 10px;
+	display: block;
+}
+.system-data dd {
+	width: 260px;
+	display:block;
+}
+.border-text02 {
+	border-bottom:#CCC solid 1px;
+	margin-bottom:20px;
+}
+.system-data dd a {
+	margin-top: 10px;
+}
+#iphone_base {
+	width:320px;
+	text-align: left;
+	height: 100%;
+	padding-top: 50px;
+	background: url('../images/i_header.jpg') no-repeat scroll center top transparent;
+}
+.i_subtitle a {
+	background: url('../images/btn_bg01.jpg') no-repeat scroll left top transparent;
+	display: block;
+	width: 280px;
+	height: 35px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 35px;
+	margin-bottom: 10px;
+	text-indent: 30px;
+}
+#i_title {
+	margin-left: 20px;
+	width: 280px;
+	margin-bottom: 10px;
+	float: left;
+}
+.section {
+	width: 280px;
+	margin-left: 20px;
+	float: left;
+}
+.iphone_txt02 {
+	margin-left:10px;
+	margin-bottom:10px;
+}
+.footer {
+	width: 320px;
+	float: left;
+	background:url(../images/bg_foot.jpg) repeat-x top;
+	height:70px;
+}
+.iphone_txt02 dt {
+	width: 250px;
+}
+.iphone_txt02 dd {
+	width: 250px;
+}
+.i_thumb {
+	height:115px;
+	line-height:115px;
+	padding-bottom: 2px;
+	float:right;
+	width: 85px;
+	margin:0px 10px 10px 10px;
+	overflow:hidden;
+	text-align:center;
+}
+.i_thumb img {
+	border: 1px solid rgb(204, 204, 204);
+	vertical-align:middle;
+}
+.i_txt01 {
+	float: left;
+	width: 145px;
+	margin-left:20px;
+	margin-top:5px;
+}
+.title01 {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgb(223, 223, 223);
+}
+.title01 span {
+	font-size: 120%;
+	font-weight: bold;
+}
+.btn_store {
+	float: left;
+	width: 270px;
+	margin-bottom: 10px;
+	text-align: left;
+	border:#CCC solid 1px;
+	padding:5px;
+}
+.clear {
+	clear: both;
+}
+.totop {
+	float: right;
+}
+.totop a {
+	background: url('../images/i_totop.jpg') no-repeat scroll left center transparent;
+	display: block;
+	text-indent: 20px;
+}
+.get_app {
+	float:left;
+	width:80px;
+}
+.app_txt01 {
+	float:right;
+	width:180px;
+	margin-top:5px;
+	background:url(../images/arr01.jpg) no-repeat right center;
+}
+.app_txt02 {
+	float:left;
+	margin-bottom:2px;
+	width:280px;
+}
+.app_txt01 a {
+	display:block;
+	margin-top:7px;
+	margin-bottom:7px;
+}
+.book_box {
+	float:left;
+	width:280px;
+	height:175px;
+	background:url(../images/bg_book.jpg) repeat-x;
+	border:#CCC solid 1px;
+	margin-bottom:10px;
+}
+.m5 {
+	margin-bottom:5px;
+}
+.m10 {
+	margin-bottom:10px;
+}
+.m12 {
+	margin-bottom:12px;
+}
+.m15 {
+	margin-bottom:15px;
+}
+.m20 {
+	margin-bottom:20px;
+}
+.m30 {
+	margin-bottom:30px;
+}
+.m40 {
+	margin-bottom:40px;
+}
+.m50 {
+	margin-bottom:50px;
+}
+.m60 {
+	margin-bottom:60px;
+}
+.ml10 {
+	margin-left:10px;
+	display:inline;
+}
+.ml10_o {
+	margin-left:10px;
+}
+.mr3 {
+	margin-right:3px;
+	display:inline;
+}
+.mr10 {
+	margin-right:10px;
+	display:inline;
+}
+.mr20 {
+	margin-right:20px;
+}
+.mr15 {
+	margin-right:10px;
+	display:inline;
+}
+.mr30 {
+	margin-right:30px;
+}
+.ma10 {
+	margin:0 10px;
+}
+.m_lb {
+	margin:0 10px 30px 10px;
+}
+.m_lb2 {
+	margin:0 10px 10px 10px;
+}
+.pl10 {
+	padding-left:10px;
+}
+.pr10 {
+	padding-right:10px;
+}
+.flt {
+	float:left;
+}
+.flr {
+	float:right;
+}
+.iphone_data {
+	border:solid 1px #CCC;
+	float:left;
+	width:258px;
+	padding:10px;
+}
+#thum_title a {
+	background:url(../images/iphone_thum01.png) no-repeat left center;
+	margin-left:10px;
+}
+#mokuji_title a {
+	background:url(../images/iphone_thum02.png) no-repeat left center;
+	margin-left:10px;
+}
+#shiori_title a {
+	background:url(../images/iphone_thum04.png) no-repeat left center;
+	margin-left:10px;
+}
+#step_title a {
+	background:url(../images/iphone_thum05.png) no-repeat left center;
+	margin-left:10px;
+}
+#link_title a {
+	background:url(../images/iphone_thum03.png) no-repeat left center;
+	margin-left:10px;
+}
+/*ajax acordion*/
+
+.ui-helper-reset {
+	margin: 0pt;
+	padding: 0pt;
+	border: 0pt none;
+	outline: 0pt none;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none outside none;
+}
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+.ui-widget {
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 1.1em;
+}
+.ui-state-default, .ui-widget-content .ui-state-default {
+	background: url('../images/title_bg01.jpg') no-repeat top;
+	font-weight: bold;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+	text-decoration: none;
+	outline: medium none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active {
+	background: url('../images/title_bg01.jpg') no-repeat bottom rgb(245, 132, 0);
+	font-weight: bold;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+	text-decoration: none;
+}
+.ui-state-default .ui-icon {
+	display:none;
+}
+.ui-state-active .ui-icon {
+	display:none;
+}
+.ui-accordion .ui-accordion-header {
+	cursor: pointer;
+	position: relative;
+}
+.ui-accordion .ui-accordion-header a {
+	display: block;
+	font-size: 1em;
+	height:30px;
+	line-height:30px;
+	padding-left:25px;
+}
+.ui-accordion .ui-accordion-header .ui-icon {
+	position: absolute;
+	left: 0.5em;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 0em;
+	border-top: 0pt none;
+	margin-top: -2px;
+	position: relative;
+	top: 1px;
+	margin-bottom: 2px;
+	overflow: auto;
+	display: none;
+}
+.ui-accordion .ui-accordion-content-active {
+	display: block;
+}
+.copy_txt {
+	font-size:90%;
+	color:#666;
+	margin-top:10px;
+	line-height: 120%;
+}
+
+
+.book_title{
+	float:left;
+	width:265px;
+	margin:10px 10px 10px 5px;
+}

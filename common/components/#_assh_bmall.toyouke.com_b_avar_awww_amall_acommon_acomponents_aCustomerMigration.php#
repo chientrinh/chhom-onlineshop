@@ -1,0 +1,170 @@
+<?php
+namespace common\components;
+
+use Yii;
+
+/**
+ * $URL: https://tarax.toyouke.com/svn/MALL/common/components/CustomerMigration.php $
+ * $Id: CustomerMigration.php 1455 2015-09-03 05:13:29Z mori $
+ */
+
+class CustomerMigration
+{
+    private static function addMembership($customer, $mship)
+    {
+        foreach($customer->getMemberships()->all() as $model)
+            if($mship->membership_id == $model->membership_id)
+                return true; // already exists
+
+        if(! $mship->save())
+            return false;
+
+        self::addInfo($customer->customer_id, sprintf("会員区分(%s)を追加しました",$mship->membership->name));
+
+        return true;
+    }
+
+    /**
+     * @brief  INSERT a record into dtb_customer (if not inserted)
+     * @var    $src \common\models\webdb{18,20}\CustomerForm, or \common\models\ecorange\Customer
+     * @return Customer model (newly inserted or already inserted)
+     */
+    public static function migrateModel($src)
+    {
+        $dst = self::loadModel($src);
+
+        $membercode = \common\models\Membercode::find()->where([
+            'directive'  => $src->schema,
+            'migrate_id' => $src->customerid,
+        ])->one();
+        if($membercode && $membercode->customer_id)
+            $dst = $membercode->customer;
+        else
+            $dst = self::loadModel($src);
+        
+        if(isset($membercode))
+            $dst->detachBehavior('membercode'); // skip creating membercode
+
+        // save customer model
+        if($dst->dirtyAttributes)
+            if(! $dst->save(false))
+            {
+                Yii::error(["会員の移行に失敗しました",$dst->attributes,$dst->errors],$this->className().'::'.__FUNCTION__);
+                return $dst;
+            }
+            else
+                self::addInfo($dst->customer_id, sprintf("%sから顧客情報を移行しました", $src->schema));
+
+        // update membercode model
+        if(isset($membercode))
+            $membercode->customer_id = $dst->customer_id;
+        elseif($membercode = $dst->getMembercode()->where(['directive'=>null,'migrate_id'=>null])->one())
+        {
+            $membercode->directive  = is_string($src->db) ? $src->db : 'ecOrange';
+            $membercode->migrate_id = $src->customerid;
+        }
+        if(isset($membercode))
+            if(!$membercode->save())
+                Yii::error(["会員証NOの更新に失敗しました",$membercode->errors],$this->className().'::'.__FUNCTION__);
+
+        // update memberships
+        $params = $src->migrateAttributes();
+        if(isset($params['memberships']))
+           foreach($params['memberships'] as $param)
+        {
+            $mship = new \common\models\CustomerMembership(['customer_id'=>$dst->customer_id]);
+            $mship->load($param,'');
+            self::addMembership($dst, $mship);
+        }
+
+        // update child customers
+        if(isset($params['children']))
+           foreach($params['children'] as $model)
+        {
+            $child = self::migrateModel($model);
+            if(! $child->customer_id)
+            {
+                Yii::error(["子会員の登録に失敗しました",$child->errors],$this->className().'::'.__FUNCTION__);
+                continue;
+            }
+            if(! $child->parent)
+                $dst->link('children', $child);
+        }
+
+        // fetch the model with newly created relations
+        return \common\models\Customer::findOne($dst->customer_id);
+    }
+
+    /**
+     * @brief INSERT INTO 
+     */
+    private function addInfo($customer_id, $content)
+    {
+        if(Yii::$app instanceof \yii\web\Application &&
+            (! ($staff = Yii::$app->user->identity) || ! $staff instanceof \backend\models\Staff))
+            return;
+
+        $info = new \backend\models\CustomerInfo([
+            'customer_id'=> $customer_id,
+            'created_by' => 0, // system@toyouke.com
+            'updated_by' => 0, // system@toyouke.com
+            'content'    => $content,
+        ]);
+
+        if(Yii::$app instanceof \yii\console\Application)
+            $info->detachBehavior('staff_id');
+
+        return $info->save();
+    }
+
+    private static function loadModel($src)
+    {
+        $membercode = \common\models\Membercode::find()->where([
+            'directive'  => $src->schema,
+            'migrate_id' => $src->customerid,
+        ])->one();
+        if($membercode && $membercode->customer_id)
+            $dst = \common\models\Customer::findOne($membercode-
+
+   $dst = new \common\models\Customer([
+            'name01' => $src->name01,
+            'name02' => $src->name02,
+            'kana01' => $src->kana01,
+            'kana02' => $src->kana02,
+            'email'  => $src->email,
+            'sex_id' => $src->sex_id,
+            'zip01'  => $src->zip01,
+            'zip02'  => $src->zip02,
+            'pref_id'=> $src->pref_id,
+            'addr01' => $src->addr01,
+            'addr02' => $src->addr02,
+            'tel01'  => $src->tel01,
+            'tel02'  => $src->tel02,
+            'tel03'  => $src->tel03,
+            'birth'  => $src->birth,
+        ]);
+
+        if(! $dst->validate())
+        {
+            if(! $dst->name01)
+            {
+                $dst->name01 = $src->name;
+                $dst->clearErrors('name01');
+            }
+            if(! $dst->kana01)
+            {
+                $dst->kana01 = $src->name;
+                $dst->clearErrors('kana01');
+            }
+            
+            foreach(['name02','kana02'] as $attr)
+            if($dst->hasErrors($attr))
+            {
+                $dst->clearErrors($attr);
+                $dst->$attr = ' '; // not null
+            }
+        }
+
+        return $dst;
+    }
+}

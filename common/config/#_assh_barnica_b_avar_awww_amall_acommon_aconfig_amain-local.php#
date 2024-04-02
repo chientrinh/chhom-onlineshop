@@ -1,0 +1,27 @@
+<?php
+return [
+    'components' => [
+        'db' => [
+            'class'   => 'yii\db\Connection',
+            'dsn'     => 'mysql:host=localhost;dbname=mall',
+            'username'=> 'yii_back',
+            'charset' => 'utf8',
+        ],
+        'webdb18' => [
+            'username' => 'dbuser',
+            'password' => 'Bsh5Qpg8',
+        ],
+        'webdb20' => [
+            'username' => 'dbuser',
+            'password' => 'Bsh5Qpg8',
+        ],
+	'ecOrange' => [
+	        'username' => 'yii_tihm',
+	        'password' => 'Ahtk7oG3',
+	],
+	'ecCube' => [
+	        'username' => 'yii_tihm',
+	        'password' => 'Ahtk7oG3',
+	],
+    ],
+];
