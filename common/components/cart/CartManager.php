@@ -49,7 +49,7 @@ class CartManager extends \yii\base\Model
         $product = Product::findOne($pid);
         if(! $product || ! $product->company)
             return false;
-
+            
         /**
          * 豊受自然農の無添加おせち　のみの処理。豊受カートにおいて、「おせち」は他の商品と同時にカートに入れることは出来ないようにする 2017/12/22
          **/
@@ -81,6 +81,11 @@ class CartManager extends \yii\base\Model
 
             if(0 < count($items)) {
                 foreach ($items as $item) {
+                    if($product->sodan_flg !== $item->getModel()->sodan_flg){
+                        Yii::$app->session->addFlash('error', "相談会料金とライブ配信の同時登録はできません");
+                        return false;    
+                    }
+
                     $product_id = $item->getModel()->product_id;
                     if($pid != $product_id) {
                         $liveItemInfo = LiveItemInfo::find()->where(['product_id'=>$product_id])->one();

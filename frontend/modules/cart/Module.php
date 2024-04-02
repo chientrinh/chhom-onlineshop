@@ -553,7 +553,11 @@ class Module extends \yii\base\Module
                     if($purchase = \common\models\Purchase::findOne($purchase_id))
                     {
                         if('echom-frontend' == Yii::$app->id) {
-                            $mailer = new \common\components\sendmail\ECHomPurchaseMail(['model'=>$purchase]);
+                            if($purchase->branch_id == \common\models\Branch::PKEY_HOMOEOPATHY_TOKYO) {
+                                $mailer = new \common\components\sendmail\SodanPurchaseMail(['model'=>$purchase]);
+                            }else{
+                                $mailer = new \common\components\sendmail\ECHomPurchaseMail(['model'=>$purchase]);
+                            }
                         } else {
                             $mailer = new \common\components\sendmail\PurchaseMail(['model'=>$purchase]);
                         }

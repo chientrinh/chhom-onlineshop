@@ -988,6 +988,11 @@ class PurchaseForm extends Purchase
             // ライブ配信チケットの伝票は必ずbranch_id=16（CHhom東京校） 伝票の管理は【実店舗】から管理する。
             if('echom-frontend' == Yii::$app->id) {
                 $this->branch_id = Branch::PKEY_CHHOM_TOKYO;
+
+                if($this->items[0]->getModel()->sodan_flg === 1){
+                    $this->branch_id = Branch::PKEY_HOMOEOPATHY_TOKYO;
+                }
+                
                 // サポート申込 payment_id 98 も完了とする
                 if(in_array($this->payment_id, [\common\models\Payment::PKEY_DIRECT_DEBIT,\common\models\Payment::PKEY_SUPPORT]))
                     $this->status = 7; // 完了

@@ -1016,7 +1016,7 @@ abstract class BaseController extends \yii\web\Controller
         try {
 
         if($this->module->branch->branch_id == \common\models\Branch::PKEY_ROPPONMATSU) {
-
+            
             foreach($items as $item)
             {
 

@@ -10,7 +10,7 @@
 use yii\helpers\Html;
 use yii\helpers\Url;
 
-$title = "ご購入ありがとうございます";
+$title = $purchase->branch_id == \common\models\Branch::PKEY_HOMOEOPATHY_TOKYO ? '相談会料金の決済が完了しました': "ご購入ありがとうございます";
 $this->params['breadcrumbs'][] = $title;
 $this->params['body_id']       = 'Cart';
 $this->title = implode(' | ',array_merge(array_reverse($this->params['breadcrumbs']),[Yii::$app->name]));
@@ -25,7 +25,7 @@ $formatter = new \yii\i18n\Formatter();
 ?>
 
 <div class="cart-default-thankyou">
-  <h1 class="mainTitle">ご購入ありがとうございます</h1>
+  <h1 class="mainTitle"><?php echo $title;?></h1>
 
 <div class="col-md-12">
 
@@ -101,14 +101,21 @@ $formatter = new \yii\i18n\Formatter();
         ],
 ]); ?>
 
+<?php $table_title = $purchase->branch_id == \common\models\Branch::PKEY_HOMOEOPATHY_TOKYO ? '決済の履歴': "ライブ配信情報";?>
 
 </div><!-- col-md-8 -->
 <div class="col-md-8">
 <div class="Detail-Total">
     <div class="inner">
-        <h4>ライブ配信情報</h4>
-<?php if($purchase->customer) { ?>
-<p>※豊受会員のみなさまへ<br/>
+        <h4><?php echo $table_title ?></h4>
+
+<?php if($purchase->customer && $purchase->branch_id == \common\models\Branch::PKEY_HOMOEOPATHY_TOKYO) { ?>
+<p>決済の履歴は、豊受モールのマイページ⇒ご購入の履歴からご確認ください</p>
+<p>
+ <?= Html::a('https://mall.toyouke.com/index.php/profile/history/index','https://mall.toyouke.com/index.php/profile/history/index') ?>
+ </p>
+<?php } else if($purchase->customer) { ?>
+    <p>※豊受会員のみなさまへ<br/>
 　ライブ配信は、マイページから視聴が可能です。ログイン後、マイページをご確認ください。
 </p>
 <p>
@@ -121,10 +128,13 @@ $formatter = new \yii\i18n\Formatter();
  </p>
  </p>
 <?php } ?>
+<?php if($purchase->branch_id !==  \common\models\Branch::PKEY_HOMOEOPATHY_TOKYO) { ?>
 <p>
 ▼ライブ配信に関するお問い合わせ<br />
 E-mail: ec-chhom@homoeopathy.ac
 </p>
+<?php } ?>
+
 </div>
 </div>
 </div>
